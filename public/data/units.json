@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "001",
+    "title": "인칭대명사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "002",
+    "title": "be 동사의 현재형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "003",
+    "title": "be 동사의 과거형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "004",
+    "title": "be 동사의 부정문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "005",
+    "title": "be 동사의 의문문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "006",
+    "title": "There is (are)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "007",
+    "title": "일반동사의 현재형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "008",
+    "title": "일반동사의 현재형 (부정문, 의문문)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "009",
+    "title": "일반동사의 과거형 (규칙변화)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "010",
+    "title": "일반동사의 과거형 (불규칙 변화)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "011",
+    "title": "일반동사의 과거형 (부정문, 의문문)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "012",
+    "title": "일반동사의 부정문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "013",
+    "title": "일반동사의 의문문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "014",
+    "title": "의문사 Who, What, Whose",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "015",
+    "title": "의문사 Which",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "016",
+    "title": "의문사 When, Where",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "017",
+    "title": "의문사 Why",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "018",
+    "title": "의문사 How",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "019",
+    "title": "셀 수 있는 명사 (규칙변화)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "020",
+    "title": "셀 수 있는 명사 (불규칙 변화)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "021",
+    "title": "셀 수 없는 명사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "022",
+    "title": "수량 표현",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "023",
+    "title": "부정관사 a(n)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "024",
+    "title": "정관사 the",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "025",
+    "title": "관사의 생략",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "026",
+    "title": "대명사 it",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "027",
+    "title": "재귀대명사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "028",
+    "title": "지시대명사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "029",
+    "title": "부정대명사 one",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "030",
+    "title": "부정대명사 some, any",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "031",
+    "title": "부정대명사 all, each, every",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "032",
+    "title": "부정대명사 one, another, the other",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "033",
+    "title": "부정대명사 some, others",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "034",
+    "title": "재귀대명사의 관용표현",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "035",
+    "title": "형용사의 역할",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "036",
+    "title": "부사의 역할",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "037",
+    "title": "빈도부사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "038",
+    "title": "현재시제",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "039",
+    "title": "현재진행형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "040",
+    "title": "과거시제",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "041",
+    "title": "과거진행형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "042",
+    "title": "미래시제",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "043",
+    "title": "현재완료의 형태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "044",
+    "title": "현재완료 / 현재완료 진행형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "045",
+    "title": "현재완료의 용법 (경험, 계속)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "046",
+    "title": "현재완료의 용법 (완료, 결과)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "047",
+    "title": "현재완료와 과거시제의 비교",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "048",
+    "title": "과거완료 과거완료 진행형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "049",
+    "title": "과거완료의 용법 (경험, 계속)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "050",
+    "title": "과거완료의 용법 (완료, 결과)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "051",
+    "title": "과거완료 부정문과 의문문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "052",
+    "title": "시간, 조건의 부사절에서의 현재시제",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "053",
+    "title": "조동사 will",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "054",
+    "title": "조동사 can",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "055",
+    "title": "조동사 may",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "056",
+    "title": "조동사 must",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "057",
+    "title": "조동사 should, had better, would like to",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "058",
+    "title": "조동사 used to, would, would rather",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "059",
+    "title": "조동사+have+p.p.",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "060",
+    "title": "to부정사의 명사적 용법",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "061",
+    "title": "to부정사의 명사적 용법 (가주어 It, 부정형)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "062",
+    "title": "to부정사의 명사적 용법 (의문사+to부정사)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "063",
+    "title": "to부정사의 형용사적 용법",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "064",
+    "title": "to부정사의 부사적 용법 (목적, 감정의 원인)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "065",
+    "title": "to부정사의 부사적 용법 (결과, 판단의 근거)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "066",
+    "title": "to부정사의 부사적 용법 (조건, 형용사 수식)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "067",
+    "title": "to부정사의 의미상의 주어",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "068",
+    "title": "to부정사 구문 (too~to, enough to, It takes~to)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "069",
+    "title": "목적격 보어로 쓰이는 to부정사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "070",
+    "title": "목적격 보어로 쓰이는 원형부정사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "071",
+    "title": "to부정사의 시제와 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "072",
+    "title": "독립부정사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "073",
+    "title": "동명사의 역할",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "074",
+    "title": "동명사의 관용 표현",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "075",
+    "title": "동명사와 to부정사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "076",
+    "title": "동명사와 현재분사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "077",
+    "title": "동명사의 의미상의 주어, 부정형",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "078",
+    "title": "동명사의 시제와 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "079",
+    "title": "접속사 and, but, or, so",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "080",
+    "title": "접속사 when, while, as soon as",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "081",
+    "title": "접속사 before, after, until, since",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "082",
+    "title": "접속사 because, as, since",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "083",
+    "title": "접속사 so~that~, so that~",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "084",
+    "title": "접속사 if, unless",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "085",
+    "title": "접속사 though, although, even if",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "086",
+    "title": "접속사 that, whether, if",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "087",
+    "title": "both A and B, not A but B, not only A but also B",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "088",
+    "title": "either A or B, neither A nor B",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "089",
+    "title": "명령문+and, or",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "090",
+    "title": "전치사 in, on, at (시간)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "091",
+    "title": "전치사 before, after, for, during, until, by",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "092",
+    "title": "전치사 in, on, at (장소)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "093",
+    "title": "전치사 under, over, behind, up, down, across",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "094",
+    "title": "전치사 in front of, next to, between, from~to",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "095",
+    "title": "그 밖의 주요 전치사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "096",
+    "title": "부가 의문문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "097",
+    "title": "부정 의문문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "098",
+    "title": "선택 의문문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "099",
+    "title": "간접 의문문 1",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "간접 의문문 2",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "감탄문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "102",
+    "title": "명령문, 제안문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "103",
+    "title": "1형식, 2형식",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "감각동사+형용사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "105",
+    "title": "3형식, 4형식",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "4형식의 3형식 전환",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "5형식",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "108",
+    "title": "5형식 목적격 보어의 형태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "as+원급+as",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "비교급+than, 비교급 강조",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "the+최상급",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "배수사 비교 표현",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "비교급+and+비교급, the+비교급",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "원급, 비교급으로 최상급 표현",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "one of the+최상급+복수명사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "능동태와 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "과거, 미래시제의 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "118",
+    "title": "수동태 부정문, 의문문, 조동사 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "119",
+    "title": "4형식 문장의 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "120",
+    "title": "5형식 문장의 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "지각동사, 사역동사의 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "동사구의 수동태",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "주격 관계대명사 who, which",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "목적격 관계대명사 who(whom), which",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "소유격 관계대명사 whose",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "관계대명사 who vs 의문사 who",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "관계대명사 that",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "관계대명사 that vs 접속사 that",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "관계대명사 what",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "관계대명사 what vs 의문사 what",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "131",
+    "title": "관계대명사의 생략",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "132",
+    "title": "관계대명사의 계속적 용법",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "133",
+    "title": "전치사+관계대명사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "복합관계대명사 whoever, whichever, whatever",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "관계부사 when, where",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "관계부사 why, how",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "관계부사와 선행사의 생략",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "복합관계부사 whenever, wherever, however",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "현재분사와 과거분사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "분사의 역할",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "감정을 나타내는 분사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "분사구문 만드는 법",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "분사구문 (때, 이유)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "분사구문 (조건, 양보)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "분사구문 (동시동작, 연속상황)",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "146",
+    "title": "독립분사구문, with+목적어+분사",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "가정법 과거",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "가정법 과거완료",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "I wish+가정법 과거",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "I wish+가정법 과거완료",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "151",
+    "title": "as if+가정법 과거",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "as if+가정법 과거완료",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "without+가정법 과거",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "without+가정법 과거완료",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "혼합가정법",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "if의 생략",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "시제의 일치",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "수의 일치",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "159",
+    "title": "평서문의 화법전환",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "의문문의 화법전환",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "명령문의 화법전환",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "강조구문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "163",
+    "title": "부정구문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  },
+  {
+    "id": "164",
+    "title": "도치구문",
+    "stagesAvailable": [
+      "concept",
+      "practiceA",
+      "practiceB",
+      "descriptive",
+      "practical"
+    ]
+  }
+]

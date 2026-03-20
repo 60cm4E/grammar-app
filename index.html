@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영어 문법 학습기 - 관리자</title>
+  <meta name="description" content="중등 영어 문법 학습 관리 시스템">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="app-header">
+    <div class="header-left">
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="메뉴 열기">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <div class="logo">
+        <span class="logo-icon">📚</span>
+        <h1>Grammar Lab</h1>
+      </div>
+      <span class="badge">관리자</span>
+    </div>
+    <nav class="header-tabs">
+      <button class="header-tab active" data-tab="units" id="tabUnits">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+        유닛 관리
+      </button>
+      <button class="header-tab" data-tab="classrooms" id="tabClassrooms">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        강의실
+      </button>
+    </nav>
+    <div class="header-right">
+      <span class="unit-count" id="unitCount">0 Units</span>
+    </div>
+  </header>
+
+  <!-- ==================== TAB: 유닛 관리 ==================== -->
+  <div id="tab-units" class="tab-content active">
+    <div id="app-container">
+      <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+      <aside id="sidebar">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="searchInput" placeholder="유닛 검색..." autocomplete="off">
+        </div>
+        <div id="unitList" class="unit-list"></div>
+      </aside>
+      <main id="mainContent">
+        <div id="emptyState" class="empty-state">
+          <div class="empty-icon">📖</div>
+          <h2>유닛을 선택하세요</h2>
+          <p>좌측 목록에서 학습할 유닛을 선택하면<br>학습 단계별 콘텐츠를 확인할 수 있습니다.</p>
+        </div>
+        <div id="unitDetail" class="unit-detail hidden">
+          <div class="unit-header">
+            <div class="unit-number" id="detailUnitNum"></div>
+            <h2 class="unit-title" id="detailUnitTitle"></h2>
+          </div>
+          <div class="stage-stepper" id="stageStepper">
+            <div class="stage-step" data-stage="concept"><div class="step-circle">1</div><div class="step-label">개념톡 <kbd class="stage-kbd">1</kbd></div></div>
+            <div class="stage-connector"></div>
+            <div class="stage-step" data-stage="practiceA"><div class="step-circle">2</div><div class="step-label">연습문제A <kbd class="stage-kbd">2</kbd></div></div>
+            <div class="stage-connector"></div>
+            <div class="stage-step" data-stage="practiceB"><div class="step-circle">3</div><div class="step-label">연습문제B <kbd class="stage-kbd">3</kbd></div></div>
+            <div class="stage-connector"></div>
+            <div class="stage-step" data-stage="descriptive"><div class="step-circle">4</div><div class="step-label">서술형문제 <kbd class="stage-kbd">4</kbd></div></div>
+            <div class="stage-connector"></div>
+            <div class="stage-step" data-stage="practical"><div class="step-circle">5</div><div class="step-label">실전문제 <kbd class="stage-kbd">5</kbd></div></div>
+          </div>
+          <div class="content-card" id="contentCard">
+            <div class="content-header">
+              <span class="content-stage-label" id="contentStageLabel"></span>
+              <div class="content-nav">
+                <button class="nav-btn" id="prevStageBtn" title="이전 단계">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <button class="nav-btn" id="nextStageBtn" title="다음 단계">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="content-body" id="contentBody"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- ==================== TAB: 강의실 ==================== -->
+  <div id="tab-classrooms" class="tab-content">
+    <div id="classroom-container">
+      <!-- Left: Classroom List -->
+      <div class="sidebar-backdrop" id="classroomSidebarBackdrop"></div>
+      <aside id="classroomSidebar" class="classroom-sidebar">
+        <div class="sidebar-header-bar">
+          <h3>강의실 목록</h3>
+          <button class="btn-icon-add" id="btnCreateClassroom" title="새 강의실">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+        </div>
+        <div id="classroomList" class="classroom-list"></div>
+      </aside>
+
+      <!-- Right: Classroom Detail -->
+      <main id="classroomMain" class="classroom-main">
+        <!-- Empty State -->
+        <div id="classroomEmpty" class="empty-state">
+          <div class="empty-icon">🏫</div>
+          <h2>강의실을 선택하세요</h2>
+          <p>좌측에서 강의실을 선택하거나<br>새 강의실을 만들어 유닛을 추가하세요.</p>
+        </div>
+
+        <!-- Classroom Detail -->
+        <div id="classroomDetail" class="classroom-detail hidden">
+          <!-- Classroom Header -->
+          <div class="classroom-header">
+            <div class="classroom-title-row">
+              <h2 id="classroomName" class="classroom-name" contenteditable="false"></h2>
+              <div class="classroom-actions">
+                <button class="btn-sm btn-edit" id="btnEditName" title="이름 변경">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                </button>
+                <button class="btn-sm btn-delete" id="btnDeleteClassroom" title="강의실 삭제">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+                </button>
+              </div>
+            </div>
+            <p class="classroom-info" id="classroomInfo"></p>
+          </div>
+
+          <!-- Assigned Units -->
+          <div class="assigned-section">
+            <div class="section-header">
+              <h3>📋 배정된 유닛</h3>
+              <div class="section-header-right">
+                <span class="assigned-count" id="assignedCount">0개</span>
+                <button class="btn-add-units-open" id="btnOpenAddUnits">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  유닛 추가
+                </button>
+              </div>
+            </div>
+            <div id="assignedUnits" class="assigned-units-grid"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- ==================== Unit Add Popup Modal ==================== -->
+  <div id="addUnitsOverlay" class="modal-overlay hidden">
+    <div class="add-units-popup">
+      <div class="popup-header">
+        <h3>📚 유닛 추가</h3>
+        <button class="popup-close" id="btnCloseAddUnits">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="popup-content-area">
+        <!-- Category Sidebar -->
+        <div class="popup-category-sidebar">
+          <div class="category-sidebar-header">
+            <span class="category-header-label">카테고리</span>
+            <div class="category-tabs">
+              <button class="category-tab active" data-filter-tab="grammar" id="tabGrammar">문법</button>
+              <button class="category-tab" data-filter-tab="level" id="tabLevel">레벨</button>
+            </div>
+          </div>
+          <div id="categorySidebar" class="category-list"></div>
+          <div id="levelSidebar" class="category-list hidden">
+            <div class="level-placeholder">
+              <span style="font-size:1.5rem">🏷️</span>
+              <p>레벨 필터는<br>준비 중입니다.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Unit List Area -->
+        <div class="popup-units-area">
+          <div class="popup-search-row">
+            <div class="popup-search">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              <input type="text" id="addUnitSearch" placeholder="유닛 검색... (번호 또는 이름)" autocomplete="off">
+            </div>
+            <button class="btn-add-all" id="btnAddAllVisible" title="표시된 유닛 전체 추가">전체 추가</button>
+          </div>
+          <div class="popup-body">
+            <div id="availableUnits" class="popup-units-list"></div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-footer">
+        <span class="popup-selection-info" id="popupSelectionInfo"></span>
+        <button class="modal-btn modal-cancel" id="btnAddUnitsCancel">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== Stage Content Viewer Popup ==================== -->
+  <div id="stageViewerOverlay" class="modal-overlay hidden">
+    <div class="stage-viewer-popup">
+      <div class="sv-header">
+        <div class="sv-header-info">
+          <span class="sv-unit-badge" id="svUnitBadge"></span>
+          <h3 id="svTitle"></h3>
+        </div>
+        <div class="sv-header-actions">
+          <label class="sv-toggle" title="정답 보기/숨기기">
+            <input type="checkbox" id="svAnswerToggle" checked>
+            <span class="sv-toggle-slider"></span>
+            <span class="sv-toggle-label" id="svToggleLabel">정답 보기</span>
+          </label>
+          <button class="popup-close" id="btnCloseStageViewer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="sv-stage-tabs" id="svStageTabs"></div>
+      <div class="sv-body" id="svBody"></div>
+    </div>
+  </div>
+
+  <!-- Custom Modal -->
+  <div id="modalOverlay" class="modal-overlay hidden">
+    <div class="modal-box">
+      <h3 id="modalTitle">새 강의실</h3>
+      <input type="text" id="modalInput" placeholder="강의실 이름을 입력하세요" autocomplete="off">
+      <div class="modal-actions">
+        <button class="modal-btn modal-cancel" id="modalCancel">취소</button>
+        <button class="modal-btn modal-confirm" id="modalConfirm">만들기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Modal -->
+  <div id="confirmOverlay" class="modal-overlay hidden">
+    <div class="modal-box">
+      <h3 id="confirmTitle">강의실 삭제</h3>
+      <p id="confirmMessage" class="confirm-msg"></p>
+      <div class="modal-actions">
+        <button class="modal-btn modal-cancel" id="confirmCancel">취소</button>
+        <button class="modal-btn modal-danger" id="confirmOk">삭제</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
