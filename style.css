@@ -546,6 +546,9 @@ body {
   font-size: 0.95rem;
   max-height: calc(100vh - 380px);
   overflow-y: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: keep-all;
 }
 
 .content-body h1 {
