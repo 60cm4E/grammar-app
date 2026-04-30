@@ -1,0 +1,4397 @@
+[
+  {
+    "unit": "001",
+    "title": "인칭대명사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 18,
+        "type": "TRUNCATED_END",
+        "content": "my, her"
+      },
+      {
+        "line": 28,
+        "type": "TRUNCATED_END",
+        "content": "him - its"
+      },
+      {
+        "line": 48,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, they are., No, they aren't."
+      },
+      {
+        "line": 87,
+        "type": "TRUNCATED_END",
+        "content": "**: mine, his"
+      },
+      {
+        "line": 185,
+        "type": "TRUNCATED_END",
+        "content": "**: she → her"
+      }
+    ]
+  },
+  {
+    "unit": "002",
+    "title": "be 동사의 현재형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "are - is"
+      },
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "are - is"
+      },
+      {
+        "line": 79,
+        "type": "TRUNCATED_END",
+        "content": "are late for"
+      },
+      {
+        "line": 86,
+        "type": "TRUNCATED_END",
+        "content": "is"
+      },
+      {
+        "line": 104,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My shoes are too small for me., I am wearing my dad's jacket."
+      },
+      {
+        "line": 111,
+        "type": "TRUNCATED_END",
+        "content": "are - is"
+      },
+      {
+        "line": 117,
+        "type": "TRUNCATED_END",
+        "content": "are → is"
+      },
+      {
+        "line": 123,
+        "type": "TRUNCATED_END",
+        "content": "am → are"
+      },
+      {
+        "line": 134,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, she is., No, she isn't."
+      },
+      {
+        "line": 153,
+        "type": "TRUNCATED_END",
+        "content": "are → is, is → are"
+      },
+      {
+        "line": 162,
+        "type": "TRUNCATED_END",
+        "content": "is → are, is → are"
+      }
+    ]
+  },
+  {
+    "unit": "003",
+    "title": "be 동사의 과거형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "were - was"
+      },
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "was - were"
+      },
+      {
+        "line": 60,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, it was., No, it wasn't."
+      },
+      {
+        "line": 71,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, I was., No, I wasn't."
+      },
+      {
+        "line": 78,
+        "type": "TRUNCATED_END",
+        "content": "You, They"
+      },
+      {
+        "line": 103,
+        "type": "UNMATCHED_QUOTE",
+        "content": "The kitten's paws was very soft."
+      },
+      {
+        "line": 109,
+        "type": "TRUNCATED_END",
+        "content": "is"
+      },
+      {
+        "line": 139,
+        "type": "TRUNCATED_END",
+        "content": "were → was"
+      },
+      {
+        "line": 146,
+        "type": "TRUNCATED_END",
+        "content": "was → were"
+      },
+      {
+        "line": 154,
+        "type": "TRUNCATED_END",
+        "content": "was, were, were, was"
+      },
+      {
+        "line": 164,
+        "type": "TRUNCATED_END",
+        "content": "was → were, were → was"
+      }
+    ]
+  },
+  {
+    "unit": "004",
+    "title": "be 동사의 부정문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 14,
+        "type": "UNMATCHED_QUOTE",
+        "content": "isn't - am not"
+      },
+      {
+        "line": 52,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, we were., No, we weren't."
+      },
+      {
+        "line": 63,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, I was., No, I wasn't."
+      },
+      {
+        "line": 72,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Amy's surprise party were not fun."
+      },
+      {
+        "line": 132,
+        "type": "UNMATCHED_QUOTE",
+        "content": "His idea was not working well., The workers weren't following the rules."
+      },
+      {
+        "line": 138,
+        "type": "TRUNCATED_END",
+        "content": "were → was"
+      }
+    ]
+  },
+  {
+    "unit": "005",
+    "title": "be 동사의 의문문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "Were - was"
+      },
+      {
+        "line": 87,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Is Minho's English grade high?"
+      },
+      {
+        "line": 97,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Is Sujin's school close to my house?"
+      },
+      {
+        "line": 119,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, she wasn't., Yes, she was."
+      },
+      {
+        "line": 155,
+        "type": "TRUNCATED_END",
+        "content": "Are, my"
+      }
+    ]
+  },
+  {
+    "unit": "006",
+    "title": "There is (are)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "is - are"
+      },
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "are - is"
+      },
+      {
+        "line": 20,
+        "type": "UNMATCHED_QUOTE",
+        "content": "were - weren't"
+      },
+      {
+        "line": 38,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There weren't a hat on the shelf."
+      },
+      {
+        "line": 47,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There was two umbrellas in the basket., There weren't bread on the plate."
+      },
+      {
+        "line": 62,
+        "type": "TRUNCATED_END",
+        "content": "There was"
+      },
+      {
+        "line": 68,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There weren't"
+      },
+      {
+        "line": 74,
+        "type": "TRUNCATED_END",
+        "content": "There are"
+      },
+      {
+        "line": 92,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There isn't water in my bottle., There are tests tomorrow."
+      },
+      {
+        "line": 103,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, there wasn't., Yes, there was."
+      },
+      {
+        "line": 114,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes. there were., No, there weren't."
+      },
+      {
+        "line": 138,
+        "type": "TRUNCATED_END",
+        "content": "was → were"
+      },
+      {
+        "line": 144,
+        "type": "TRUNCATED_END",
+        "content": "is → are"
+      },
+      {
+        "line": 154,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There are many books, but there isn't a notebook on the desk."
+      },
+      {
+        "line": 162,
+        "type": "TRUNCATED_END",
+        "content": "was → were, were → was"
+      }
+    ]
+  },
+  {
+    "unit": "007",
+    "title": "일반동사의 현재형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 12,
+        "type": "TRUNCATED_END",
+        "content": "She"
+      },
+      {
+        "line": 19,
+        "type": "TRUNCATED_END",
+        "content": "They"
+      }
+    ]
+  },
+  {
+    "unit": "008",
+    "title": "일반동사의 현재형 (부정문, 의문문)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 23,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My cats doesn't scratch furniture."
+      },
+      {
+        "line": 32,
+        "type": "UNMATCHED_QUOTE",
+        "content": "A boy from China don't eat bread."
+      },
+      {
+        "line": 43,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, they do., No, they don't."
+      },
+      {
+        "line": 54,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, he doesn't., Yes, he does."
+      },
+      {
+        "line": 61,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't eat"
+      },
+      {
+        "line": 75,
+        "type": "TRUNCATED_END",
+        "content": "Many teenagers, I"
+      },
+      {
+        "line": 84,
+        "type": "UNMATCHED_QUOTE",
+        "content": "A lot of shops don't close early evening."
+      },
+      {
+        "line": 159,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, it does., No, it doesn't."
+      }
+    ]
+  },
+  {
+    "unit": "011",
+    "title": "일반동사의 과거형 (부정문, 의문문)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 8,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He doesn't go swimming last Saturday."
+      },
+      {
+        "line": 17,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't play tennis yesterday."
+      },
+      {
+        "line": 36,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't eat"
+      },
+      {
+        "line": 45,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't meet Tom yesterday."
+      },
+      {
+        "line": 54,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They weren't live in Seoul."
+      },
+      {
+        "line": 120,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, she didn't., Yes, she did."
+      },
+      {
+        "line": 148,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She didn't washed the cups., Did Tom and Amy made a plan for the party?"
+      }
+    ]
+  },
+  {
+    "unit": "012",
+    "title": "일반동사의 부정문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 22,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My cats doesn't scratch furniture."
+      },
+      {
+        "line": 31,
+        "type": "UNMATCHED_QUOTE",
+        "content": "A boy from Japan don't eat bread."
+      },
+      {
+        "line": 42,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, they do., No, they don't."
+      },
+      {
+        "line": 53,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, he doesn't., Yes, he does."
+      },
+      {
+        "line": 72,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't eat"
+      },
+      {
+        "line": 81,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Young animals doesn't bite people."
+      },
+      {
+        "line": 90,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My classmates doesn't call me at night."
+      },
+      {
+        "line": 104,
+        "type": "TRUNCATED_END",
+        "content": "Many teenagers, I"
+      },
+      {
+        "line": 113,
+        "type": "UNMATCHED_QUOTE",
+        "content": "A lot of stores don't open early morning."
+      }
+    ]
+  },
+  {
+    "unit": "013",
+    "title": "일반동사의 의문문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 92,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, it does., No, it doesn't."
+      },
+      {
+        "line": 103,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, she didn't., Yes, she did."
+      },
+      {
+        "line": 142,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Does the baby's eyes become bright?, Does students in the class study hard?"
+      }
+    ]
+  },
+  {
+    "unit": "014",
+    "title": "의문사 Who, What, Whose",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 40,
+        "type": "TRUNCATED_END",
+        "content": "her"
+      }
+    ]
+  },
+  {
+    "unit": "015",
+    "title": "의문사 Which",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 101,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Which is Tom's drawing?"
+      }
+    ]
+  },
+  {
+    "unit": "016",
+    "title": "의문사 When, Where",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 60,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I go to my aunt's house."
+      }
+    ]
+  },
+  {
+    "unit": "017",
+    "title": "의문사 Why",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 28,
+        "type": "UNMATCHED_QUOTE",
+        "content": "_______ didn't you come to class?"
+      },
+      {
+        "line": 38,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She needed Tom's email address."
+      }
+    ]
+  },
+  {
+    "unit": "019",
+    "title": "셀 수 있는 명사 (규칙변화)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 60,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Two butterflys were in my sister's room."
+      }
+    ]
+  },
+  {
+    "unit": "021",
+    "title": "셀 수 없는 명사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 119,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't have enough time to collect much information."
+      }
+    ]
+  },
+  {
+    "unit": "023",
+    "title": "부정관사 a(n)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 7,
+        "type": "TRUNCATED_END",
+        "content": "An - a - an"
+      },
+      {
+        "line": 15,
+        "type": "TRUNCATED_END",
+        "content": "a - a - an"
+      },
+      {
+        "line": 23,
+        "type": "TRUNCATED_END",
+        "content": "An - a - an"
+      },
+      {
+        "line": 97,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There was an address on a card, but there wasn't a name."
+      },
+      {
+        "line": 138,
+        "type": "TRUNCATED_END",
+        "content": "a → an"
+      }
+    ]
+  },
+  {
+    "unit": "024",
+    "title": "정관사 the",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 25,
+        "type": "TRUNCATED_END",
+        "content": "The - a - a"
+      },
+      {
+        "line": 33,
+        "type": "TRUNCATED_END",
+        "content": "an - The - the"
+      },
+      {
+        "line": 40,
+        "type": "TRUNCATED_END",
+        "content": "a - The - a"
+      },
+      {
+        "line": 136,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Don't read now. Close a book., Please, turn off a light when you sleep."
+      },
+      {
+        "line": 150,
+        "type": "TRUNCATED_END",
+        "content": "the → a"
+      }
+    ]
+  },
+  {
+    "unit": "025",
+    "title": "관사의 생략",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 65,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She doesn't eat dinner very often."
+      },
+      {
+        "line": 94,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She didn't have dinner, but had a piece of ice cream."
+      }
+    ]
+  },
+  {
+    "unit": "026",
+    "title": "대명사 it",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 9,
+        "type": "UNMATCHED_QUOTE",
+        "content": "It is not Tom's notebook."
+      },
+      {
+        "line": 24,
+        "type": "TRUNCATED_END",
+        "content": "대명사 It"
+      },
+      {
+        "line": 30,
+        "type": "TRUNCATED_END",
+        "content": "대명사 It"
+      },
+      {
+        "line": 36,
+        "type": "TRUNCATED_END",
+        "content": "비인칭 주어 It"
+      },
+      {
+        "line": 114,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There was a cute little cat. Everyone was looking at it., We baked some cookies, but we didn't want "
+      },
+      {
+        "line": 136,
+        "type": "TRUNCATED_END",
+        "content": "That → It"
+      }
+    ]
+  },
+  {
+    "unit": "027",
+    "title": "재귀대명사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 40,
+        "type": "TRUNCATED_END",
+        "content": "These are"
+      },
+      {
+        "line": 134,
+        "type": "UNMATCHED_QUOTE",
+        "content": "This pizza is everyone's favorite."
+      },
+      {
+        "line": 157,
+        "type": "TRUNCATED_END",
+        "content": "this → that"
+      }
+    ]
+  },
+  {
+    "unit": "028",
+    "title": "지시대명사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 95,
+        "type": "TRUNCATED_END",
+        "content": "her"
+      },
+      {
+        "line": 101,
+        "type": "TRUNCATED_END",
+        "content": "to protect her"
+      }
+    ]
+  },
+  {
+    "unit": "030",
+    "title": "부정대명사 some, any",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 70,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She doesn't know some answers to these questions."
+      },
+      {
+        "line": 89,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She doesn't have any pets."
+      },
+      {
+        "line": 99,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't have any work today."
+      },
+      {
+        "line": 109,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There are some oranges in the fridge, but there isn't any apple."
+      },
+      {
+        "line": 118,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom made any mistakes., There isn't some juice for breakfast."
+      }
+    ]
+  },
+  {
+    "unit": "031",
+    "title": "부정대명사 all, each, every",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 46,
+        "type": "TRUNCATED_END",
+        "content": "are"
+      },
+      {
+        "line": 58,
+        "type": "TRUNCATED_END",
+        "content": "is"
+      },
+      {
+        "line": 133,
+        "type": "TRUNCATED_END",
+        "content": "Every player of the team was practicing for the"
+      },
+      {
+        "line": 140,
+        "type": "TRUNCATED_END",
+        "content": "was → were"
+      },
+      {
+        "line": 165,
+        "type": "TRUNCATED_END",
+        "content": "are, has, are, work, are"
+      }
+    ]
+  },
+  {
+    "unit": "032",
+    "title": "부정대명사 one, another, the other",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 33,
+        "type": "TRUNCATED_END",
+        "content": "There were only two left. One is big and another is"
+      },
+      {
+        "line": 128,
+        "type": "TRUNCATED_END",
+        "content": "She has two bags. One is red and the other is a"
+      },
+      {
+        "line": 141,
+        "type": "ENDS_WITH_COMMA",
+        "content": "There were three birds on a tree. One was singing,"
+      },
+      {
+        "line": 154,
+        "type": "TRUNCATED_END",
+        "content": "Amy has two sisters. One lives in Busan and the"
+      }
+    ]
+  },
+  {
+    "unit": "033",
+    "title": "부정대명사 some, others",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 29,
+        "type": "ENDS_WITH_COMMA",
+        "content": "In the bag there are ten marbles, two are blue,"
+      },
+      {
+        "line": 40,
+        "type": "TRUNCATED_END",
+        "content": "Twenty students are here. Some of them are"
+      },
+      {
+        "line": 82,
+        "type": "TRUNCATED_END",
+        "content": "Some players are from Busan, the others are"
+      },
+      {
+        "line": 106,
+        "type": "TRUNCATED_END",
+        "content": "Mia received six cards. Some were pretty and the"
+      },
+      {
+        "line": 120,
+        "type": "TRUNCATED_END",
+        "content": "Tom and Sora help one another to clean the"
+      }
+    ]
+  },
+  {
+    "unit": "034",
+    "title": "재귀대명사의 관용표현",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 87,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Between ourselves, that child doesn't behave"
+      }
+    ]
+  },
+  {
+    "unit": "035",
+    "title": "형용사의 역할",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 59,
+        "type": "TRUNCATED_END",
+        "content": "I need someone carefully, because I have a lot of"
+      }
+    ]
+  },
+  {
+    "unit": "036",
+    "title": "부사의 역할",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 62,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There wasn't a lot of furniture in the room., There"
+      },
+      {
+        "line": 82,
+        "type": "UNMATCHED_QUOTE",
+        "content": "There is a few hope. Let's try again."
+      }
+    ]
+  },
+  {
+    "unit": "037",
+    "title": "빈도부사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 50,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Because the speaker speaks too fastly, I don't"
+      }
+    ]
+  },
+  {
+    "unit": "038",
+    "title": "현재시제",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 72,
+        "type": "TRUNCATED_END",
+        "content": "Kevin is lazy, so he cleans his room seldom on"
+      },
+      {
+        "line": 120,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My brother always eats candy, so he doesn't visit"
+      }
+    ]
+  },
+  {
+    "unit": "039",
+    "title": "현재진행형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 18,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't post"
+      },
+      {
+        "line": 41,
+        "type": "TRUNCATED_END",
+        "content": "Sora is"
+      },
+      {
+        "line": 79,
+        "type": "TRUNCATED_END",
+        "content": "Mina is very excited today., The sun rises in the"
+      },
+      {
+        "line": 99,
+        "type": "UNMATCHED_QUOTE",
+        "content": "studies, doesn't study"
+      },
+      {
+        "line": 136,
+        "type": "UNMATCHED_QUOTE",
+        "content": "are, live, cooks, don't, like"
+      },
+      {
+        "line": 146,
+        "type": "TRUNCATED_END",
+        "content": "wants, practices, fails, cheer, her"
+      }
+    ]
+  },
+  {
+    "unit": "040",
+    "title": "과거시제",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 34,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I didn't sleep well last night."
+      },
+      {
+        "line": 95,
+        "type": "TRUNCATED_END",
+        "content": "was, invited, gave, was"
+      }
+    ]
+  },
+  {
+    "unit": "041",
+    "title": "과거진행형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 5,
+        "type": "TRUNCATED_END",
+        "content": "will, am going to"
+      },
+      {
+        "line": 35,
+        "type": "TRUNCATED_END",
+        "content": "will, is going to"
+      },
+      {
+        "line": 77,
+        "type": "UNMATCHED_QUOTE",
+        "content": "begins, didn't sleep, want, be"
+      },
+      {
+        "line": 121,
+        "type": "TRUNCATED_END",
+        "content": "She won't tells a secret., Kevin will face a lot of"
+      },
+      {
+        "line": 121,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She won't tells a secret., Kevin will face a lot of"
+      },
+      {
+        "line": 130,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I will write a letter to her tomorrow., We're going"
+      }
+    ]
+  },
+  {
+    "unit": "042",
+    "title": "미래시제",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 24,
+        "type": "UNMATCHED_QUOTE",
+        "content": "aren't wearing"
+      },
+      {
+        "line": 44,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Jake isn't thinking of changing his school."
+      },
+      {
+        "line": 92,
+        "type": "TRUNCATED_END",
+        "content": "Jake is running in the park now., Sora was"
+      }
+    ]
+  },
+  {
+    "unit": "043",
+    "title": "현재완료의 형태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 56,
+        "type": "TRUNCATED_END",
+        "content": "I am going to go to Tokyo next month., I'm going to"
+      },
+      {
+        "line": 56,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I am going to go to Tokyo next month., I'm going to"
+      },
+      {
+        "line": 66,
+        "type": "TRUNCATED_END",
+        "content": "She is moving in two weeks., She will move in"
+      },
+      {
+        "line": 84,
+        "type": "TRUNCATED_END",
+        "content": "fitting, needs, going, are"
+      },
+      {
+        "line": 123,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't stay up"
+      }
+    ]
+  },
+  {
+    "unit": "045",
+    "title": "현재완료의 용법 (경험, 계속)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 36,
+        "type": "TRUNCATED_END",
+        "content": "has won - for"
+      }
+    ]
+  },
+  {
+    "unit": "046",
+    "title": "현재완료의 용법 (완료, 결과)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 94,
+        "type": "TRUNCATED_END",
+        "content": "is, promised, have forgotten, has just called me, is"
+      },
+      {
+        "line": 141,
+        "type": "TRUNCATED_END",
+        "content": "He has just opened the window., She has already read a"
+      }
+    ]
+  },
+  {
+    "unit": "047",
+    "title": "현재완료와 과거시제의 비교",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "UNMATCHED_QUOTE",
+        "content": "hasn't studied"
+      },
+      {
+        "line": 22,
+        "type": "UNMATCHED_QUOTE",
+        "content": "haven't responded"
+      },
+      {
+        "line": 53,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't lost"
+      },
+      {
+        "line": 70,
+        "type": "TRUNCATED_END",
+        "content": "I've never seen the movie., I have never seen the"
+      },
+      {
+        "line": 70,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I've never seen the movie., I have never seen the"
+      },
+      {
+        "line": 87,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Tom has not decided on his future dream yet.,"
+      },
+      {
+        "line": 97,
+        "type": "ENDS_WITH_COMMA",
+        "content": "They have not thought about the matter for 10 years.,"
+      },
+      {
+        "line": 106,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He hasn't been out for two weeks., We have not watched"
+      }
+    ]
+  },
+  {
+    "unit": "048",
+    "title": "과거완료 과거완료 진행형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 119,
+        "type": "TRUNCATED_END",
+        "content": "The bus has left when the children arrived at the"
+      }
+    ]
+  },
+  {
+    "unit": "049",
+    "title": "과거완료의 용법 (경험, 계속)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 46,
+        "type": "TRUNCATED_END",
+        "content": "Big festivals had been held several times before the"
+      },
+      {
+        "line": 66,
+        "type": "TRUNCATED_END",
+        "content": "Mina had been to London three times when she was"
+      },
+      {
+        "line": 118,
+        "type": "TRUNCATED_END",
+        "content": "The cat had been sick for several days when it was"
+      },
+      {
+        "line": 126,
+        "type": "TRUNCATED_END",
+        "content": "took, had entered, made, is"
+      }
+    ]
+  },
+  {
+    "unit": "050",
+    "title": "과거완료의 용법 (완료, 결과)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 9,
+        "type": "UNMATCHED_QUOTE",
+        "content": "When the class started, she hadn't arrived at school"
+      },
+      {
+        "line": 63,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Amy wasn't hungry, because she had already eaten"
+      },
+      {
+        "line": 73,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They had lost their map. They couldn't find the way."
+      },
+      {
+        "line": 164,
+        "type": "TRUNCATED_END",
+        "content": "was, won, had tried, made, was"
+      }
+    ]
+  },
+  {
+    "unit": "051",
+    "title": "과거완료 부정문과 의문문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 12,
+        "type": "UNMATCHED_QUOTE",
+        "content": "hadn't left"
+      },
+      {
+        "line": 26,
+        "type": "UNMATCHED_QUOTE",
+        "content": "hadn't attended - had finished"
+      },
+      {
+        "line": 34,
+        "type": "UNMATCHED_QUOTE",
+        "content": "had found - hadn't arrived"
+      },
+      {
+        "line": 42,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Had - arrived - hadn't"
+      },
+      {
+        "line": 61,
+        "type": "UNMATCHED_QUOTE",
+        "content": "When he came into my room, I hadn't finished"
+      },
+      {
+        "line": 97,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Mina had never lied until then., Amy hadn't waited"
+      },
+      {
+        "line": 106,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They don't turn off the TV before they went out."
+      },
+      {
+        "line": 128,
+        "type": "UNMATCHED_QUOTE",
+        "content": "hadn't gathered"
+      }
+    ]
+  },
+  {
+    "unit": "052",
+    "title": "시간, 조건의 부사절에서의 현재시제",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 41,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If you take a bus, you'll arrive faster."
+      },
+      {
+        "line": 82,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Unless you will exercise, you won't be healthy.,"
+      },
+      {
+        "line": 82,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Unless you will exercise, you won't be healthy.,"
+      },
+      {
+        "line": 117,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I'll be a teacher when I grow up."
+      }
+    ]
+  },
+  {
+    "unit": "053",
+    "title": "조동사 will",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 30,
+        "type": "TRUNCATED_END",
+        "content": "Amy is going to go to the zoo with her"
+      },
+      {
+        "line": 139,
+        "type": "TRUNCATED_END",
+        "content": "I will master Korean by next year., I am going to"
+      }
+    ]
+  },
+  {
+    "unit": "054",
+    "title": "조동사 can",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "UNMATCHED_QUOTE",
+        "content": "couldn't - can"
+      },
+      {
+        "line": 12,
+        "type": "TRUNCATED_END",
+        "content": "is able to"
+      },
+      {
+        "line": 55,
+        "type": "TRUNCATED_END",
+        "content": "aren't able to"
+      },
+      {
+        "line": 55,
+        "type": "UNMATCHED_QUOTE",
+        "content": "aren't able to"
+      },
+      {
+        "line": 64,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Can - can't"
+      },
+      {
+        "line": 92,
+        "type": "UNMATCHED_QUOTE",
+        "content": "You can't ride a bike here. This area is not allowed."
+      },
+      {
+        "line": 113,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He can't swim in this pool. The pool is closed."
+      },
+      {
+        "line": 142,
+        "type": "TRUNCATED_END",
+        "content": "is → are"
+      }
+    ]
+  },
+  {
+    "unit": "055",
+    "title": "조동사 may",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 23,
+        "type": "UNMATCHED_QUOTE",
+        "content": "May - may not, Can - can't"
+      }
+    ]
+  },
+  {
+    "unit": "056",
+    "title": "조동사 must",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 18,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She doesn't look well. She must be tired."
+      },
+      {
+        "line": 24,
+        "type": "TRUNCATED_END",
+        "content": "have to"
+      },
+      {
+        "line": 60,
+        "type": "UNMATCHED_QUOTE",
+        "content": "This pencil is free. You don't have to pay for it."
+      },
+      {
+        "line": 93,
+        "type": "TRUNCATED_END",
+        "content": "don't have to"
+      },
+      {
+        "line": 93,
+        "type": "UNMATCHED_QUOTE",
+        "content": "don't have to"
+      },
+      {
+        "line": 102,
+        "type": "TRUNCATED_END",
+        "content": "We must remember our locker number., You have to"
+      },
+      {
+        "line": 109,
+        "type": "UNMATCHED_QUOTE",
+        "content": "must not (mustn't), eat"
+      },
+      {
+        "line": 138,
+        "type": "TRUNCATED_END",
+        "content": "have, got, got, doesn't have to, have to"
+      },
+      {
+        "line": 138,
+        "type": "UNMATCHED_QUOTE",
+        "content": "have, got, got, doesn't have to, have to"
+      },
+      {
+        "line": 145,
+        "type": "TRUNCATED_END",
+        "content": "has to"
+      },
+      {
+        "line": 157,
+        "type": "UNMATCHED_QUOTE",
+        "content": "doesn't have to, wash"
+      }
+    ]
+  },
+  {
+    "unit": "057",
+    "title": "조동사 should, had better, would like to",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 64,
+        "type": "TRUNCATED_END",
+        "content": "couldn't, would like to"
+      },
+      {
+        "line": 64,
+        "type": "UNMATCHED_QUOTE",
+        "content": "couldn't, would like to"
+      },
+      {
+        "line": 116,
+        "type": "TRUNCATED_END",
+        "content": "should take care of"
+      },
+      {
+        "line": 125,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They hadn't better wait for us."
+      }
+    ]
+  },
+  {
+    "unit": "058",
+    "title": "조동사 used to, would, would rather",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 25,
+        "type": "ENDS_WITH_COMMA",
+        "content": "I didn't used to go to the park on Sundays.,"
+      },
+      {
+        "line": 25,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I didn't used to go to the park on Sundays.,"
+      },
+      {
+        "line": 72,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Amy used to read books every evening.,"
+      },
+      {
+        "line": 89,
+        "type": "TRUNCATED_END",
+        "content": "would, rather, than"
+      },
+      {
+        "line": 130,
+        "type": "TRUNCATED_END",
+        "content": "Did she use to wake up early in the morning?, She"
+      },
+      {
+        "line": 139,
+        "type": "TRUNCATED_END",
+        "content": "used to play, used to be, is"
+      }
+    ]
+  },
+  {
+    "unit": "059",
+    "title": "조동사+have+p.p.",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 18,
+        "type": "TRUNCATED_END",
+        "content": "Tom must have learned to play piano when he was"
+      },
+      {
+        "line": 71,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I shouldn't have wasted so much time."
+      },
+      {
+        "line": 106,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He must have studied for this quiz. He didn't pass"
+      },
+      {
+        "line": 135,
+        "type": "TRUNCATED_END",
+        "content": "He must have been hard-working. He used to work early in"
+      }
+    ]
+  },
+  {
+    "unit": "060",
+    "title": "to부정사의 명사적 용법",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 99,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Amy's plan is to finish writing her essay by the afternoon."
+      },
+      {
+        "line": 137,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Mina's hobbies are to play the guitar and the piano."
+      },
+      {
+        "line": 151,
+        "type": "TRUNCATED_END",
+        "content": "are → is"
+      },
+      {
+        "line": 166,
+        "type": "UNMATCHED_QUOTE",
+        "content": "to draw, doesn't, to send, to plan"
+      }
+    ]
+  },
+  {
+    "unit": "061",
+    "title": "to부정사의 명사적 용법 (가주어 It, 부정형)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 7,
+        "type": "TRUNCATED_END",
+        "content": "It - to get - not to"
+      },
+      {
+        "line": 86,
+        "type": "UNMATCHED_QUOTE",
+        "content": "It can be rude to visit someone's house late at night."
+      },
+      {
+        "line": 105,
+        "type": "ENDS_WITH_COMMA",
+        "content": "It is important to exercise daily to stay healthy.,"
+      },
+      {
+        "line": 115,
+        "type": "TRUNCATED_END",
+        "content": "It is not easy to live alone in a new city., It is"
+      },
+      {
+        "line": 139,
+        "type": "TRUNCATED_END",
+        "content": "to not → not to"
+      },
+      {
+        "line": 146,
+        "type": "TRUNCATED_END",
+        "content": "This → It"
+      },
+      {
+        "line": 164,
+        "type": "TRUNCATED_END",
+        "content": "it, to memorize, not to use, not to meet, It"
+      }
+    ]
+  },
+  {
+    "unit": "062",
+    "title": "to부정사의 명사적 용법 (의문사+to부정사)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 64,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Without a map, I don't know where to go."
+      },
+      {
+        "line": 74,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I haven't decided what to eat for lunch yet."
+      },
+      {
+        "line": 104,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He didn't know where he should buy the textbook."
+      },
+      {
+        "line": 148,
+        "type": "TRUNCATED_END",
+        "content": "to not → not to"
+      }
+    ]
+  },
+  {
+    "unit": "063",
+    "title": "to부정사의 형용사적 용법",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 91,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 99,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 129,
+        "type": "TRUNCATED_END",
+        "content": "prepare. → prepare for"
+      },
+      {
+        "line": 154,
+        "type": "TRUNCATED_END",
+        "content": "to spend, to visit, to enjoy, to come, to take care of"
+      }
+    ]
+  },
+  {
+    "unit": "064",
+    "title": "to부정사의 부사적 용법 (목적, 감정의 원인)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 54,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Amy and Jake are pleased to have a new kitten,"
+      },
+      {
+        "line": 83,
+        "type": "TRUNCATED_END",
+        "content": "The student was pleased to be able to go back to"
+      },
+      {
+        "line": 102,
+        "type": "TRUNCATED_END",
+        "content": "She was sorry in order to meet her friend after so"
+      },
+      {
+        "line": 120,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom's mission was to look after his younger sister"
+      },
+      {
+        "line": 147,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Jake reads a newspaper to understand the world.,"
+      }
+    ]
+  },
+  {
+    "unit": "065",
+    "title": "to부정사의 부사적 용법 (결과, 판단의 근거)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 158,
+        "type": "TRUNCATED_END",
+        "content": "to never → never to"
+      }
+    ]
+  },
+  {
+    "unit": "066",
+    "title": "to부정사의 부사적 용법 (조건, 형용사 수식)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 83,
+        "type": "TRUNCATED_END",
+        "content": "It would be wonderful to take some time for"
+      },
+      {
+        "line": 102,
+        "type": "TRUNCATED_END",
+        "content": "To see her dance, you would think she is a"
+      }
+    ]
+  },
+  {
+    "unit": "067",
+    "title": "to부정사의 의미상의 주어",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 5,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 12,
+        "type": "TRUNCATED_END",
+        "content": "for - of"
+      },
+      {
+        "line": 26,
+        "type": "TRUNCATED_END",
+        "content": "of"
+      },
+      {
+        "line": 37,
+        "type": "TRUNCATED_END",
+        "content": "for - for - of"
+      },
+      {
+        "line": 54,
+        "type": "TRUNCATED_END",
+        "content": "It is easy of her to learn Spanish., It is important of"
+      },
+      {
+        "line": 74,
+        "type": "TRUNCATED_END",
+        "content": "It was careless of Tom to leave the key on the"
+      },
+      {
+        "line": 134,
+        "type": "TRUNCATED_END",
+        "content": "for → of"
+      },
+      {
+        "line": 141,
+        "type": "TRUNCATED_END",
+        "content": "of → for"
+      },
+      {
+        "line": 148,
+        "type": "TRUNCATED_END",
+        "content": "This → It"
+      },
+      {
+        "line": 155,
+        "type": "TRUNCATED_END",
+        "content": "of → for"
+      }
+    ]
+  },
+  {
+    "unit": "068",
+    "title": "to부정사 구문 (too~to, enough to, It takes~to)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 25,
+        "type": "TRUNCATED_END",
+        "content": "The train was fast enough to arrived there on time., It"
+      },
+      {
+        "line": 45,
+        "type": "TRUNCATED_END",
+        "content": "It took only 20 minutes for him to get ready in"
+      },
+      {
+        "line": 63,
+        "type": "UNMATCHED_QUOTE",
+        "content": "It will take a while to curing the puppy's illness."
+      },
+      {
+        "line": 77,
+        "type": "TRUNCATED_END",
+        "content": "her"
+      },
+      {
+        "line": 86,
+        "type": "TRUNCATED_END",
+        "content": "It took 20 minutes for the bus to arrive at the"
+      },
+      {
+        "line": 132,
+        "type": "UNMATCHED_QUOTE",
+        "content": "so, that, she, couldn't"
+      },
+      {
+        "line": 139,
+        "type": "UNMATCHED_QUOTE",
+        "content": "so, that, I, can't"
+      },
+      {
+        "line": 146,
+        "type": "TRUNCATED_END",
+        "content": "The resort / was / comfortable enough / to / stay / for"
+      },
+      {
+        "line": 155,
+        "type": "TRUNCATED_END",
+        "content": "to understand, it, to explain, to learn, to"
+      }
+    ]
+  },
+  {
+    "unit": "069",
+    "title": "목적격 보어로 쓰이는 to부정사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 31,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't want him to copy my notes., Tom told"
+      },
+      {
+        "line": 58,
+        "type": "TRUNCATED_END",
+        "content": "She allowed her son riding a bicycle only once a"
+      },
+      {
+        "line": 97,
+        "type": "TRUNCATED_END",
+        "content": "I want my friends come over to my house during the"
+      },
+      {
+        "line": 115,
+        "type": "TRUNCATED_END",
+        "content": "The stranger asked me to tell him how to get to the"
+      },
+      {
+        "line": 142,
+        "type": "TRUNCATED_END",
+        "content": "she → her"
+      }
+    ]
+  },
+  {
+    "unit": "070",
+    "title": "목적격 보어로 쓰이는 원형부정사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 51,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Tom made his son carrying his bag on his own.,"
+      },
+      {
+        "line": 164,
+        "type": "TRUNCATED_END",
+        "content": "play, stop, to listen to"
+      }
+    ]
+  },
+  {
+    "unit": "072",
+    "title": "독립부정사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 17,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Beginning with, let's talk about the issues."
+      }
+    ]
+  },
+  {
+    "unit": "073",
+    "title": "동명사의 역할",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 101,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Amy's hobby is making origami."
+      },
+      {
+        "line": 110,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't mind talking with a new classmate."
+      },
+      {
+        "line": 147,
+        "type": "TRUNCATED_END",
+        "content": "are → is"
+      }
+    ]
+  },
+  {
+    "unit": "074",
+    "title": "동명사의 관용 표현",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 17,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Because it's too late, it is no use to telling her how"
+      },
+      {
+        "line": 89,
+        "type": "TRUNCATED_END",
+        "content": "Sujin sometimes has trouble waking up early in the"
+      },
+      {
+        "line": 108,
+        "type": "TRUNCATED_END",
+        "content": "Tom and Amy have a difficult time to go to practice on"
+      },
+      {
+        "line": 124,
+        "type": "UNMATCHED_QUOTE",
+        "content": "couldn't, help, delivering"
+      },
+      {
+        "line": 161,
+        "type": "ENDS_WITH_COMMA",
+        "content": "making, On, hearing, cannot, help, laughing,"
+      },
+      {
+        "line": 171,
+        "type": "ENDS_WITH_COMMA",
+        "content": "On, seeing, to know, is, no, hiding, cannot, help,"
+      }
+    ]
+  },
+  {
+    "unit": "075",
+    "title": "동명사와 to부정사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 41,
+        "type": "TRUNCATED_END",
+        "content": "The boy asked me closing the window., She enjoys to"
+      }
+    ]
+  },
+  {
+    "unit": "076",
+    "title": "동명사와 현재분사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 64,
+        "type": "UNMATCHED_QUOTE",
+        "content": "The teacher doesn't like complaining students."
+      }
+    ]
+  },
+  {
+    "unit": "077",
+    "title": "동명사의 의미상의 주어, 부정형",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 37,
+        "type": "TRUNCATED_END",
+        "content": "Tom avoided theirs calling him every day., Mom was"
+      },
+      {
+        "line": 59,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I / am / sure of / Tom's / passing / the audition."
+      },
+      {
+        "line": 65,
+        "type": "UNMATCHED_QUOTE",
+        "content": "The coach / likes / the students' / not / using /"
+      },
+      {
+        "line": 83,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He didn't mind not getting a good score."
+      },
+      {
+        "line": 120,
+        "type": "TRUNCATED_END",
+        "content": "hers → her"
+      }
+    ]
+  },
+  {
+    "unit": "078",
+    "title": "동명사의 시제와 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 33,
+        "type": "TRUNCATED_END",
+        "content": "being cared for"
+      }
+    ]
+  },
+  {
+    "unit": "079",
+    "title": "접속사 and, but, or, so",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 22,
+        "type": "TRUNCATED_END",
+        "content": "Tom took a bath and fall asleep., She is"
+      },
+      {
+        "line": 59,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      },
+      {
+        "line": 123,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I like London, and I don't want to live there."
+      },
+      {
+        "line": 139,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      }
+    ]
+  },
+  {
+    "unit": "080",
+    "title": "접속사 when, while, as soon as",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 29,
+        "type": "TRUNCATED_END",
+        "content": "She picked up a pretty shell when she went to the"
+      },
+      {
+        "line": 38,
+        "type": "TRUNCATED_END",
+        "content": "I will go to the store after I will finish my"
+      },
+      {
+        "line": 83,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He learned to cook last year as he doesn't now."
+      },
+      {
+        "line": 92,
+        "type": "TRUNCATED_END",
+        "content": "Amy wanted to be a dancer, as she is now a"
+      }
+    ]
+  },
+  {
+    "unit": "081",
+    "title": "접속사 before, after, until, since",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 124,
+        "type": "TRUNCATED_END",
+        "content": "He went to bed after he took a bath., He took a"
+      }
+    ]
+  },
+  {
+    "unit": "082",
+    "title": "접속사 because, as, since",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 29,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Since I am very busy, I couldn't answer the call."
+      },
+      {
+        "line": 81,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      },
+      {
+        "line": 99,
+        "type": "TRUNCATED_END",
+        "content": "He has been my best friend since I met him in"
+      },
+      {
+        "line": 124,
+        "type": "TRUNCATED_END",
+        "content": "Tom prepared gloves because it was"
+      },
+      {
+        "line": 134,
+        "type": "ENDS_WITH_COMMA",
+        "content": "He doesn't doubt her because he believes her.,"
+      },
+      {
+        "line": 134,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He doesn't doubt her because he believes her.,"
+      },
+      {
+        "line": 156,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      }
+    ]
+  },
+  {
+    "unit": "083",
+    "title": "접속사 so~that~, so that~",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "so - that"
+      },
+      {
+        "line": 14,
+        "type": "TRUNCATED_END",
+        "content": "so - that"
+      },
+      {
+        "line": 21,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      },
+      {
+        "line": 41,
+        "type": "TRUNCATED_END",
+        "content": "She can't drive because she is so young., She is too"
+      },
+      {
+        "line": 41,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She can't drive because she is so young., She is too"
+      },
+      {
+        "line": 61,
+        "type": "TRUNCATED_END",
+        "content": "I woke up early not to miss the bus., I woke up early in"
+      },
+      {
+        "line": 70,
+        "type": "TRUNCATED_END",
+        "content": "The stadium was enough crowded that I"
+      },
+      {
+        "line": 88,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      },
+      {
+        "line": 98,
+        "type": "TRUNCATED_END",
+        "content": "We did many tests in order to succeed in the"
+      },
+      {
+        "line": 109,
+        "type": "TRUNCATED_END",
+        "content": "He studies French so that he can go to France., He"
+      },
+      {
+        "line": 116,
+        "type": "TRUNCATED_END",
+        "content": "so - that"
+      },
+      {
+        "line": 123,
+        "type": "TRUNCATED_END",
+        "content": "so"
+      },
+      {
+        "line": 130,
+        "type": "TRUNCATED_END",
+        "content": "such → so"
+      },
+      {
+        "line": 136,
+        "type": "TRUNCATED_END",
+        "content": "what → that"
+      },
+      {
+        "line": 153,
+        "type": "TRUNCATED_END",
+        "content": "He is so young that he can't go to camp alone. ., He is too"
+      },
+      {
+        "line": 153,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He is so young that he can't go to camp alone. ., He is too"
+      },
+      {
+        "line": 172,
+        "type": "TRUNCATED_END",
+        "content": "She is so kind that everyone likes her., He found a"
+      }
+    ]
+  },
+  {
+    "unit": "084",
+    "title": "접속사 if, unless",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 51,
+        "type": "UNMATCHED_QUOTE",
+        "content": "We'll see him if he came here."
+      },
+      {
+        "line": 69,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Unless he texts me, I'll reply right away."
+      },
+      {
+        "line": 78,
+        "type": "TRUNCATED_END",
+        "content": "Unless you arrive on time, you won't see the"
+      },
+      {
+        "line": 78,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Unless you arrive on time, you won't see the"
+      },
+      {
+        "line": 108,
+        "type": "TRUNCATED_END",
+        "content": "If it doesn't rain tomorrow, we will go to the"
+      },
+      {
+        "line": 108,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If it doesn't rain tomorrow, we will go to the"
+      }
+    ]
+  },
+  {
+    "unit": "085",
+    "title": "접속사 though, although, even if",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 60,
+        "type": "TRUNCATED_END",
+        "content": "Though the trail was very steep, we hiked to"
+      },
+      {
+        "line": 70,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Although he did all the work, no one appreciated it.,"
+      },
+      {
+        "line": 131,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Although Tom read the book, he couldn't"
+      },
+      {
+        "line": 141,
+        "type": "TRUNCATED_END",
+        "content": "Even if he is a great student, he should follow the"
+      }
+    ]
+  },
+  {
+    "unit": "086",
+    "title": "접속사 that, whether, if",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 30,
+        "type": "TRUNCATED_END",
+        "content": "that"
+      },
+      {
+        "line": 57,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't know if he can play the drums."
+      },
+      {
+        "line": 75,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wonder if she is a high school student., I'm not"
+      },
+      {
+        "line": 154,
+        "type": "TRUNCATED_END",
+        "content": "if → that"
+      }
+    ]
+  },
+  {
+    "unit": "087",
+    "title": "both A and B, not A but B, not only A but also B",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 53,
+        "type": "TRUNCATED_END",
+        "content": "He gave her not a toy but a book., She ate both a"
+      },
+      {
+        "line": 147,
+        "type": "TRUNCATED_END",
+        "content": "are → is"
+      }
+    ]
+  },
+  {
+    "unit": "088",
+    "title": "either A or B, neither A nor B",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 52,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He doesn't like either horror movies or comedy"
+      },
+      {
+        "line": 91,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Neither Tom nor Amy has a younger sister., I've"
+      }
+    ]
+  },
+  {
+    "unit": "089",
+    "title": "명령문+and, or",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 29,
+        "type": "TRUNCATED_END",
+        "content": "Turn on the radio now, _______ you can hear the"
+      },
+      {
+        "line": 38,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Put on your scarf, or you won't be cold."
+      },
+      {
+        "line": 100,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Don't hurry"
+      },
+      {
+        "line": 109,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Bring an umbrella, or you will get soaked.,"
+      },
+      {
+        "line": 129,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Listen to your teacher's advice, or you will not solve"
+      }
+    ]
+  },
+  {
+    "unit": "090",
+    "title": "전치사 in, on, at (시간)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 5,
+        "type": "TRUNCATED_END",
+        "content": "in"
+      },
+      {
+        "line": 11,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 17,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 24,
+        "type": "TRUNCATED_END",
+        "content": "on - in"
+      },
+      {
+        "line": 31,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 47,
+        "type": "TRUNCATED_END",
+        "content": "in"
+      },
+      {
+        "line": 56,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My family will have a gathering at New Year's Day."
+      },
+      {
+        "line": 62,
+        "type": "TRUNCATED_END",
+        "content": "in"
+      },
+      {
+        "line": 69,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 75,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 91,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 97,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 104,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 111,
+        "type": "TRUNCATED_END",
+        "content": "in - at"
+      },
+      {
+        "line": 128,
+        "type": "TRUNCATED_END",
+        "content": "in → at"
+      },
+      {
+        "line": 135,
+        "type": "TRUNCATED_END",
+        "content": "in → on"
+      },
+      {
+        "line": 141,
+        "type": "TRUNCATED_END",
+        "content": "on → in"
+      }
+    ]
+  },
+  {
+    "unit": "091",
+    "title": "전치사 before, after, for, during, until, by",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 28,
+        "type": "TRUNCATED_END",
+        "content": "during - for"
+      },
+      {
+        "line": 67,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 88,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She finished the report by four o'clock."
+      },
+      {
+        "line": 119,
+        "type": "UNMATCHED_QUOTE",
+        "content": "We've not heard the result until now."
+      }
+    ]
+  },
+  {
+    "unit": "092",
+    "title": "전치사 in, on, at (장소)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 5,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 11,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 17,
+        "type": "TRUNCATED_END",
+        "content": "in"
+      },
+      {
+        "line": 24,
+        "type": "TRUNCATED_END",
+        "content": "in - on"
+      },
+      {
+        "line": 31,
+        "type": "TRUNCATED_END",
+        "content": "on - in"
+      },
+      {
+        "line": 38,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 47,
+        "type": "TRUNCATED_END",
+        "content": "They lives at Busan., There are many animals on the"
+      },
+      {
+        "line": 54,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 61,
+        "type": "TRUNCATED_END",
+        "content": "on"
+      },
+      {
+        "line": 79,
+        "type": "TRUNCATED_END",
+        "content": "My jacket is hanging on the hook., There is a"
+      },
+      {
+        "line": 107,
+        "type": "TRUNCATED_END",
+        "content": "in"
+      },
+      {
+        "line": 113,
+        "type": "TRUNCATED_END",
+        "content": "in"
+      },
+      {
+        "line": 120,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 126,
+        "type": "TRUNCATED_END",
+        "content": "at"
+      },
+      {
+        "line": 151,
+        "type": "TRUNCATED_END",
+        "content": "on, at, on, in"
+      }
+    ]
+  },
+  {
+    "unit": "093",
+    "title": "전치사 under, over, behind, up, down, across",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 61,
+        "type": "TRUNCATED_END",
+        "content": "The balloon floated up., A river flows down the"
+      },
+      {
+        "line": 69,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      }
+    ]
+  },
+  {
+    "unit": "094",
+    "title": "전치사 in front of, next to, between, from~to",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 7,
+        "type": "TRUNCATED_END",
+        "content": "in front of"
+      },
+      {
+        "line": 21,
+        "type": "TRUNCATED_END",
+        "content": "next to"
+      },
+      {
+        "line": 113,
+        "type": "TRUNCATED_END",
+        "content": "from - to"
+      },
+      {
+        "line": 128,
+        "type": "TRUNCATED_END",
+        "content": "in front of"
+      },
+      {
+        "line": 135,
+        "type": "TRUNCATED_END",
+        "content": "next to"
+      }
+    ]
+  },
+  {
+    "unit": "095",
+    "title": "그 밖의 주요 전치사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 70,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 120,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      },
+      {
+        "line": 125,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      }
+    ]
+  },
+  {
+    "unit": "096",
+    "title": "부가 의문문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 50,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom is playing a game, doesn't he?"
+      },
+      {
+        "line": 59,
+        "type": "UNMATCHED_QUOTE",
+        "content": "This movie is exciting, isn't this?"
+      },
+      {
+        "line": 77,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's have some cookies, shall we?"
+      },
+      {
+        "line": 94,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She will go traveling tomorrow, won't she?"
+      },
+      {
+        "line": 114,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They won't take the bus next week, will they?"
+      },
+      {
+        "line": 124,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Don't swim in this lake, will you?"
+      },
+      {
+        "line": 134,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's go to the library this afternoon, shall we?"
+      },
+      {
+        "line": 144,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He and she visited the gallery, didn't they?"
+      }
+    ]
+  },
+  {
+    "unit": "097",
+    "title": "부정 의문문",
+    "stage": "practiceB",
+    "issues": [
+      {
+        "line": 131,
+        "type": "UNMATCHED_QUOTE",
+        "content": "** A: Doesn't she have curly hair? B: No, she does., A:"
+      }
+    ]
+  },
+  {
+    "unit": "097",
+    "title": "부정 의문문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 35,
+        "type": "UNMATCHED_QUOTE",
+        "content": "they aren't"
+      },
+      {
+        "line": 50,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, he didn't"
+      },
+      {
+        "line": 92,
+        "type": "UNMATCHED_QUOTE",
+        "content": "A: Doesn't she have short hair? B: No, she does., A:"
+      },
+      {
+        "line": 102,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, she is., No, she isn't."
+      },
+      {
+        "line": 112,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Yes, she did., No, she didn't."
+      },
+      {
+        "line": 122,
+        "type": "UNMATCHED_QUOTE",
+        "content": "No, I wasn't., Yes, I was."
+      },
+      {
+        "line": 132,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Can't she solve this puzzle?"
+      },
+      {
+        "line": 142,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Didn't he buy this book?"
+      },
+      {
+        "line": 152,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Didn't they do community service on Saturday?"
+      }
+    ]
+  },
+  {
+    "unit": "098",
+    "title": "선택 의문문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 84,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Does the concert start at 5 or 6 o'clock?"
+      }
+    ]
+  },
+  {
+    "unit": "099",
+    "title": "간접 의문문 1",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 47,
+        "type": "TRUNCATED_END",
+        "content": "why she was"
+      },
+      {
+        "line": 93,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I'm not sure what does she study."
+      }
+    ]
+  },
+  {
+    "unit": "100",
+    "title": "간접 의문문 2",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 26,
+        "type": "TRUNCATED_END",
+        "content": "what made her"
+      },
+      {
+        "line": 33,
+        "type": "TRUNCATED_END",
+        "content": "whether she is"
+      },
+      {
+        "line": 73,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't know how tall you are."
+      }
+    ]
+  },
+  {
+    "unit": "101",
+    "title": "감탄문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 111,
+        "type": "UNMATCHED_QUOTE",
+        "content": "You're so brave!, How brave you are!"
+      }
+    ]
+  },
+  {
+    "unit": "102",
+    "title": "명령문, 제안문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 27,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's not open"
+      },
+      {
+        "line": 70,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Save it, or you'll lose it."
+      },
+      {
+        "line": 79,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Don't drew on the board."
+      },
+      {
+        "line": 88,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's talking about it."
+      },
+      {
+        "line": 97,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's go to the concert."
+      },
+      {
+        "line": 107,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Don't ride a skateboard here."
+      },
+      {
+        "line": 127,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's send a text to the teacher."
+      },
+      {
+        "line": 137,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Let's not be late for class."
+      }
+    ]
+  },
+  {
+    "unit": "104",
+    "title": "감각동사+형용사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 29,
+        "type": "UNMATCHED_QUOTE",
+        "content": "My mom's voice sounded a stranger that morning., My"
+      },
+      {
+        "line": 126,
+        "type": "UNMATCHED_QUOTE",
+        "content": "The coach's voice sounded firm."
+      },
+      {
+        "line": 135,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom's backpack looked costly."
+      }
+    ]
+  },
+  {
+    "unit": "105",
+    "title": "3형식, 4형식",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 35,
+        "type": "ENDS_WITH_COMMA",
+        "content": "The baker always bakes delicious bread customers.,"
+      },
+      {
+        "line": 132,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I didn't know the answer."
+      },
+      {
+        "line": 159,
+        "type": "ENDS_WITH_COMMA",
+        "content": "I bought my brother a box of chocolates at the store.,"
+      }
+    ]
+  },
+  {
+    "unit": "106",
+    "title": "4형식의 3형식 전환",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 5,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      },
+      {
+        "line": 11,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 17,
+        "type": "TRUNCATED_END",
+        "content": "of"
+      },
+      {
+        "line": 54,
+        "type": "TRUNCATED_END",
+        "content": "to - for"
+      },
+      {
+        "line": 61,
+        "type": "TRUNCATED_END",
+        "content": "to - to"
+      },
+      {
+        "line": 142,
+        "type": "TRUNCATED_END",
+        "content": "for → to"
+      },
+      {
+        "line": 152,
+        "type": "TRUNCATED_END",
+        "content": "for, to, for, for"
+      },
+      {
+        "line": 162,
+        "type": "TRUNCATED_END",
+        "content": "of, to, to, to"
+      }
+    ]
+  },
+  {
+    "unit": "108",
+    "title": "5형식 목적격 보어의 형태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 49,
+        "type": "ENDS_WITH_COMMA",
+        "content": "The coach had the player to run the lap.,"
+      }
+    ]
+  },
+  {
+    "unit": "110",
+    "title": "비교급+than, 비교급 강조",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 118,
+        "type": "UNMATCHED_QUOTE",
+        "content": "His desk is a lot cleaner than his sister's."
+      },
+      {
+        "line": 148,
+        "type": "TRUNCATED_END",
+        "content": "as → than"
+      }
+    ]
+  },
+  {
+    "unit": "111",
+    "title": "the+최상급",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 62,
+        "type": "UNMATCHED_QUOTE",
+        "content": "The coach's explanation is the clearest to me."
+      }
+    ]
+  },
+  {
+    "unit": "112",
+    "title": "배수사 비교 표현",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 41,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom's backpack was three times as heavier as mine."
+      },
+      {
+        "line": 61,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Hiking is five times as tiring as running.,"
+      },
+      {
+        "line": 111,
+        "type": "TRUNCATED_END",
+        "content": "three, times, faster, than"
+      },
+      {
+        "line": 127,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I can swim twice as faster as Tom can., Amy's"
+      },
+      {
+        "line": 136,
+        "type": "ENDS_WITH_COMMA",
+        "content": "This soup is six times more spicy than her soup.,"
+      },
+      {
+        "line": 157,
+        "type": "TRUNCATED_END",
+        "content": "much → more"
+      },
+      {
+        "line": 168,
+        "type": "TRUNCATED_END",
+        "content": "twice, than, noisier, than"
+      }
+    ]
+  },
+  {
+    "unit": "114",
+    "title": "원급, 비교급으로 최상급 표현",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 99,
+        "type": "ENDS_WITH_COMMA",
+        "content": "No other runner in the school is faster than Tom.,"
+      }
+    ]
+  },
+  {
+    "unit": "115",
+    "title": "one of the+최상급+복수명사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 48,
+        "type": "ENDS_WITH_COMMA",
+        "content": "It is the most amazing plan I have ever heard of.,"
+      },
+      {
+        "line": 66,
+        "type": "ENDS_WITH_COMMA",
+        "content": "It is the most comfortable chair I have ever owned.,"
+      },
+      {
+        "line": 144,
+        "type": "TRUNCATED_END",
+        "content": "are → is"
+      }
+    ]
+  },
+  {
+    "unit": "116",
+    "title": "능동태와 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 151,
+        "type": "TRUNCATED_END",
+        "content": "be → was"
+      }
+    ]
+  },
+  {
+    "unit": "117",
+    "title": "과거, 미래시제의 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 165,
+        "type": "TRUNCATED_END",
+        "content": "were → was"
+      }
+    ]
+  },
+  {
+    "unit": "118",
+    "title": "수동태 부정문, 의문문, 조동사 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      },
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "of"
+      },
+      {
+        "line": 27,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      },
+      {
+        "line": 105,
+        "type": "ENDS_WITH_COMMA",
+        "content": "My ID card was shown to the guard by me.,"
+      },
+      {
+        "line": 121,
+        "type": "TRUNCATED_END",
+        "content": "was written to"
+      },
+      {
+        "line": 128,
+        "type": "TRUNCATED_END",
+        "content": "are gotten for"
+      },
+      {
+        "line": 135,
+        "type": "TRUNCATED_END",
+        "content": "was sold to"
+      },
+      {
+        "line": 148,
+        "type": "TRUNCATED_END",
+        "content": "to → for"
+      },
+      {
+        "line": 155,
+        "type": "TRUNCATED_END",
+        "content": "for → to"
+      }
+    ]
+  },
+  {
+    "unit": "119",
+    "title": "4형식 문장의 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      },
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "of"
+      },
+      {
+        "line": 27,
+        "type": "TRUNCATED_END",
+        "content": "to"
+      },
+      {
+        "line": 105,
+        "type": "ENDS_WITH_COMMA",
+        "content": "My passport was shown to the officer by me.,"
+      },
+      {
+        "line": 122,
+        "type": "TRUNCATED_END",
+        "content": "was written to"
+      },
+      {
+        "line": 129,
+        "type": "TRUNCATED_END",
+        "content": "are gotten for"
+      },
+      {
+        "line": 136,
+        "type": "TRUNCATED_END",
+        "content": "was sold to"
+      },
+      {
+        "line": 149,
+        "type": "TRUNCATED_END",
+        "content": "to → for"
+      },
+      {
+        "line": 155,
+        "type": "TRUNCATED_END",
+        "content": "for → to"
+      },
+      {
+        "line": 164,
+        "type": "TRUNCATED_END",
+        "content": "was given, was praised, were handed to her"
+      }
+    ]
+  },
+  {
+    "unit": "121",
+    "title": "지각동사, 사역동사의 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 26,
+        "type": "TRUNCATED_END",
+        "content": "am made to"
+      },
+      {
+        "line": 33,
+        "type": "TRUNCATED_END",
+        "content": "is allowed to"
+      }
+    ]
+  },
+  {
+    "unit": "122",
+    "title": "동사구의 수동태",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "is believed that"
+      },
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "is thought that"
+      },
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "is expected to"
+      },
+      {
+        "line": 27,
+        "type": "TRUNCATED_END",
+        "content": "is reported to"
+      },
+      {
+        "line": 77,
+        "type": "TRUNCATED_END",
+        "content": "is said that"
+      },
+      {
+        "line": 94,
+        "type": "TRUNCATED_END",
+        "content": "is considered that - is considered to"
+      },
+      {
+        "line": 103,
+        "type": "TRUNCATED_END",
+        "content": "is believed that - is believed to"
+      },
+      {
+        "line": 145,
+        "type": "TRUNCATED_END",
+        "content": "is believed that - are believed to"
+      },
+      {
+        "line": 159,
+        "type": "TRUNCATED_END",
+        "content": "It is estimated that"
+      },
+      {
+        "line": 171,
+        "type": "TRUNCATED_END",
+        "content": "That → It"
+      }
+    ]
+  },
+  {
+    "unit": "123",
+    "title": "주격 관계대명사 who, which",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 57,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I accidentally met Ms. Smith who is Tom's mother on the street."
+      },
+      {
+        "line": 142,
+        "type": "TRUNCATED_END",
+        "content": "were → was"
+      }
+    ]
+  },
+  {
+    "unit": "124",
+    "title": "목적격 관계대명사 who(whom), which",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 56,
+        "type": "UNMATCHED_QUOTE",
+        "content": "The boy paid the fine whom he didn't owe."
+      },
+      {
+        "line": 142,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Everything I threw away was not useful to me.,"
+      }
+    ]
+  },
+  {
+    "unit": "125",
+    "title": "소유격 관계대명사 whose",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 151,
+        "type": "TRUNCATED_END",
+        "content": "is → are"
+      }
+    ]
+  },
+  {
+    "unit": "126",
+    "title": "관계대명사 who vs 의문사 who",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 52,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't know who sits next to Tom."
+      },
+      {
+        "line": 80,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She doesn't know whom wrote the email."
+      },
+      {
+        "line": 90,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They didn't recognize who I was."
+      },
+      {
+        "line": 100,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom's sister who drives us to school is very cheerful."
+      },
+      {
+        "line": 131,
+        "type": "TRUNCATED_END",
+        "content": "is that? → that is"
+      }
+    ]
+  },
+  {
+    "unit": "127",
+    "title": "관계대명사 that",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "that"
+      },
+      {
+        "line": 14,
+        "type": "TRUNCATED_END",
+        "content": "whose - that"
+      },
+      {
+        "line": 22,
+        "type": "TRUNCATED_END",
+        "content": "who - that"
+      },
+      {
+        "line": 30,
+        "type": "TRUNCATED_END",
+        "content": "which - that"
+      },
+      {
+        "line": 146,
+        "type": "TRUNCATED_END",
+        "content": "who → that"
+      }
+    ]
+  },
+  {
+    "unit": "128",
+    "title": "관계대명사 that vs 접속사 that",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 7,
+        "type": "TRUNCATED_END",
+        "content": "that"
+      },
+      {
+        "line": 15,
+        "type": "TRUNCATED_END",
+        "content": "that - that"
+      },
+      {
+        "line": 43,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom's sister that entered a famous university sent him"
+      },
+      {
+        "line": 118,
+        "type": "TRUNCATED_END",
+        "content": "which → that"
+      },
+      {
+        "line": 125,
+        "type": "TRUNCATED_END",
+        "content": "what → that"
+      },
+      {
+        "line": 145,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I am certain that Tom didn't skip the class."
+      }
+    ]
+  },
+  {
+    "unit": "129",
+    "title": "관계대명사 what",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 79,
+        "type": "ENDS_WITH_COMMA",
+        "content": "That is exactly the thing that I wanted to show you.,"
+      },
+      {
+        "line": 103,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They don't believe ________ the project will be"
+      },
+      {
+        "line": 135,
+        "type": "TRUNCATED_END",
+        "content": "what → that"
+      }
+    ]
+  },
+  {
+    "unit": "130",
+    "title": "관계대명사 what vs 의문사 what",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 14,
+        "type": "TRUNCATED_END",
+        "content": "what - that"
+      },
+      {
+        "line": 154,
+        "type": "TRUNCATED_END",
+        "content": "what → that"
+      }
+    ]
+  },
+  {
+    "unit": "131",
+    "title": "관계대명사의 생략",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 17,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Tom is the most popular boy whom many students like.,"
+      },
+      {
+        "line": 42,
+        "type": "TRUNCATED_END",
+        "content": "that"
+      },
+      {
+        "line": 49,
+        "type": "TRUNCATED_END",
+        "content": "who is"
+      },
+      {
+        "line": 129,
+        "type": "TRUNCATED_END",
+        "content": "who is, that is"
+      },
+      {
+        "line": 143,
+        "type": "TRUNCATED_END",
+        "content": "which is - that"
+      },
+      {
+        "line": 151,
+        "type": "TRUNCATED_END",
+        "content": "whom - which is"
+      }
+    ]
+  },
+  {
+    "unit": "133",
+    "title": "전치사+관계대명사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 47,
+        "type": "ENDS_WITH_COMMA",
+        "content": "The boy at who I was staring suddenly waved at me.,"
+      }
+    ]
+  },
+  {
+    "unit": "134",
+    "title": "복합관계대명사 whoever, whichever, whatever",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 73,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Amy does whatever she can do to finish the project.,"
+      },
+      {
+        "line": 82,
+        "type": "ENDS_WITH_COMMA",
+        "content": "My family watches anything that my sister recommends.,"
+      }
+    ]
+  },
+  {
+    "unit": "135",
+    "title": "관계부사 when, where",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 32,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She'll go to the park in where I went to yesterday."
+      },
+      {
+        "line": 41,
+        "type": "UNMATCHED_QUOTE",
+        "content": "New Year's Day is the day which people celebrate."
+      },
+      {
+        "line": 117,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Do you know the shop in which I can buy a guitar?,"
+      }
+    ]
+  },
+  {
+    "unit": "136",
+    "title": "관계부사 why, how",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 23,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 30,
+        "type": "TRUNCATED_END",
+        "content": "for"
+      },
+      {
+        "line": 39,
+        "type": "UNMATCHED_QUOTE",
+        "content": "They don't understand the way how she solved"
+      },
+      {
+        "line": 57,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I don't know how they solved the puzzle., She wonders"
+      },
+      {
+        "line": 90,
+        "type": "ENDS_WITH_COMMA",
+        "content": "That's the reason why Amy lives in the countryside.,"
+      },
+      {
+        "line": 90,
+        "type": "UNMATCHED_QUOTE",
+        "content": "That's the reason why Amy lives in the countryside.,"
+      },
+      {
+        "line": 142,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She couldn't explain the reason why this plan failed."
+      }
+    ]
+  },
+  {
+    "unit": "137",
+    "title": "관계부사와 선행사의 생략",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 8,
+        "type": "ENDS_WITH_COMMA",
+        "content": "April is the month when cherry blossoms begin to bloom.,"
+      },
+      {
+        "line": 123,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tell me the reason you didn't join the practice."
+      },
+      {
+        "line": 163,
+        "type": "UNMATCHED_QUOTE",
+        "content": "That's the place which I used to ride my bike."
+      }
+    ]
+  },
+  {
+    "unit": "138",
+    "title": "복합관계부사 whenever, wherever, however",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 61,
+        "type": "UNMATCHED_QUOTE",
+        "content": "_______ happens, he's not worried."
+      },
+      {
+        "line": 67,
+        "type": "UNMATCHED_QUOTE",
+        "content": "________ much they yelled, he couldn't hear it."
+      }
+    ]
+  },
+  {
+    "unit": "139",
+    "title": "현재분사와 과거분사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 73,
+        "type": "UNMATCHED_QUOTE",
+        "content": "We accept that disappointed result., We can't forget"
+      }
+    ]
+  },
+  {
+    "unit": "141",
+    "title": "감정을 나타내는 분사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 83,
+        "type": "UNMATCHED_QUOTE",
+        "content": "It's embarrassed when I have to ask people for money."
+      },
+      {
+        "line": 128,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I'm pleasing to see you again."
+      }
+    ]
+  },
+  {
+    "unit": "142",
+    "title": "분사구문 만드는 법",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 16,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Because I was sick, I didn't go to the field trip last"
+      },
+      {
+        "line": 85,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Because she is too young, Amy cannot cook alone.,"
+      },
+      {
+        "line": 94,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Practicing not hard, you can't win the match."
+      },
+      {
+        "line": 118,
+        "type": "UNMATCHED_QUOTE",
+        "content": "As they didn't have anything to eat, they sat quietly at the table."
+      }
+    ]
+  },
+  {
+    "unit": "143",
+    "title": "분사구문 (때, 이유)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "Because I admire her, Since I admire her"
+      },
+      {
+        "line": 13,
+        "type": "ENDS_WITH_COMMA",
+        "content": "When she entered the classroom,"
+      }
+    ]
+  },
+  {
+    "unit": "144",
+    "title": "분사구문 (조건, 양보)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 114,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Having the ticket, she didn't use it."
+      }
+    ]
+  },
+  {
+    "unit": "145",
+    "title": "분사구문 (동시동작, 연속상황)",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 75,
+        "type": "ENDS_WITH_COMMA",
+        "content": "While he was baking in the kitchen,"
+      }
+    ]
+  },
+  {
+    "unit": "146",
+    "title": "독립분사구문, with+목적어+분사",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 50,
+        "type": "TRUNCATED_END",
+        "content": "with the AC turned on"
+      },
+      {
+        "line": 60,
+        "type": "UNMATCHED_QUOTE",
+        "content": "When Amy needed help, her mother's encouragement was a huge help."
+      },
+      {
+        "line": 70,
+        "type": "UNMATCHED_QUOTE",
+        "content": "With the bridge broken, I couldn't walk on it."
+      }
+    ]
+  },
+  {
+    "unit": "147",
+    "title": "가정법 과거",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "would call her"
+      },
+      {
+        "line": 149,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If we had enough money, we wouldn't have to hurry."
+      },
+      {
+        "line": 167,
+        "type": "TRUNCATED_END",
+        "content": "If I were you, I would apologize to her., I might change the"
+      },
+      {
+        "line": 176,
+        "type": "TRUNCATED_END",
+        "content": "What will you do if you were in my shoes?, If it was"
+      }
+    ]
+  },
+  {
+    "unit": "148",
+    "title": "가정법 과거완료",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 13,
+        "type": "UNMATCHED_QUOTE",
+        "content": "wouldn't have missed the train"
+      },
+      {
+        "line": 34,
+        "type": "UNMATCHED_QUOTE",
+        "content": "had brought - wouldn't have gotten"
+      },
+      {
+        "line": 44,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If I had studied hard, I wouldn't have failed the exam."
+      },
+      {
+        "line": 82,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If she has brought a jacket, she wouldn't have been"
+      },
+      {
+        "line": 120,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If she had not eaten too much, she won't have felt sick., If they prepared"
+      },
+      {
+        "line": 153,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If I had read the instructions, I wouldn't have made a mistake., If they had planned ahead"
+      },
+      {
+        "line": 163,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If she had listened to my advice, she wouldn't have made"
+      },
+      {
+        "line": 170,
+        "type": "UNMATCHED_QUOTE",
+        "content": "had caught - wouldn't have been"
+      }
+    ]
+  },
+  {
+    "unit": "149",
+    "title": "I wish+가정법 과거",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 5,
+        "type": "TRUNCATED_END",
+        "content": "were"
+      },
+      {
+        "line": 18,
+        "type": "UNMATCHED_QUOTE",
+        "content": "didn't fail"
+      },
+      {
+        "line": 25,
+        "type": "UNMATCHED_QUOTE",
+        "content": "didn't have to clean"
+      },
+      {
+        "line": 81,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wish the girl wouldn't try such a risky activity."
+      },
+      {
+        "line": 99,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wish my sister doesn't spend money carelessly."
+      },
+      {
+        "line": 156,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wish the coach didn't give us extra practice."
+      },
+      {
+        "line": 162,
+        "type": "TRUNCATED_END",
+        "content": "is → were"
+      }
+    ]
+  },
+  {
+    "unit": "150",
+    "title": "I wish+가정법 과거완료",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 28,
+        "type": "UNMATCHED_QUOTE",
+        "content": "hadn't spent"
+      },
+      {
+        "line": 46,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wish I hadn't eaten too much cake for dessert."
+      },
+      {
+        "line": 66,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wish you hadn't sold the guitar yesterday."
+      },
+      {
+        "line": 86,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I wish you hadn't missed the flight."
+      }
+    ]
+  },
+  {
+    "unit": "151",
+    "title": "as if+가정법 과거",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "were"
+      },
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "were"
+      },
+      {
+        "line": 64,
+        "type": "TRUNCATED_END",
+        "content": "She behaves as if she had a close friendship with her"
+      },
+      {
+        "line": 74,
+        "type": "UNMATCHED_QUOTE",
+        "content": "In fact, they don't understand the topic."
+      },
+      {
+        "line": 93,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She treats me as if I'm her daughter."
+      }
+    ]
+  },
+  {
+    "unit": "152",
+    "title": "as if+가정법 과거완료",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 61,
+        "type": "TRUNCATED_END",
+        "content": "He talks as if he had traveled abroad when he was"
+      },
+      {
+        "line": 71,
+        "type": "TRUNCATED_END",
+        "content": "She behaves as if she had not been responsible for"
+      },
+      {
+        "line": 156,
+        "type": "TRUNCATED_END",
+        "content": "My brother behaved as if he were my father when I"
+      },
+      {
+        "line": 165,
+        "type": "TRUNCATED_END",
+        "content": "he talked as if he had lived in Paris when he was"
+      }
+    ]
+  },
+  {
+    "unit": "153",
+    "title": "without+가정법 과거",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 19,
+        "type": "TRUNCATED_END",
+        "content": "If it were for"
+      },
+      {
+        "line": 26,
+        "type": "TRUNCATED_END",
+        "content": "If it were not for"
+      },
+      {
+        "line": 33,
+        "type": "TRUNCATED_END",
+        "content": "If it were not for"
+      },
+      {
+        "line": 43,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If it were not for the helmet, I couldn't ride the motorcycle safely., But for the helmet"
+      },
+      {
+        "line": 73,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Without my brother's encouragement, I couldn't join, If it were not for my brother's encouragement"
+      },
+      {
+        "line": 83,
+        "type": "TRUNCATED_END",
+        "content": "Without my contact lenses, I couldn't see the board., Because I"
+      },
+      {
+        "line": 83,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Without my contact lenses, I couldn't see the board., Because I"
+      },
+      {
+        "line": 128,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If it were not for maps, we can't find our way easily"
+      },
+      {
+        "line": 168,
+        "type": "UNMATCHED_QUOTE",
+        "content": "But for this tool, my grandfather wouldn't be able"
+      },
+      {
+        "line": 178,
+        "type": "ENDS_WITH_COMMA",
+        "content": "Without the ladder, we couldn't climb the roof.,"
+      },
+      {
+        "line": 178,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Without the ladder, we couldn't climb the roof.,"
+      }
+    ]
+  },
+  {
+    "unit": "154",
+    "title": "without+가정법 과거완료",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "UNMATCHED_QUOTE",
+        "content": "couldn't have succeeded"
+      },
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "Without, But for"
+      },
+      {
+        "line": 27,
+        "type": "TRUNCATED_END",
+        "content": "If it were not for"
+      },
+      {
+        "line": 34,
+        "type": "TRUNCATED_END",
+        "content": "If it had not been for"
+      },
+      {
+        "line": 84,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Without the storm, the festival wouldn't have"
+      },
+      {
+        "line": 121,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Without our donations, we couldn't have completed, If it had not been for our donations"
+      },
+      {
+        "line": 159,
+        "type": "TRUNCATED_END",
+        "content": "If it were not for the booking, we would wait for a"
+      }
+    ]
+  },
+  {
+    "unit": "155",
+    "title": "혼합가정법",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 13,
+        "type": "UNMATCHED_QUOTE",
+        "content": "wouldn't be"
+      },
+      {
+        "line": 44,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If I hadn't used all my savings, I could buy the shoes."
+      },
+      {
+        "line": 54,
+        "type": "TRUNCATED_END",
+        "content": "If my sister hadn't deleted my files, I could finish the"
+      },
+      {
+        "line": 54,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If my sister hadn't deleted my files, I could finish the"
+      },
+      {
+        "line": 64,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If my friend had kept her word, I wouldn't be"
+      },
+      {
+        "line": 84,
+        "type": "TRUNCATED_END",
+        "content": "If you had memorized the vocabulary, you could pass my"
+      },
+      {
+        "line": 102,
+        "type": "TRUNCATED_END",
+        "content": "If I had driven slowly, I wouldn't have been in the"
+      },
+      {
+        "line": 102,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If I had driven slowly, I wouldn't have been in the"
+      },
+      {
+        "line": 139,
+        "type": "TRUNCATED_END",
+        "content": "If she had kept her promise then, I could believe her"
+      },
+      {
+        "line": 159,
+        "type": "UNMATCHED_QUOTE",
+        "content": "If you hadn't helped with his assignment then, he would"
+      }
+    ]
+  },
+  {
+    "unit": "156",
+    "title": "if의 생략",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 57,
+        "type": "ENDS_WITH_COMMA",
+        "content": "If I had taken the bus, I could have been there on time.,"
+      },
+      {
+        "line": 67,
+        "type": "ENDS_WITH_COMMA",
+        "content": "As we don't have the money, we won't go to Japan.,"
+      },
+      {
+        "line": 87,
+        "type": "TRUNCATED_END",
+        "content": "Were I famous, I would meet my fans., If I were famous, I"
+      },
+      {
+        "line": 97,
+        "type": "TRUNCATED_END",
+        "content": "If it were not for heavy snow, we would be at the"
+      },
+      {
+        "line": 124,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Had she been notified earlier, she wouldn't be confused."
+      },
+      {
+        "line": 133,
+        "type": "TRUNCATED_END",
+        "content": "Were Amy not exhausted, she would have gone to"
+      },
+      {
+        "line": 152,
+        "type": "TRUNCATED_END",
+        "content": "Had she passed the interview, we could have seen her"
+      }
+    ]
+  },
+  {
+    "unit": "157",
+    "title": "시제의 일치",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 51,
+        "type": "TRUNCATED_END",
+        "content": "is, was"
+      },
+      {
+        "line": 68,
+        "type": "TRUNCATED_END",
+        "content": "The students said that they wanted to visit the"
+      },
+      {
+        "line": 78,
+        "type": "TRUNCATED_END",
+        "content": "I thought that the player had not been ready for the"
+      }
+    ]
+  },
+  {
+    "unit": "158",
+    "title": "수의 일치",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 6,
+        "type": "TRUNCATED_END",
+        "content": "has - is"
+      },
+      {
+        "line": 20,
+        "type": "TRUNCATED_END",
+        "content": "are - is"
+      },
+      {
+        "line": 35,
+        "type": "TRUNCATED_END",
+        "content": "has - are"
+      },
+      {
+        "line": 98,
+        "type": "TRUNCATED_END",
+        "content": "Both you and she are expected to attend the"
+      },
+      {
+        "line": 145,
+        "type": "TRUNCATED_END",
+        "content": "All of my belongings is in the locker., No one are"
+      },
+      {
+        "line": 154,
+        "type": "TRUNCATED_END",
+        "content": "How much time is we allowed to use for the"
+      },
+      {
+        "line": 161,
+        "type": "TRUNCATED_END",
+        "content": "are → is"
+      }
+    ]
+  },
+  {
+    "unit": "159",
+    "title": "평서문의 화법전환",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 13,
+        "type": "TRUNCATED_END",
+        "content": "she was"
+      },
+      {
+        "line": 20,
+        "type": "UNMATCHED_QUOTE",
+        "content": "I haven't visited"
+      },
+      {
+        "line": 34,
+        "type": "TRUNCATED_END",
+        "content": "tells - he - her"
+      },
+      {
+        "line": 41,
+        "type": "UNMATCHED_QUOTE",
+        "content": "told - he - didn't have"
+      },
+      {
+        "line": 48,
+        "type": "UNMATCHED_QUOTE",
+        "content": "said to - haven't completed"
+      },
+      {
+        "line": 55,
+        "type": "TRUNCATED_END",
+        "content": "told - she - was"
+      },
+      {
+        "line": 141,
+        "type": "TRUNCATED_END",
+        "content": "says, she, will, her"
+      }
+    ]
+  },
+  {
+    "unit": "160",
+    "title": "의문문의 화법전환",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 19,
+        "type": "TRUNCATED_END",
+        "content": "my graduation was"
+      },
+      {
+        "line": 47,
+        "type": "TRUNCATED_END",
+        "content": "asked - who would lead the"
+      },
+      {
+        "line": 75,
+        "type": "TRUNCATED_END",
+        "content": "asked - why - she - had been - her"
+      },
+      {
+        "line": 89,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He said to me, \"What did you do in summer last"
+      },
+      {
+        "line": 128,
+        "type": "UNMATCHED_QUOTE",
+        "content": "She said to him, \"Did you visit my house last"
+      }
+    ]
+  },
+  {
+    "unit": "161",
+    "title": "명령문의 화법전환",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 34,
+        "type": "TRUNCATED_END",
+        "content": "told - to put - his"
+      },
+      {
+        "line": 55,
+        "type": "TRUNCATED_END",
+        "content": "advised - to watch out - was"
+      },
+      {
+        "line": 101,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He said to her, \"Please pass these notes to your"
+      },
+      {
+        "line": 110,
+        "type": "TRUNCATED_END",
+        "content": "He said to me, \"Please be well prepared for the"
+      },
+      {
+        "line": 110,
+        "type": "UNMATCHED_QUOTE",
+        "content": "He said to me, \"Please be well prepared for the"
+      }
+    ]
+  },
+  {
+    "unit": "162",
+    "title": "강조구문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 53,
+        "type": "TRUNCATED_END",
+        "content": "It"
+      },
+      {
+        "line": 103,
+        "type": "TRUNCATED_END",
+        "content": "It is in Tokyo where one of Amy's brothers lives., It is in"
+      },
+      {
+        "line": 103,
+        "type": "UNMATCHED_QUOTE",
+        "content": "It is in Tokyo where one of Amy's brothers lives., It is in"
+      },
+      {
+        "line": 157,
+        "type": "TRUNCATED_END",
+        "content": "내가 작년에 그녀를 만났던 곳은 바로 그 카페였다. → It was"
+      }
+    ]
+  },
+  {
+    "unit": "163",
+    "title": "부정구문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 25,
+        "type": "TRUNCATED_END",
+        "content": "is, was"
+      },
+      {
+        "line": 72,
+        "type": "TRUNCATED_END",
+        "content": "Not all movies are worth watching., Not every movie is"
+      },
+      {
+        "line": 95,
+        "type": "TRUNCATED_END",
+        "content": "Not every readers were satisfied with the"
+      },
+      {
+        "line": 149,
+        "type": "TRUNCATED_END",
+        "content": "Not all the students were aware of the deadline of"
+      },
+      {
+        "line": 157,
+        "type": "TRUNCATED_END",
+        "content": "Not - are"
+      }
+    ]
+  },
+  {
+    "unit": "164",
+    "title": "도치구문",
+    "stage": "practical",
+    "issues": [
+      {
+        "line": 12,
+        "type": "TRUNCATED_END",
+        "content": "so do I"
+      },
+      {
+        "line": 135,
+        "type": "UNMATCHED_QUOTE",
+        "content": "Tom didn't go to practice, and neither did I."
+      },
+      {
+        "line": 162,
+        "type": "TRUNCATED_END",
+        "content": "Hardly I believed that I would see her at the"
+      }
+    ]
+  }
+]

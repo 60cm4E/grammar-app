@@ -1,0 +1,982 @@
+[
+  {
+    "unit": "004",
+    "stage": "descriptive",
+    "line": 71,
+    "reason": "Ends with article/prep/conj",
+    "answer": "wasn't, aren't, am not, isn't, am not"
+  },
+  {
+    "unit": "012",
+    "stage": "descriptive",
+    "line": 82,
+    "reason": "Ends with article/prep/conj",
+    "answer": "doesn't have, doesn't live, don't meet, didn't have"
+  },
+  {
+    "unit": "013",
+    "stage": "practiceB",
+    "line": 116,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Does, this, bus, go, it, does"
+  },
+  {
+    "unit": "014",
+    "stage": "practiceB",
+    "line": 202,
+    "reason": "Ends with article/prep/conj",
+    "answer": "This, Whose, hers, Who, Her"
+  },
+  {
+    "unit": "015",
+    "stage": "descriptive",
+    "line": 146,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Which / do / you / prefer, / a library / or / a"
+  },
+  {
+    "unit": "015",
+    "stage": "descriptive",
+    "line": 162,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Which, room, do, you, use, or"
+  },
+  {
+    "unit": "016",
+    "stage": "practiceA",
+    "line": 118,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Which / class / are / you / in"
+  },
+  {
+    "unit": "018",
+    "stage": "practiceA",
+    "line": 125,
+    "reason": "Ends with article/prep/conj",
+    "answer": "How, much, money, do, you, have"
+  },
+  {
+    "unit": "018",
+    "stage": "practiceB",
+    "line": 200,
+    "reason": "Ends with article/prep/conj",
+    "answer": "What does, is wearing, How tall, is, He is"
+  },
+  {
+    "unit": "022",
+    "stage": "descriptive",
+    "line": 39,
+    "reason": "Ends with article/prep/conj",
+    "answer": "a, bottle, of, a, bowl, of"
+  },
+  {
+    "unit": "022",
+    "stage": "descriptive",
+    "line": 49,
+    "reason": "Ends with article/prep/conj",
+    "answer": "two, pairs, of, two, pairs, of"
+  },
+  {
+    "unit": "022",
+    "stage": "descriptive",
+    "line": 99,
+    "reason": "Ends with article/prep/conj",
+    "answer": "① a glass of ② a piece of ③ a cup of ④ two slices of"
+  },
+  {
+    "unit": "022",
+    "stage": "descriptive",
+    "line": 115,
+    "reason": "Ends with article/prep/conj",
+    "answer": "a pair of, a bar of, a stick of, a bowl of, a pair of"
+  },
+  {
+    "unit": "024",
+    "stage": "practiceB",
+    "line": 196,
+    "reason": "Ends with article/prep/conj",
+    "answer": "a shop, the time, a watch, a man, the man, the"
+  },
+  {
+    "unit": "024",
+    "stage": "practiceB",
+    "line": 208,
+    "reason": "Ends with article/prep/conj",
+    "answer": "a book, The story, The man, a"
+  },
+  {
+    "unit": "026",
+    "stage": "practiceB",
+    "line": 90,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I lost my bag yesterday. I left it on the bus. I can"
+  },
+  {
+    "unit": "041",
+    "stage": "practiceB",
+    "line": 109,
+    "reason": "Ends with article/prep/conj",
+    "answer": "begins, didn't sleep, want, be"
+  },
+  {
+    "unit": "043",
+    "stage": "practiceB",
+    "line": 115,
+    "reason": "Ends with article/prep/conj",
+    "answer": "fitting, needs, going, are"
+  },
+  {
+    "unit": "044",
+    "stage": "practiceB",
+    "line": 113,
+    "reason": "Ends with article/prep/conj",
+    "answer": "have, been, talking, about"
+  },
+  {
+    "unit": "045",
+    "stage": "descriptive",
+    "line": 46,
+    "reason": "Ends with article/prep/conj",
+    "answer": "have, known, each, other, for"
+  },
+  {
+    "unit": "045",
+    "stage": "descriptive",
+    "line": 161,
+    "reason": "Ends with article/prep/conj",
+    "answer": "has, heard, the, story, of, the, movie, before"
+  },
+  {
+    "unit": "047",
+    "stage": "practiceA",
+    "line": 139,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Has / he / ever / seen / snow / before"
+  },
+  {
+    "unit": "047",
+    "stage": "practiceB",
+    "line": 24,
+    "reason": "Ends with article/prep/conj",
+    "answer": "① Has she already visited ② has"
+  },
+  {
+    "unit": "047",
+    "stage": "practiceB",
+    "line": 51,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Have, ever, traveled, have, been"
+  },
+  {
+    "unit": "049",
+    "stage": "practiceB",
+    "line": 207,
+    "reason": "Ends with article/prep/conj",
+    "answer": "took, had participated, made, is"
+  },
+  {
+    "unit": "050",
+    "stage": "practiceB",
+    "line": 233,
+    "reason": "Ends with article/prep/conj",
+    "answer": "was, won, had tried, made, was"
+  },
+  {
+    "unit": "051",
+    "stage": "practiceA",
+    "line": 94,
+    "reason": "Ends with article/prep/conj",
+    "answer": "She / hadn't / studied / for / the / exam / before"
+  },
+  {
+    "unit": "051",
+    "stage": "practiceA",
+    "line": 100,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Had / he / ever / seen / a / musical / before"
+  },
+  {
+    "unit": "051",
+    "stage": "practiceA",
+    "line": 106,
+    "reason": "Ends with article/prep/conj",
+    "answer": "We / hadn't / been / to / that / restaurant / before"
+  },
+  {
+    "unit": "056",
+    "stage": "practiceB",
+    "line": 158,
+    "reason": "Ends with article/prep/conj",
+    "answer": "have, got, received, doesn't have to, have to"
+  },
+  {
+    "unit": "058",
+    "stage": "practiceB",
+    "line": 175,
+    "reason": "Ends with article/prep/conj",
+    "answer": "used to play, used to be, is"
+  },
+  {
+    "unit": "058",
+    "stage": "descriptive",
+    "line": 92,
+    "reason": "Ends with article/prep/conj",
+    "answer": "was, used to talk, would talk, has gone, would like to"
+  },
+  {
+    "unit": "060",
+    "stage": "descriptive",
+    "line": 71,
+    "reason": "Ends with article/prep/conj",
+    "answer": "to become, to make (making), to listen (listening), to"
+  },
+  {
+    "unit": "061",
+    "stage": "practiceB",
+    "line": 70,
+    "reason": "Ends with article/prep/conj",
+    "answer": "not, to, pay, attention, to"
+  },
+  {
+    "unit": "063",
+    "stage": "practiceA",
+    "line": 106,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / need / a / friend / to / play / with"
+  },
+  {
+    "unit": "063",
+    "stage": "practiceA",
+    "line": 118,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Please / lend / me / a / pen / to / write / with"
+  },
+  {
+    "unit": "063",
+    "stage": "practiceB",
+    "line": 186,
+    "reason": "Ends with article/prep/conj",
+    "answer": "to spend, to visit, to enjoy, to come, to take care of"
+  },
+  {
+    "unit": "063",
+    "stage": "descriptive",
+    "line": 91,
+    "reason": "Ends with article/prep/conj",
+    "answer": "to listen to, to play, to join, to be, to do"
+  },
+  {
+    "unit": "064",
+    "stage": "practiceB",
+    "line": 99,
+    "reason": "Ends with article/prep/conj",
+    "answer": "My grandfather needs a cane to walk with"
+  },
+  {
+    "unit": "064",
+    "stage": "practiceB",
+    "line": 212,
+    "reason": "Ends with article/prep/conj",
+    "answer": "not in order → in order not"
+  },
+  {
+    "unit": "065",
+    "stage": "practiceA",
+    "line": 100,
+    "reason": "Ends with article/prep/conj",
+    "answer": "You / must / be / brave / to / do / that"
+  },
+  {
+    "unit": "066",
+    "stage": "practiceA",
+    "line": 112,
+    "reason": "Ends with article/prep/conj",
+    "answer": "The / song / is / good / to / listen / to"
+  },
+  {
+    "unit": "067",
+    "stage": "practiceA",
+    "line": 94,
+    "reason": "Ends with article/prep/conj",
+    "answer": "It / was / brave / of / him / to / do / that"
+  },
+  {
+    "unit": "067",
+    "stage": "practiceA",
+    "line": 118,
+    "reason": "Ends with article/prep/conj",
+    "answer": "It / was / rude / of / her / to / say / that"
+  },
+  {
+    "unit": "067",
+    "stage": "descriptive",
+    "line": 101,
+    "reason": "Ends with article/prep/conj",
+    "answer": "for me, to learn, for me, to memorize, of me, to"
+  },
+  {
+    "unit": "069",
+    "stage": "practiceA",
+    "line": 106,
+    "reason": "Ends with article/prep/conj",
+    "answer": "She / told / him / not / to / call / her"
+  },
+  {
+    "unit": "069",
+    "stage": "descriptive",
+    "line": 147,
+    "reason": "Ends with article/prep/conj",
+    "answer": "allowed, them, to, use, her"
+  },
+  {
+    "unit": "069",
+    "stage": "descriptive",
+    "line": 169,
+    "reason": "Ends with article/prep/conj",
+    "answer": "to have, to take, to do, to be, to be"
+  },
+  {
+    "unit": "071",
+    "stage": "practiceA",
+    "line": 103,
+    "reason": "Ends with article/prep/conj",
+    "answer": "She / seems / to / have / been / here / before"
+  },
+  {
+    "unit": "074",
+    "stage": "practiceB",
+    "line": 223,
+    "reason": "Ends with article/prep/conj",
+    "answer": "On, seeing, to know, is, no, hiding, cannot, help, telling, to do"
+  },
+  {
+    "unit": "074",
+    "stage": "descriptive",
+    "line": 63,
+    "reason": "Ends with article/prep/conj",
+    "answer": "couldn't, help, laughing, at"
+  },
+  {
+    "unit": "077",
+    "stage": "descriptive",
+    "line": 43,
+    "reason": "Ends with article/prep/conj",
+    "answer": "the boy never watering the plants (the boy never to"
+  },
+  {
+    "unit": "081",
+    "stage": "practiceA",
+    "line": 123,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Let's / play / after / the / test / is / over"
+  },
+  {
+    "unit": "081",
+    "stage": "descriptive",
+    "line": 33,
+    "reason": "Ends with article/prep/conj",
+    "answer": "He waved his hand until the train started. (Until the"
+  },
+  {
+    "unit": "083",
+    "stage": "practiceA",
+    "line": 100,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / went / forward / so / that / I / could / see / her"
+  },
+  {
+    "unit": "086",
+    "stage": "descriptive",
+    "line": 60,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Whether, she, called, you, or, not"
+  },
+  {
+    "unit": "089",
+    "stage": "descriptive",
+    "line": 43,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Call, your, mom (mother), or"
+  },
+  {
+    "unit": "089",
+    "stage": "descriptive",
+    "line": 54,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Finish, your, homework, and"
+  },
+  {
+    "unit": "089",
+    "stage": "descriptive",
+    "line": 88,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Contact the hotel staff, and"
+  },
+  {
+    "unit": "099",
+    "stage": "practiceA",
+    "line": 50,
+    "reason": "Ends with article/prep/conj",
+    "answer": "is the library → the library is"
+  },
+  {
+    "unit": "099",
+    "stage": "practiceA",
+    "line": 94,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / don't / know / where / he / is"
+  },
+  {
+    "unit": "099",
+    "stage": "practiceA",
+    "line": 112,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Please / tell / me / where / the / library / is"
+  },
+  {
+    "unit": "099",
+    "stage": "practiceB",
+    "line": 204,
+    "reason": "Ends with article/prep/conj",
+    "answer": "what are they, what they are"
+  },
+  {
+    "unit": "100",
+    "stage": "practiceA",
+    "line": 97,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / don't / know / whether / he / will / come / or / not"
+  },
+  {
+    "unit": "101",
+    "stage": "practiceA",
+    "line": 112,
+    "reason": "Ends with article/prep/conj",
+    "answer": "How / delicious / this / food / is"
+  },
+  {
+    "unit": "101",
+    "stage": "descriptive",
+    "line": 21,
+    "reason": "Ends with article/prep/conj",
+    "answer": "How, clean, this, room, is"
+  },
+  {
+    "unit": "101",
+    "stage": "descriptive",
+    "line": 28,
+    "reason": "Ends with article/prep/conj",
+    "answer": "What, a, heavy, bag, she, has"
+  },
+  {
+    "unit": "101",
+    "stage": "descriptive",
+    "line": 42,
+    "reason": "Ends with article/prep/conj",
+    "answer": "What, beautiful, flowers, these, are"
+  },
+  {
+    "unit": "101",
+    "stage": "descriptive",
+    "line": 70,
+    "reason": "Ends with article/prep/conj",
+    "answer": "How, lovely, this, child, is"
+  },
+  {
+    "unit": "101",
+    "stage": "descriptive",
+    "line": 79,
+    "reason": "Ends with article/prep/conj",
+    "answer": "What, a, wonderful, view, this, is"
+  },
+  {
+    "unit": "106",
+    "stage": "practiceA",
+    "line": 100,
+    "reason": "Ends with article/prep/conj",
+    "answer": "He / bought / a / gift / for / her"
+  },
+  {
+    "unit": "106",
+    "stage": "descriptive",
+    "line": 14,
+    "reason": "Ends with article/prep/conj",
+    "answer": "a, new, computer, for, her"
+  },
+  {
+    "unit": "108",
+    "stage": "practiceA",
+    "line": 118,
+    "reason": "Ends with article/prep/conj",
+    "answer": "She / asked / me / to / help / her"
+  },
+  {
+    "unit": "110",
+    "stage": "descriptive",
+    "line": 24,
+    "reason": "Ends with article/prep/conj",
+    "answer": "a, lot, more, comfortable, than"
+  },
+  {
+    "unit": "110",
+    "stage": "descriptive",
+    "line": 88,
+    "reason": "Ends with article/prep/conj",
+    "answer": "smaller than, more colorful than"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceA",
+    "line": 32,
+    "reason": "Ends with article/prep/conj",
+    "answer": "expensive that → expensive as that"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceA",
+    "line": 112,
+    "reason": "Ends with article/prep/conj",
+    "answer": "She / studies / twice / as / much / as / I / do"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceB",
+    "line": 154,
+    "reason": "Ends with article/prep/conj",
+    "answer": "three times warmer than, three times as warm as"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceB",
+    "line": 163,
+    "reason": "Ends with article/prep/conj",
+    "answer": "three, times, faster, than"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceB",
+    "line": 173,
+    "reason": "Ends with article/prep/conj",
+    "answer": "three, times, as, wide, as"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceB",
+    "line": 215,
+    "reason": "Ends with article/prep/conj",
+    "answer": "earlier than → as early as"
+  },
+  {
+    "unit": "112",
+    "stage": "practiceB",
+    "line": 236,
+    "reason": "Ends with article/prep/conj",
+    "answer": "twice, than, noisier, than"
+  },
+  {
+    "unit": "112",
+    "stage": "descriptive",
+    "line": 17,
+    "reason": "Ends with article/prep/conj",
+    "answer": "ten, times, more, interesting, than"
+  },
+  {
+    "unit": "114",
+    "stage": "practiceA",
+    "line": 96,
+    "reason": "Ends with article/prep/conj",
+    "answer": "No / other / boy / in / the / class / is / taller / than / he / is"
+  },
+  {
+    "unit": "114",
+    "stage": "practiceA",
+    "line": 102,
+    "reason": "Ends with article/prep/conj",
+    "answer": "No / other / student / in / the / school / is / as / smart / as / she / is"
+  },
+  {
+    "unit": "114",
+    "stage": "practiceA",
+    "line": 114,
+    "reason": "Ends with article/prep/conj",
+    "answer": "No / other / player / on / the / team / is / faster / than / he / is"
+  },
+  {
+    "unit": "114",
+    "stage": "descriptive",
+    "line": 17,
+    "reason": "Ends with article/prep/conj",
+    "answer": "other, student, as, smart, as"
+  },
+  {
+    "unit": "114",
+    "stage": "descriptive",
+    "line": 38,
+    "reason": "Ends with article/prep/conj",
+    "answer": "No, other, sport, as, fun, as"
+  },
+  {
+    "unit": "114",
+    "stage": "descriptive",
+    "line": 56,
+    "reason": "Ends with article/prep/conj",
+    "answer": "No, other, plan, as, great, as"
+  },
+  {
+    "unit": "114",
+    "stage": "descriptive",
+    "line": 84,
+    "reason": "Ends with article/prep/conj",
+    "answer": "No, other, student, taller, than"
+  },
+  {
+    "unit": "116",
+    "stage": "practiceA",
+    "line": 95,
+    "reason": "Ends with article/prep/conj",
+    "answer": "This / book / was / written / by / her"
+  },
+  {
+    "unit": "116",
+    "stage": "descriptive",
+    "line": 6,
+    "reason": "Ends with article/prep/conj",
+    "answer": "That, building, is, built, by"
+  },
+  {
+    "unit": "116",
+    "stage": "descriptive",
+    "line": 14,
+    "reason": "Ends with article/prep/conj",
+    "answer": "The, story, is, posted, online, by"
+  },
+  {
+    "unit": "118",
+    "stage": "practiceA",
+    "line": 107,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Was / the / book / written / by / her"
+  },
+  {
+    "unit": "118",
+    "stage": "practiceB",
+    "line": 211,
+    "reason": "Ends with article/prep/conj",
+    "answer": "was given, was celebrated, were handed to"
+  },
+  {
+    "unit": "118",
+    "stage": "descriptive",
+    "line": 26,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Is, this, program, made, by"
+  },
+  {
+    "unit": "119",
+    "stage": "practiceA",
+    "line": 97,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / was / given / a / present / by / her"
+  },
+  {
+    "unit": "119",
+    "stage": "practiceA",
+    "line": 103,
+    "reason": "Ends with article/prep/conj",
+    "answer": "A / present / was / given / to / me / by / her"
+  },
+  {
+    "unit": "119",
+    "stage": "practiceA",
+    "line": 115,
+    "reason": "Ends with article/prep/conj",
+    "answer": "A / story / was / told / to / him / by / her"
+  },
+  {
+    "unit": "119",
+    "stage": "practiceB",
+    "line": 211,
+    "reason": "Ends with article/prep/conj",
+    "answer": "was given, was celebrated, were handed to"
+  },
+  {
+    "unit": "119",
+    "stage": "descriptive",
+    "line": 82,
+    "reason": "Ends with article/prep/conj",
+    "answer": "were handed, be submitted to, were asked of"
+  },
+  {
+    "unit": "122",
+    "stage": "practiceB",
+    "line": 135,
+    "reason": "Ends with article/prep/conj",
+    "answer": "is considered that - are considered to"
+  },
+  {
+    "unit": "122",
+    "stage": "practiceB",
+    "line": 149,
+    "reason": "Ends with article/prep/conj",
+    "answer": "is believed that - is believed to"
+  },
+  {
+    "unit": "122",
+    "stage": "practiceB",
+    "line": 206,
+    "reason": "Ends with article/prep/conj",
+    "answer": "is believed that - are believed to"
+  },
+  {
+    "unit": "122",
+    "stage": "practiceB",
+    "line": 216,
+    "reason": "Ends with article/prep/conj",
+    "answer": "is, considered, that, is, considered, to"
+  },
+  {
+    "unit": "122",
+    "stage": "descriptive",
+    "line": 95,
+    "reason": "Ends with article/prep/conj",
+    "answer": "looked around, was run after"
+  },
+  {
+    "unit": "124",
+    "stage": "descriptive",
+    "line": 48,
+    "reason": "Ends with article/prep/conj",
+    "answer": "whom they wanted to interview (who they wanted to"
+  },
+  {
+    "unit": "126",
+    "stage": "practiceA",
+    "line": 107,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / wonder / who / she / is"
+  },
+  {
+    "unit": "126",
+    "stage": "practiceA",
+    "line": 113,
+    "reason": "Ends with article/prep/conj",
+    "answer": "The / person / who / sent / me / a / letter / is / her"
+  },
+  {
+    "unit": "126",
+    "stage": "practiceB",
+    "line": 160,
+    "reason": "Ends with article/prep/conj",
+    "answer": "who the woman → the woman who"
+  },
+  {
+    "unit": "128",
+    "stage": "descriptive",
+    "line": 62,
+    "reason": "Ends with article/prep/conj",
+    "answer": "that, I, have, seen, before"
+  },
+  {
+    "unit": "134",
+    "stage": "descriptive",
+    "line": 70,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Whatever, you, are, listening, to"
+  },
+  {
+    "unit": "135",
+    "stage": "practiceA",
+    "line": 107,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Summer / is / the / season / when / I / like / most"
+  },
+  {
+    "unit": "135",
+    "stage": "descriptive",
+    "line": 80,
+    "reason": "Ends with article/prep/conj",
+    "answer": "January 1st / is / the day / when / he / left / for the"
+  },
+  {
+    "unit": "135",
+    "stage": "descriptive",
+    "line": 91,
+    "reason": "Ends with article/prep/conj",
+    "answer": "The countryside / where / I / grew up / is / quiet and"
+  },
+  {
+    "unit": "138",
+    "stage": "practiceA",
+    "line": 104,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Come / whenever / you / want / to"
+  },
+  {
+    "unit": "138",
+    "stage": "practiceA",
+    "line": 128,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Call / me / wherever / you / are"
+  },
+  {
+    "unit": "142",
+    "stage": "descriptive",
+    "line": 63,
+    "reason": "Ends with article/prep/conj",
+    "answer": "he listened to the bird song (he was listening to the"
+  },
+  {
+    "unit": "143",
+    "stage": "practiceB",
+    "line": 10,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Because I like her, Since I like her"
+  },
+  {
+    "unit": "143",
+    "stage": "practiceB",
+    "line": 23,
+    "reason": "Ends with comma (possible truncation)",
+    "answer": "When he came into the office,"
+  },
+  {
+    "unit": "144",
+    "stage": "practiceB",
+    "line": 220,
+    "reason": "Ends with article/prep/conj",
+    "answer": "to be, Although, Practicing, will be"
+  },
+  {
+    "unit": "144",
+    "stage": "descriptive",
+    "line": 23,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Not learning how to write (Never learning how to"
+  },
+  {
+    "unit": "145",
+    "stage": "practiceB",
+    "line": 121,
+    "reason": "Ends with comma (possible truncation)",
+    "answer": "While she was cooking in the kitchen,"
+  },
+  {
+    "unit": "148",
+    "stage": "descriptive",
+    "line": 47,
+    "reason": "Ends with comma (possible truncation)",
+    "answer": "had gotten better grades (had got better grades),"
+  },
+  {
+    "unit": "148",
+    "stage": "descriptive",
+    "line": 76,
+    "reason": "Ends with article/prep/conj",
+    "answer": "hadn't donated (had not donated), have been in"
+  },
+  {
+    "unit": "150",
+    "stage": "practiceA",
+    "line": 105,
+    "reason": "Ends with article/prep/conj",
+    "answer": "I / wish / I / had / met / her"
+  },
+  {
+    "unit": "151",
+    "stage": "descriptive",
+    "line": 90,
+    "reason": "Ends with article/prep/conj",
+    "answer": "doesn't know the answer (does not know the"
+  },
+  {
+    "unit": "152",
+    "stage": "practiceB",
+    "line": 234,
+    "reason": "Ends with article/prep/conj",
+    "answer": "he acts as if he had known her before"
+  },
+  {
+    "unit": "154",
+    "stage": "descriptive",
+    "line": 29,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Without, would, have, been"
+  },
+  {
+    "unit": "155",
+    "stage": "practiceA",
+    "line": 52,
+    "reason": "Ends with article/prep/conj",
+    "answer": "would have been → would be"
+  },
+  {
+    "unit": "155",
+    "stage": "practiceA",
+    "line": 59,
+    "reason": "Ends with article/prep/conj",
+    "answer": "wouldn't have been → wouldn't be"
+  },
+  {
+    "unit": "156",
+    "stage": "practiceA",
+    "line": 95,
+    "reason": "Ends with article/prep/conj",
+    "answer": "Had / he / come / earlier / he / would / have / met / her"
+  },
+  {
+    "unit": "159",
+    "stage": "descriptive",
+    "line": 8,
+    "reason": "Ends with article/prep/conj",
+    "answer": "told, that they had to leave that day (they had to"
+  },
+  {
+    "unit": "160",
+    "stage": "practiceA",
+    "line": 107,
+    "reason": "Ends with article/prep/conj",
+    "answer": "She / asked / what / time / it / was"
+  },
+  {
+    "unit": "160",
+    "stage": "practiceB",
+    "line": 90,
+    "reason": "Ends with article/prep/conj",
+    "answer": "asked - who would answer that"
+  },
+  {
+    "unit": "160",
+    "stage": "practiceB",
+    "line": 103,
+    "reason": "Ends with article/prep/conj",
+    "answer": "asked - whether - had been"
+  },
+  {
+    "unit": "160",
+    "stage": "practiceB",
+    "line": 145,
+    "reason": "Ends with article/prep/conj",
+    "answer": "asked - why - he - had been - his"
+  },
+  {
+    "unit": "160",
+    "stage": "descriptive",
+    "line": 80,
+    "reason": "Ends with article/prep/conj",
+    "answer": "where he had been an hour before"
+  },
+  {
+    "unit": "161",
+    "stage": "practiceB",
+    "line": 101,
+    "reason": "Ends with article/prep/conj",
+    "answer": "advised - to watch out - was"
+  },
+  {
+    "unit": "162",
+    "stage": "descriptive",
+    "line": 22,
+    "reason": "Ends with article/prep/conj",
+    "answer": "It was in 1971 that he was born. (It was in 1971 when"
+  }
+]

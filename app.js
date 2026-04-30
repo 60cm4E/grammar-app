@@ -878,6 +878,9 @@ function scrollChatToBottom() {
   }
 }
 
+// Solve mode state for unit tab
+let solveMode = false;
+
 function renderStageContent() {
   const stage = STAGES[currentStageIdx];
   contentStageLabel.textContent = `${stage.icon} ${stage.label}`;
@@ -885,6 +888,16 @@ function renderStageContent() {
   stopTTS();
 
   const md = currentUnit.stages ? currentUnit.stages[stage.key] : null;
+
+  // Show/hide solve mode toggle based on stage
+  const solveToggle = document.getElementById('solveModeToggle');
+  if (solveToggle) {
+    if (stage.key === 'concept') {
+      solveToggle.style.display = 'none';
+    } else {
+      solveToggle.style.display = '';
+    }
+  }
 
   if (!md) {
     contentBody.innerHTML = `
@@ -902,8 +915,386 @@ function renderStageContent() {
     return;
   }
 
+  // Solve mode: interactive question-by-question
+  if (solveMode) {
+    renderSolveModeContent(md);
+    return;
+  }
+
   contentBody.innerHTML = renderMarkdown(md);
   contentBody.scrollTop = 0;
+}
+
+function renderSolveModeContent(md) {
+  // Reuse classroom question parser and renderer
+  svQuestions = parseQuestionsFromMarkdown(md);
+  svCurrentQIdx = 0;
+  svAnswerRevealed = false;
+  svAllCompleted = false;
+  svSelectedChoice = [];
+  svResults = new Array(svQuestions.length).fill(null);
+  svUserAnswers = new Array(svQuestions.length).fill('');
+  svShowingResult = false;
+
+  if (svQuestions.length === 0) {
+    contentBody.innerHTML = `
+      <div style="text-align:center;padding:60px 0;color:var(--text-secondary)">
+        <div style="font-size:3rem;margin-bottom:12px">📝</div>
+        <p>풀이 가능한 문제가 없습니다.</p>
+        <p style="font-size:0.8rem;margin-top:8px;opacity:0.6">열람 모드로 전환하여 내용을 확인하세요.</p>
+      </div>
+    `;
+    return;
+  }
+
+  renderSolveModeQuestion();
+}
+
+function renderSolveModeQuestion() {
+  const total = svQuestions.length;
+  const answeredCount = svResults.filter(r => r !== null).length;
+
+  // All answered — show results
+  if (answeredCount >= total && !svShowingResult) {
+    renderSolveModeResults();
+    return;
+  }
+
+  const q = svQuestions[svCurrentQIdx];
+  if (!q) return;
+
+  const current = svCurrentQIdx + 1;
+  const progress = (answeredCount / total) * 100;
+  const thisResult = svResults[svCurrentQIdx];
+  const isAnswered = thisResult !== null;
+
+  const bodyHtml = renderStageViewerMarkdown(q.body);
+
+  let interactiveHtml = '';
+
+  if (isAnswered) {
+    const correct = thisResult === true;
+    interactiveHtml = `
+      <div class="sv-q-result ${correct ? 'correct' : 'wrong'}">
+        <div class="sv-q-result-icon">${correct ? '✅' : '❌'}</div>
+        <div class="sv-q-result-text">${correct ? '정답! 잘했어요!' : '아쉬워요!'}</div>
+        ${!correct ? `<div class="sv-q-result-answer">정답: <strong>${escapeHtml(q.answer)}</strong></div>` : ''}
+        ${!correct && svUserAnswers[svCurrentQIdx] ? `<div class="sv-q-result-yours">내 답: ${escapeHtml(svUserAnswers[svCurrentQIdx])}</div>` : ''}
+      </div>
+    `;
+  } else if (q.type === 'choice' && q.choices.length > 0) {
+    const isMulti = q.requiredCount > 1;
+    const choiceBtns = q.choices.map((c, i) => `
+      <button class="sv-choice-btn${svSelectedChoice.includes(i) ? ' selected' : ''}" data-idx="${i}">
+        <span class="sv-choice-num">${i + 1}</span>
+        <span class="sv-choice-text">${escapeHtml(c)}</span>
+      </button>
+    `).join('');
+
+    const hasSelection = svSelectedChoice.length > 0;
+    const selectionLabels = svSelectedChoice.map(i => (i + 1) + '번').join(', ');
+    const enoughSelected = svSelectedChoice.length >= q.requiredCount;
+
+    const confirmBar = hasSelection ? `
+      <div class="sv-confirm-bar">
+        <span class="sv-confirm-text">${selectionLabels} 선택${isMulti ? ` (${svSelectedChoice.length}/${q.requiredCount}개)` : ''}</span>
+        <button class="sv-confirm-cancel" id="smCancelChoice">취소</button>
+        <button class="sv-confirm-submit${enoughSelected ? '' : ' disabled'}" id="smSubmitChoice" ${enoughSelected ? '' : 'disabled'}>✓ 제출</button>
+      </div>
+    ` : (isMulti ? `<div class="sv-multi-hint">${q.requiredCount}개를 선택하세요</div>` : '');
+
+    interactiveHtml = `
+      <div class="sv-choices-area">${choiceBtns}</div>
+      ${confirmBar}
+    `;
+  } else {
+    interactiveHtml = `
+      <div class="sv-write-area">
+        <div class="sv-write-input-wrap">
+          <input type="text" id="smWriteInput" class="sv-write-input" placeholder="정답을 입력하세요..." autocomplete="off" autocapitalize="off" spellcheck="false">
+          <button class="sv-write-submit" id="smSubmitWrite">제출 ↵</button>
+        </div>
+      </div>
+    `;
+  }
+
+  // Nav dots
+  const dots = svQuestions.map((_, i) => {
+    let cls = 'sv-q-dot';
+    if (i === svCurrentQIdx) cls += ' active';
+    if (svResults[i] === true) cls += ' correct';
+    else if (svResults[i] === false) cls += ' wrong';
+    return `<div class="${cls}" data-qi="${i}"></div>`;
+  }).join('');
+
+  contentBody.innerHTML = `
+    <div class="sv-classroom solve-mode-embed">
+      <div class="sv-progress-area">
+        <div class="sv-progress-bar">
+          <div class="sv-progress-fill" style="width:${progress}%"></div>
+        </div>
+        <span class="sv-progress-text">${answeredCount} / ${total} 풀이 완료</span>
+      </div>
+
+      <div class="sv-question-card">
+        <div class="sv-q-badge">
+          <span class="sv-q-num">📝 ${q.num || current}번</span>
+        </div>
+        <div class="sv-q-body">${bodyHtml}</div>
+        <div class="sv-q-interactive">${interactiveHtml}</div>
+      </div>
+
+      <div class="sv-q-nav">
+        <button class="sv-q-nav-btn" id="smPrevQ" ${svCurrentQIdx === 0 ? 'disabled' : ''}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="15 18 9 12 15 6"/></svg>
+          이전
+        </button>
+        <div class="sv-q-nav-dots">${dots}</div>
+        <button class="sv-q-nav-btn sv-q-nav-next" id="smNextQ" ${svCurrentQIdx >= total - 1 ? 'disabled' : ''}>
+          다음
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </div>
+  `;
+
+  // Event listeners
+  document.getElementById('smPrevQ')?.addEventListener('click', () => { smNavigate(-1); });
+  document.getElementById('smNextQ')?.addEventListener('click', () => { smNavigate(1); });
+
+  // Dot click navigation
+  contentBody.querySelectorAll('.sv-q-dot').forEach(dot => {
+    dot.addEventListener('click', () => {
+      const qi = parseInt(dot.dataset.qi);
+      svCurrentQIdx = qi;
+      svSelectedChoice = [];
+      renderSolveModeQuestion();
+    });
+  });
+
+  // Choice buttons
+  contentBody.querySelectorAll('.sv-choice-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const idx = parseInt(btn.dataset.idx);
+      smToggleChoice(idx);
+    });
+  });
+
+  document.getElementById('smCancelChoice')?.addEventListener('click', () => {
+    svSelectedChoice = [];
+    renderSolveModeQuestion();
+  });
+  document.getElementById('smSubmitChoice')?.addEventListener('click', () => smSubmitChoice());
+
+  // Write input
+  const writeInput = document.getElementById('smWriteInput');
+  if (writeInput) {
+    setTimeout(() => writeInput.focus(), 100);
+    writeInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        smSubmitWrite(writeInput.value.trim());
+      }
+    });
+  }
+  document.getElementById('smSubmitWrite')?.addEventListener('click', () => {
+    const val = document.getElementById('smWriteInput')?.value?.trim();
+    if (val) smSubmitWrite(val);
+  });
+}
+
+function smNavigate(dir) {
+  const newIdx = svCurrentQIdx + dir;
+  if (newIdx < 0 || newIdx >= svQuestions.length) return;
+  svCurrentQIdx = newIdx;
+  svSelectedChoice = [];
+  renderSolveModeQuestion();
+}
+
+function smToggleChoice(idx) {
+  const q = svQuestions[svCurrentQIdx];
+  if (!q || svResults[svCurrentQIdx] !== null) return;
+
+  const pos = svSelectedChoice.indexOf(idx);
+  if (pos >= 0) {
+    svSelectedChoice.splice(pos, 1);
+  } else {
+    if (q.requiredCount === 1) {
+      svSelectedChoice = [idx];
+    } else {
+      if (svSelectedChoice.length < q.requiredCount) {
+        svSelectedChoice.push(idx);
+      } else {
+        svSelectedChoice.shift();
+        svSelectedChoice.push(idx);
+      }
+    }
+  }
+  renderSolveModeQuestion();
+}
+
+function smSubmitChoice() {
+  const q = svQuestions[svCurrentQIdx];
+  if (svSelectedChoice.length < q.requiredCount) return;
+
+  const selectedTexts = svSelectedChoice.map(i => q.choices[i]);
+  svUserAnswers[svCurrentQIdx] = selectedTexts.join(', ');
+  svResults[svCurrentQIdx] = gradeAnswer(selectedTexts, q.answer, 'choice');
+  svSelectedChoice = [];
+  renderSolveModeQuestion();
+
+  if (svResults[svCurrentQIdx]) {
+    setTimeout(() => {
+      const next = svResults.findIndex((r, i) => r === null && i > svCurrentQIdx);
+      if (next >= 0) { svCurrentQIdx = next; renderSolveModeQuestion(); }
+      else if (svResults.every(r => r !== null)) renderSolveModeQuestion();
+    }, 1200);
+  }
+}
+
+function smSubmitWrite(text) {
+  const q = svQuestions[svCurrentQIdx];
+  svUserAnswers[svCurrentQIdx] = text;
+  svResults[svCurrentQIdx] = gradeAnswer(text, q.answer, 'write');
+  renderSolveModeQuestion();
+
+  if (svResults[svCurrentQIdx]) {
+    setTimeout(() => {
+      const next = svResults.findIndex((r, i) => r === null && i > svCurrentQIdx);
+      if (next >= 0) { svCurrentQIdx = next; renderSolveModeQuestion(); }
+      else if (svResults.every(r => r !== null)) renderSolveModeQuestion();
+    }, 1200);
+  }
+}
+
+function renderSolveModeResults() {
+  svShowingResult = true;
+  const total = svQuestions.length;
+  const correctCount = svResults.filter(r => r === true).length;
+  const score = Math.round((correctCount / total) * 100);
+
+  let emoji = '🏆';
+  let message = '훌륭해요!';
+  if (score < 50) { emoji = '💪'; message = '다시 도전해 볼까요?'; }
+  else if (score < 80) { emoji = '👍'; message = '잘했어요!'; }
+
+  const wrongItems = svQuestions
+    .map((q, i) => ({ q, i, result: svResults[i] }))
+    .filter(item => item.result === false)
+    .map(item => `
+      <div class="sv-result-item wrong">
+        <span class="sv-result-item-num">${item.q.num || (item.i + 1)}번</span>
+        <span class="sv-result-item-yours">내 답: ${escapeHtml(svUserAnswers[item.i])}</span>
+        <span class="sv-result-item-correct">정답: ${escapeHtml(item.q.answer)}</span>
+      </div>
+    `).join('');
+
+  // Save progress
+  saveUnitProgress(currentUnit.id, STAGES[currentStageIdx].key, score, correctCount, total);
+
+  contentBody.innerHTML = `
+    <div class="sv-classroom solve-mode-embed">
+      <div class="sv-results-card">
+        <div class="sv-results-emoji">${emoji}</div>
+        <div class="sv-results-message">${message}</div>
+        <div class="sv-results-score">
+          <span class="sv-results-correct">${correctCount}</span>
+          <span class="sv-results-divider">/</span>
+          <span class="sv-results-total">${total}</span>
+          <span class="sv-results-label">정답</span>
+        </div>
+        <div class="sv-results-percent">${score}%</div>
+        <div class="sv-results-bar">
+          <div class="sv-results-bar-fill" style="width:${score}%"></div>
+        </div>
+        ${wrongItems ? `
+          <div class="sv-results-wrong-section">
+            <div class="sv-results-wrong-title">❌ 틀린 문제</div>
+            ${wrongItems}
+          </div>
+        ` : ''}
+        <div class="sv-results-actions">
+          <button class="sv-results-retry" id="smRetry">🔄 다시 풀기</button>
+          <button class="sv-results-review" id="smReview">📋 전체 리뷰</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('smRetry')?.addEventListener('click', () => {
+    svShowingResult = false;
+    renderStageContent();
+  });
+  document.getElementById('smReview')?.addEventListener('click', () => {
+    svShowingResult = false;
+    svCurrentQIdx = 0;
+    renderSolveModeQuestion();
+  });
+}
+
+// ---- Solve mode toggle handler ----
+document.getElementById('solveModeCheck')?.addEventListener('change', (e) => {
+  solveMode = e.target.checked;
+  document.getElementById('solveModeLabel').textContent = solveMode ? '✏️ 풀이' : '📖 열람';
+  if (currentUnit) renderStageContent();
+});
+
+// ---- Progress tracking (localStorage) ----
+const PROGRESS_KEY = 'grammarlab_progress';
+
+function loadProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{}');
+  } catch { return {}; }
+}
+
+function saveUnitProgress(unitId, stageKey, score, correct, total) {
+  const progress = loadProgress();
+  if (!progress[unitId]) progress[unitId] = {};
+  progress[unitId][stageKey] = {
+    score,
+    correct,
+    total,
+    lastAt: new Date().toISOString(),
+    attempts: (progress[unitId][stageKey]?.attempts || 0) + 1
+  };
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  // Update unit list if visible
+  updateUnitListProgress();
+}
+
+function updateUnitListProgress() {
+  const progress = loadProgress();
+  document.querySelectorAll('.unit-item').forEach(el => {
+    const unitId = el.dataset.unitId;
+    const unitProgress = progress[unitId];
+    let existingBadge = el.querySelector('.progress-badge');
+    
+    if (unitProgress) {
+      const stages = Object.keys(unitProgress);
+      const avgScore = Math.round(stages.reduce((sum, k) => sum + unitProgress[k].score, 0) / stages.length);
+      const completedStages = stages.length;
+      
+      if (!existingBadge) {
+        existingBadge = document.createElement('span');
+        existingBadge.className = 'progress-badge';
+        el.appendChild(existingBadge);
+      }
+      
+      if (avgScore >= 80) {
+        existingBadge.textContent = '✅';
+        existingBadge.title = `${completedStages}개 스테이지 완료 (${avgScore}%)`;
+      } else if (avgScore >= 50) {
+        existingBadge.textContent = `${avgScore}%`;
+        existingBadge.title = `${completedStages}개 스테이지 진행 중`;
+        existingBadge.classList.add('in-progress');
+      } else {
+        existingBadge.textContent = `${avgScore}%`;
+        existingBadge.title = `${completedStages}개 스테이지 도전 중`;
+        existingBadge.classList.add('low-score');
+      }
+    }
+  });
 }
 
 function renderMarkdown(md) {

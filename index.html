@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>영어 문법 학습기 - 관리자</title>
-  <meta name="description" content="중등 영어 문법 학습 관리 시스템">
+  <title>Grammar Lab - 영어 문법 학습</title>
+  <meta name="description" content="중등 영어 문법 학습 시스템 - 개념부터 실전까지">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
         <span class="logo-icon">📚</span>
         <h1>Grammar Lab</h1>
       </div>
-      <span class="badge">관리자</span>
+      <span class="badge badge-learner">학습</span>
     </div>
     <nav class="header-tabs">
       <button class="header-tab active" data-tab="units" id="tabUnits">
@@ -76,13 +76,20 @@
           <div class="content-card" id="contentCard">
             <div class="content-header">
               <span class="content-stage-label" id="contentStageLabel"></span>
-              <div class="content-nav">
-                <button class="nav-btn" id="prevStageBtn" title="이전 단계">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-                </button>
-                <button class="nav-btn" id="nextStageBtn" title="다음 단계">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-                </button>
+              <div class="content-header-right">
+                <label class="solve-mode-toggle" id="solveModeToggle" title="풀이 모드 전환">
+                  <input type="checkbox" id="solveModeCheck">
+                  <span class="solve-mode-slider"></span>
+                  <span class="solve-mode-label" id="solveModeLabel">📖 열람</span>
+                </label>
+                <div class="content-nav">
+                  <button class="nav-btn" id="prevStageBtn" title="이전 단계">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                  </button>
+                  <button class="nav-btn" id="nextStageBtn" title="다음 단계">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                  </button>
+                </div>
               </div>
             </div>
             <div class="content-body" id="contentBody"></div>

@@ -1,0 +1,16 @@
+[
+  {
+    "unit": "025",
+    "stage": "descriptive",
+    "line": 77,
+    "type": "MISSING_ANSWER",
+    "text": "**09.** 글을 읽고 빈칸에 알맞은 것을 선택하여 글을 완성하시오."
+  },
+  {
+    "unit": "043",
+    "stage": "practiceB",
+    "line": 69,
+    "type": "INSTRUCTION_IN_ANSWER",
+    "text": "고르시오. [정답 2개]"
+  }
+]

@@ -3642,3 +3642,139 @@ body {
   background: var(--bg-hover);
   color: var(--text-primary);
 }
+
+/* ============================================
+   SOLVE MODE TOGGLE & PROGRESS
+   ============================================ */
+
+.content-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.solve-mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+
+.solve-mode-toggle:hover {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.solve-mode-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.solve-mode-slider {
+  width: 36px;
+  height: 20px;
+  background: var(--border-light);
+  border-radius: 10px;
+  position: relative;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.solve-mode-slider::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: var(--text-secondary);
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.solve-mode-toggle input:checked + .solve-mode-slider {
+  background: var(--accent);
+}
+
+.solve-mode-toggle input:checked + .solve-mode-slider::after {
+  transform: translateX(16px);
+  background: white;
+}
+
+.solve-mode-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+
+.solve-mode-toggle input:checked ~ .solve-mode-label {
+  color: var(--accent);
+}
+
+/* Solve mode embedded in content area */
+.solve-mode-embed {
+  padding: 20px;
+  max-width: none;
+}
+
+.solve-mode-embed .sv-question-card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.solve-mode-embed .sv-results-card {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Progress badge on unit list */
+.progress-badge {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 2px 6px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.progress-badge.in-progress {
+  color: var(--step-4);
+  background: rgba(247, 201, 72, 0.15);
+}
+
+.progress-badge.low-score {
+  color: var(--step-5);
+  background: rgba(255, 123, 114, 0.15);
+}
+
+.unit-item {
+  position: relative;
+}
+
+/* Badge learner */
+.badge-learner {
+  background: linear-gradient(135deg, var(--accent), #58a6ff) !important;
+  color: white !important;
+}
+
+/* Mobile: hide solve mode label text */
+@media (max-width: 768px) {
+  .solve-mode-label {
+    display: none;
+  }
+  .solve-mode-toggle {
+    padding: 4px 6px;
+  }
+}
