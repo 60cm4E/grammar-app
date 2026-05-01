@@ -1297,6 +1297,371 @@ function updateUnitListProgress() {
   });
 }
 
+// ============================================
+// 3. WRONG NOTES (오답노트) SYSTEM
+// ============================================
+
+const WRONG_NOTES_KEY = 'grammarlab_wrongnotes';
+const BOOKMARKS_KEY = 'grammarlab_bookmarks';
+
+function loadWrongNotes() {
+  try { return JSON.parse(localStorage.getItem(WRONG_NOTES_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function saveWrongNotes(notes) {
+  localStorage.setItem(WRONG_NOTES_KEY, JSON.stringify(notes));
+}
+
+function addWrongNote(unitId, stageKey, question) {
+  const notes = loadWrongNotes();
+  // Check for duplicate (same unit+stage+question number)
+  const exists = notes.findIndex(n =>
+    n.unitId === unitId && n.stageKey === stageKey && n.questionNum === question.num
+  );
+  const entry = {
+    unitId,
+    stageKey,
+    questionNum: question.num,
+    questionBody: question.body.substring(0, 200),
+    correctAnswer: question.answer,
+    userAnswer: question.userAnswer || '',
+    addedAt: new Date().toISOString(),
+    reviewCount: 0
+  };
+  if (exists >= 0) {
+    entry.reviewCount = notes[exists].reviewCount;
+    notes[exists] = entry;
+  } else {
+    notes.push(entry);
+  }
+  saveWrongNotes(notes);
+}
+
+function loadBookmarks() {
+  try { return JSON.parse(localStorage.getItem(BOOKMARKS_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function saveBookmarks(bm) {
+  localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bm));
+}
+
+function toggleBookmark(unitId, stageKey, questionNum) {
+  const bm = loadBookmarks();
+  const key = `${unitId}_${stageKey}_${questionNum}`;
+  const idx = bm.indexOf(key);
+  if (idx >= 0) { bm.splice(idx, 1); } else { bm.push(key); }
+  saveBookmarks(bm);
+  return idx < 0; // returns true if added
+}
+
+function isBookmarked(unitId, stageKey, questionNum) {
+  return loadBookmarks().includes(`${unitId}_${stageKey}_${questionNum}`);
+}
+
+function renderWrongNotes() {
+  const notes = loadWrongNotes();
+  const bookmarks = loadBookmarks();
+  const progress = loadProgress();
+  const listEl = document.getElementById('wrongNotesList');
+
+  // Stats
+  document.getElementById('wnTotalWrong').textContent = notes.length;
+  document.getElementById('wnBookmarkCount').textContent = bookmarks.length;
+
+  // Avg score
+  const allScores = [];
+  for (const [uid, stages] of Object.entries(progress)) {
+    for (const [sk, data] of Object.entries(stages)) {
+      allScores.push(data.score);
+    }
+  }
+  document.getElementById('wnAvgScore').textContent = allScores.length > 0
+    ? Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length) + '%'
+    : '-';
+
+  // Streak
+  const streakData = loadStreak();
+  document.getElementById('wnStreak').textContent = streakData.count;
+
+  if (notes.length === 0) {
+    listEl.innerHTML = `
+      <div class="wn-empty">
+        <div class="wn-empty-icon">🎉</div>
+        <p>틀린 문제가 없습니다!</p>
+        <p class="wn-empty-sub">풀이 모드에서 문제를 풀면 틀린 문제가 여기에 자동 수집됩니다.</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Group by unit
+  const grouped = {};
+  notes.forEach(n => {
+    if (!grouped[n.unitId]) grouped[n.unitId] = [];
+    grouped[n.unitId].push(n);
+  });
+
+  let html = '';
+  for (const [unitId, unitNotes] of Object.entries(grouped)) {
+    const unitInfo = unitsIndex.find(u => u.id === unitId);
+    const unitTitle = unitInfo ? unitInfo.title : unitId;
+    const stageLabel = unitNotes.map(n => {
+      const s = STAGES.find(s => s.key === n.stageKey);
+      return s ? s.label : n.stageKey;
+    });
+
+    html += `<div class="wn-unit-group">
+      <div class="wn-unit-header">
+        <span class="wn-unit-num">${unitId}</span>
+        <span class="wn-unit-title">${escapeHtml(unitTitle)}</span>
+        <span class="wn-unit-count">${unitNotes.length}문제</span>
+      </div>`;
+
+    unitNotes.forEach((n, idx) => {
+      const stage = STAGES.find(s => s.key === n.stageKey);
+      const bmKey = `${n.unitId}_${n.stageKey}_${n.questionNum}`;
+      const isBookmark = bookmarks.includes(bmKey);
+      const bodyPreview = n.questionBody.replace(/\*\*/g, '').replace(/\n/g, ' ').substring(0, 80);
+
+      html += `
+        <div class="wn-item" data-unit="${n.unitId}" data-stage="${n.stageKey}" data-qnum="${n.questionNum}">
+          <div class="wn-item-top">
+            <span class="wn-item-badge" style="background:${stage ? stage.color : '#888'}20;color:${stage ? stage.color : '#888'}">${stage ? stage.icon : '📝'} ${n.questionNum || ''}번</span>
+            <button class="wn-bookmark-btn ${isBookmark ? 'active' : ''}" data-bm-key="${bmKey}" title="북마크">
+              ${isBookmark ? '📌' : '🔖'}
+            </button>
+          </div>
+          <div class="wn-item-body">${escapeHtml(bodyPreview)}...</div>
+          <div class="wn-item-answer">
+            <span class="wn-label-wrong">내 답: ${escapeHtml(n.userAnswer)}</span>
+            <span class="wn-label-correct">정답: ${escapeHtml(n.correctAnswer)}</span>
+          </div>
+          <button class="wn-item-retry" data-unit="${n.unitId}" data-stage="${n.stageKey}">이 유닛 다시 풀기 →</button>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+  }
+
+  listEl.innerHTML = html;
+
+  // Attach event listeners
+  listEl.querySelectorAll('.wn-bookmark-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = btn.closest('.wn-item');
+      toggleBookmark(item.dataset.unit, item.dataset.stage, item.dataset.qnum);
+      renderWrongNotes();
+    });
+  });
+
+  listEl.querySelectorAll('.wn-item-retry').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const unitId = btn.dataset.unit;
+      const stageKey = btn.dataset.stage;
+      // Switch to units tab and open the unit
+      document.querySelector('[data-tab="units"]').click();
+      setTimeout(async () => {
+        solveMode = true;
+        document.getElementById('solveModeCheck').checked = true;
+        document.getElementById('solveModeLabel').textContent = '✏️ 풀이';
+        await selectUnit(unitId);
+        const stageIdx = STAGES.findIndex(s => s.key === stageKey);
+        if (stageIdx >= 0) {
+          currentStageIdx = stageIdx;
+          updateStepper();
+          renderStageContent();
+        }
+      }, 100);
+    });
+  });
+}
+
+// Clear wrong notes
+document.getElementById('btnClearWrong')?.addEventListener('click', async () => {
+  const ok = await showConfirm('오답노트 초기화', '모든 틀린 문제 기록을 삭제하시겠습니까?');
+  if (ok) {
+    saveWrongNotes([]);
+    renderWrongNotes();
+  }
+});
+
+// Review wrong notes (solve again)
+document.getElementById('btnReviewWrong')?.addEventListener('click', () => {
+  const notes = loadWrongNotes();
+  if (notes.length === 0) return;
+  // Go to first wrong note's unit in solve mode
+  const first = notes[0];
+  document.querySelector('[data-tab="units"]').click();
+  setTimeout(async () => {
+    solveMode = true;
+    document.getElementById('solveModeCheck').checked = true;
+    document.getElementById('solveModeLabel').textContent = '✏️ 풀이';
+    await selectUnit(first.unitId);
+    const stageIdx = STAGES.findIndex(s => s.key === first.stageKey);
+    if (stageIdx >= 0) {
+      currentStageIdx = stageIdx;
+      updateStepper();
+      renderStageContent();
+    }
+  }, 100);
+});
+
+// ============================================
+// 5. GAMIFICATION - STREAK & BADGES
+// ============================================
+
+const STREAK_KEY = 'grammarlab_streak';
+const BADGES_KEY = 'grammarlab_badges';
+
+function loadStreak() {
+  try {
+    const data = JSON.parse(localStorage.getItem(STREAK_KEY) || '{}');
+    return { count: data.count || 0, lastDate: data.lastDate || null };
+  } catch { return { count: 0, lastDate: null }; }
+}
+
+function updateStreak() {
+  const data = loadStreak();
+  const today = new Date().toISOString().split('T')[0];
+
+  if (data.lastDate === today) return data; // Already counted today
+
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+  if (data.lastDate === yesterday) {
+    data.count += 1; // Consecutive day
+  } else if (data.lastDate !== today) {
+    data.count = 1; // Reset streak
+  }
+  data.lastDate = today;
+  localStorage.setItem(STREAK_KEY, JSON.stringify(data));
+  return data;
+}
+
+function updateStreakDisplay() {
+  const data = loadStreak();
+  const countEl = document.getElementById('streakCount');
+  const displayEl = document.getElementById('streakDisplay');
+  if (countEl) countEl.textContent = data.count;
+  if (displayEl) {
+    displayEl.classList.toggle('active', data.count > 0);
+    if (data.count >= 7) displayEl.classList.add('hot');
+    else displayEl.classList.remove('hot');
+  }
+}
+
+// Badge definitions
+const BADGE_DEFS = [
+  { id: 'first_solve', icon: '🌱', name: '첫 풀이', desc: '첫 번째 문제 풀이 완료', check: (p) => Object.keys(p).length >= 1 },
+  { id: 'five_units', icon: '⭐', name: '5유닛 달성', desc: '5개 유닛 학습 완료', check: (p) => Object.keys(p).length >= 5 },
+  { id: 'ten_units', icon: '🌟', name: '10유닛 달성', desc: '10개 유닛 학습 완료', check: (p) => Object.keys(p).length >= 10 },
+  { id: 'perfect', icon: '💯', name: '만점왕', desc: '한 스테이지 100% 정답', check: (p) => {
+    for (const stages of Object.values(p)) {
+      for (const data of Object.values(stages)) {
+        if (data.score === 100) return true;
+      }
+    }
+    return false;
+  }},
+  { id: 'streak3', icon: '🔥', name: '3일 연속', desc: '3일 연속 학습', check: () => loadStreak().count >= 3 },
+  { id: 'streak7', icon: '🔥🔥', name: '7일 연속', desc: '7일 연속 학습', check: () => loadStreak().count >= 7 },
+  { id: 'half_done', icon: '🏅', name: '반 달성', desc: '82개 이상 유닛 학습', check: (p) => Object.keys(p).length >= 82 },
+  { id: 'master', icon: '🏆', name: '문법 마스터', desc: '164개 유닛 전체 학습 완료', check: (p) => Object.keys(p).length >= 164 },
+];
+
+function loadBadges() {
+  try { return JSON.parse(localStorage.getItem(BADGES_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function checkAndAwardBadges() {
+  const progress = loadProgress();
+  const earned = loadBadges();
+  let newBadge = null;
+
+  for (const badge of BADGE_DEFS) {
+    if (!earned.includes(badge.id) && badge.check(progress)) {
+      earned.push(badge.id);
+      newBadge = badge;
+    }
+  }
+
+  localStorage.setItem(BADGES_KEY, JSON.stringify(earned));
+  if (newBadge) showBadgeToast(newBadge);
+  return earned;
+}
+
+function showBadgeToast(badge) {
+  const toast = document.createElement('div');
+  toast.className = 'badge-toast';
+  toast.innerHTML = `
+    <div class="badge-toast-icon">${badge.icon}</div>
+    <div class="badge-toast-text">
+      <div class="badge-toast-title">🎉 배지 획득!</div>
+      <div class="badge-toast-name">${badge.name}</div>
+      <div class="badge-toast-desc">${badge.desc}</div>
+    </div>
+  `;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.classList.add('show'), 50);
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), 400);
+  }, 3500);
+}
+
+// Patch the original saveUnitProgress to also update streak, wrong notes, and badges
+const _originalSaveUnitProgress = saveUnitProgress;
+saveUnitProgress = function(unitId, stageKey, score, correct, total) {
+  _originalSaveUnitProgress(unitId, stageKey, score, correct, total);
+  updateStreak();
+  updateStreakDisplay();
+  checkAndAwardBadges();
+};
+
+// Hook wrong note collection into solve mode results
+const _origSmSubmitChoice = smSubmitChoice;
+smSubmitChoice = function() {
+  _origSmSubmitChoice();
+  collectWrongFromSolve();
+};
+
+const _origSmSubmitWrite = smSubmitWrite;
+smSubmitWrite = function(text) {
+  _origSmSubmitWrite(text);
+  collectWrongFromSolve();
+};
+
+function collectWrongFromSolve() {
+  // After each answer, if wrong, save to wrong notes
+  const idx = svCurrentQIdx;
+  if (svResults[idx] === false && currentUnit) {
+    const q = svQuestions[idx];
+    addWrongNote(currentUnit.id, STAGES[currentStageIdx].key, {
+      num: q.num,
+      body: q.body,
+      answer: q.answer,
+      userAnswer: svUserAnswers[idx]
+    });
+  }
+}
+
+// Init tab rendering
+const _origTabClick = [];
+tabButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.dataset.tab === 'wrongnotes') {
+      renderWrongNotes();
+    }
+  });
+});
+
+// Initialize streak display on load
+updateStreakDisplay();
+
 function renderMarkdown(md) {
   let html = escapeHtml(md);
   html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');

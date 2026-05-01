@@ -26,14 +26,22 @@
     <nav class="header-tabs">
       <button class="header-tab active" data-tab="units" id="tabUnits">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
-        유닛 관리
+        <span class="tab-text">학습</span>
+      </button>
+      <button class="header-tab" data-tab="wrongnotes" id="tabWrongNotes">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+        <span class="tab-text">오답노트</span>
       </button>
       <button class="header-tab" data-tab="classrooms" id="tabClassrooms">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-        강의실
+        <span class="tab-text">수업</span>
       </button>
     </nav>
     <div class="header-right">
+      <div class="streak-display" id="streakDisplay" title="연속 학습일">
+        <span class="streak-fire">🔥</span>
+        <span class="streak-count" id="streakCount">0</span>
+      </div>
       <span class="unit-count" id="unitCount">0 Units</span>
     </div>
   </header>
@@ -99,7 +107,48 @@
     </div>
   </div>
 
-  <!-- ==================== TAB: 강의실 ==================== -->
+  <!-- ==================== TAB: 오답노트 ==================== -->
+  <div id="tab-wrongnotes" class="tab-content">
+    <div class="wrongnotes-container">
+      <div class="wrongnotes-header">
+        <div class="wn-stats">
+          <div class="wn-stat-card">
+            <div class="wn-stat-icon">❌</div>
+            <div class="wn-stat-value" id="wnTotalWrong">0</div>
+            <div class="wn-stat-label">틀린 문제</div>
+          </div>
+          <div class="wn-stat-card">
+            <div class="wn-stat-icon">📌</div>
+            <div class="wn-stat-value" id="wnBookmarkCount">0</div>
+            <div class="wn-stat-label">북마크</div>
+          </div>
+          <div class="wn-stat-card">
+            <div class="wn-stat-icon">🎯</div>
+            <div class="wn-stat-value" id="wnAvgScore">-</div>
+            <div class="wn-stat-label">평균 점수</div>
+          </div>
+          <div class="wn-stat-card">
+            <div class="wn-stat-icon">🔥</div>
+            <div class="wn-stat-value" id="wnStreak">0</div>
+            <div class="wn-stat-label">연속일</div>
+          </div>
+        </div>
+        <div class="wn-actions">
+          <button class="wn-action-btn" id="btnReviewWrong">🔄 틀린문제 복습</button>
+          <button class="wn-action-btn secondary" id="btnClearWrong">🗑️ 초기화</button>
+        </div>
+      </div>
+      <div class="wrongnotes-list" id="wrongNotesList">
+        <div class="wn-empty">
+          <div class="wn-empty-icon">🎉</div>
+          <p>틀린 문제가 없습니다!</p>
+          <p class="wn-empty-sub">풀이 모드에서 문제를 풀면 틀린 문제가 여기에 자동 수집됩니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TAB: 수업 ==================== -->
   <div id="tab-classrooms" class="tab-content">
     <div id="classroom-container">
       <!-- Left: Classroom List -->
