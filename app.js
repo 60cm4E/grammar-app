@@ -1656,11 +1656,201 @@ tabButtons.forEach(btn => {
     if (btn.dataset.tab === 'wrongnotes') {
       renderWrongNotes();
     }
+    if (btn.dataset.tab === 'dashboard') {
+      renderDashboard();
+    }
   });
+});
+
+document.getElementById('dashGoStudy')?.addEventListener('click', () => {
+  document.querySelector('[data-tab="units"]')?.click();
 });
 
 // Initialize streak display on load
 updateStreakDisplay();
+
+// ============================================
+// PROGRESS DASHBOARD
+// ============================================
+const STAGES_META = [
+  { key: 'practiceA', label: '연습A', color: '#6c63ff' },
+  { key: 'practiceB', label: '연습B', color: '#ff6584' },
+  { key: 'descriptive', label: '서술형', color: '#43b97f' },
+  { key: 'practical', label: '실전', color: '#f7c948' },
+];
+
+function renderDashboard() {
+  const progress = loadProgress();
+  const streak = loadStreak();
+  const earned = loadBadges();
+
+  const studiedUnits = Object.keys(progress);
+  const totalStudied = studiedUnits.length;
+
+  // Avg score across all stages
+  let allScores = [];
+  let recentItems = [];
+
+  studiedUnits.forEach(uid => {
+    Object.entries(progress[uid]).forEach(([sk, data]) => {
+      allScores.push(data.score);
+      recentItems.push({ uid, sk, score: data.score, lastAt: data.lastAt });
+    });
+  });
+
+  recentItems.sort((a, b) => new Date(b.lastAt) - new Date(a.lastAt));
+
+  const avgScore = allScores.length > 0
+    ? Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length)
+    : null;
+
+  const completionPct = Math.round((totalStudied / 164) * 100);
+
+  // --- Summary cards ---
+  document.getElementById('dashTotalStudied').textContent = totalStudied;
+  document.getElementById('dashAvgScore').textContent = avgScore !== null ? avgScore + '%' : '-%';
+  document.getElementById('dashStreak').textContent = streak.count;
+  document.getElementById('dashBadgeCount').textContent = earned.length;
+
+  // --- Completion bar ---
+  document.getElementById('dashCompletionPct').textContent = completionPct + '%';
+  const fillEl = document.getElementById('dashCompletionFill');
+  fillEl.style.width = '0%';
+  setTimeout(() => { fillEl.style.width = completionPct + '%'; }, 80);
+  document.getElementById('dashCompletionDetail').textContent = `${totalStudied} / 164 유닛`;
+
+  // Highest scoring unit
+  let bestUnit = null, bestScore = -1;
+  studiedUnits.forEach(uid => {
+    const stages = Object.values(progress[uid]);
+    const avg = Math.round(stages.reduce((s, d) => s + d.score, 0) / stages.length);
+    if (avg > bestScore) { bestScore = avg; bestUnit = uid; }
+  });
+  document.getElementById('dashHighScore').textContent = bestUnit
+    ? `최고 점수: Unit ${bestUnit} (${bestScore}%)`
+    : '최고 점수 유닛: -';
+
+  // --- Badges grid ---
+  const badgesGrid = document.getElementById('dashBadgesGrid');
+  if (BADGE_DEFS && badgesGrid) {
+    badgesGrid.innerHTML = BADGE_DEFS.map(badge => {
+      const isEarned = earned.includes(badge.id);
+      return `
+        <div class="dash-badge-item ${isEarned ? 'earned' : 'locked'}" title="${badge.desc}">
+          <div class="dash-badge-icon">${badge.icon}</div>
+          <div class="dash-badge-name">${badge.name}</div>
+          <div class="dash-badge-desc">${badge.desc}</div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // --- Stages chart ---
+  const stagesChart = document.getElementById('dashStagesChart');
+  if (stagesChart) {
+    stagesChart.innerHTML = STAGES_META.map(sm => {
+      const unitsDoneForStage = studiedUnits.filter(uid => progress[uid][sm.key]);
+      const stagePct = Math.round((unitsDoneForStage.length / 164) * 100);
+      const stageAvg = unitsDoneForStage.length > 0
+        ? Math.round(unitsDoneForStage.reduce((s, uid) => s + progress[uid][sm.key].score, 0) / unitsDoneForStage.length)
+        : 0;
+      return `
+        <div class="dash-stage-row">
+          <div class="dash-stage-label" style="color:${sm.color}">${sm.label}</div>
+          <div class="dash-stage-bar-wrap">
+            <div class="dash-stage-bar">
+              <div class="dash-stage-bar-fill" style="width:0%;background:${sm.color}" data-target="${stagePct}"></div>
+            </div>
+            <span class="dash-stage-pct">${stagePct}%</span>
+          </div>
+          <div class="dash-stage-detail">${unitsDoneForStage.length}유닛 · 평균 ${stageAvg}%</div>
+        </div>
+      `;
+    }).join('');
+    // Animate bars
+    setTimeout(() => {
+      stagesChart.querySelectorAll('.dash-stage-bar-fill').forEach(el => {
+        el.style.width = el.dataset.target + '%';
+      });
+    }, 100);
+  }
+
+  // --- Recent study list ---
+  const recentList = document.getElementById('dashRecentList');
+  if (recentList) {
+    const topRecent = recentItems.slice(0, 6);
+    if (topRecent.length === 0) {
+      recentList.innerHTML = `<div class="dash-empty">📚 아직 학습한 유닛이 없습니다.</div>`;
+    } else {
+      recentList.innerHTML = topRecent.map(item => {
+        const unitInfo = unitsIndex.find(u => u.id === item.uid);
+        const title = unitInfo ? unitInfo.title : item.uid;
+        const stageMeta = STAGES_META.find(s => s.key === item.sk) || { label: item.sk, color: '#888' };
+        const dt = new Date(item.lastAt);
+        const dateStr = `${dt.getMonth()+1}/${dt.getDate()} ${String(dt.getHours()).padStart(2,'0')}:${String(dt.getMinutes()).padStart(2,'0')}`;
+        const scoreColor = item.score >= 80 ? '#43b97f' : item.score >= 50 ? '#f7c948' : '#ff6584';
+        return `
+          <div class="dash-recent-item" data-uid="${item.uid}" data-sk="${item.sk}">
+            <div class="dash-recent-unit">
+              <span class="dash-recent-num">Unit ${item.uid}</span>
+              <span class="dash-recent-title">${escapeHtml(title)}</span>
+            </div>
+            <div class="dash-recent-meta">
+              <span class="dash-recent-stage" style="color:${stageMeta.color}">${stageMeta.label}</span>
+              <span class="dash-recent-score" style="color:${scoreColor}">${item.score}%</span>
+              <span class="dash-recent-date">${dateStr}</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      recentList.querySelectorAll('.dash-recent-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const uid = el.dataset.uid;
+          const sk = el.dataset.sk;
+          document.querySelector('[data-tab="units"]')?.click();
+          setTimeout(async () => {
+            await selectUnit(uid);
+            const stageIdx = STAGES.findIndex(s => s.key === sk);
+            if (stageIdx >= 0) { currentStageIdx = stageIdx; updateStepper(); renderStageContent(); }
+          }, 100);
+        });
+      });
+    }
+  }
+
+  // --- Heatmap (164 units) ---
+  const heatmap = document.getElementById('dashHeatmap');
+  if (heatmap) {
+    let html = '';
+    for (let i = 1; i <= 164; i++) {
+      const uid = String(i).padStart(3, '0');
+      const unitProgress = progress[uid];
+      let cls = 'dash-heatmap-cell';
+      let tooltip = `Unit ${uid}`;
+      let avg = 0;
+      if (unitProgress) {
+        const stages = Object.values(unitProgress);
+        avg = Math.round(stages.reduce((s, d) => s + d.score, 0) / stages.length);
+        if (avg >= 80) cls += ' dash-hm-high';
+        else if (avg >= 50) cls += ' dash-hm-mid';
+        else cls += ' dash-hm-low';
+        tooltip += ` (${avg}%)`;
+      }
+      html += `<div class="${cls}" title="${tooltip}" data-uid="${uid}"></div>`;
+    }
+    heatmap.innerHTML = html;
+
+    heatmap.querySelectorAll('.dash-heatmap-cell').forEach(cell => {
+      cell.addEventListener('click', () => {
+        const uid = cell.dataset.uid;
+        document.querySelector('[data-tab="units"]')?.click();
+        setTimeout(() => selectUnit(uid), 100);
+      });
+    });
+  }
+}
+
 
 function renderMarkdown(md) {
   let html = escapeHtml(md);

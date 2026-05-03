@@ -32,9 +32,9 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
         <span class="tab-text">오답노트</span>
       </button>
-      <button class="header-tab" data-tab="classrooms" id="tabClassrooms">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-        <span class="tab-text">수업</span>
+      <button class="header-tab" data-tab="dashboard" id="tabDashboard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        <span class="tab-text">진도</span>
       </button>
     </nav>
     <div class="header-right">
@@ -148,7 +148,86 @@
     </div>
   </div>
 
-  <!-- ==================== TAB: 수업 ==================== -->
+  <!-- ==================== TAB: 진도 대시보드 ==================== -->
+  <div id="tab-dashboard" class="tab-content">
+    <div class="dashboard-container">
+
+      <!-- 요약 카드 -->
+      <div class="dash-summary-row" id="dashSummaryRow">
+        <div class="dash-stat-card" id="dashStatUnits">
+          <div class="dash-stat-icon">📚</div>
+          <div class="dash-stat-value" id="dashTotalStudied">0</div>
+          <div class="dash-stat-label">학습한 유닛</div>
+          <div class="dash-stat-sub" id="dashTotalOf">/ 164개</div>
+        </div>
+        <div class="dash-stat-card" id="dashStatStages">
+          <div class="dash-stat-icon">🎯</div>
+          <div class="dash-stat-value" id="dashAvgScore">-%</div>
+          <div class="dash-stat-label">평균 점수</div>
+        </div>
+        <div class="dash-stat-card" id="dashStatStreak">
+          <div class="dash-stat-icon">🔥</div>
+          <div class="dash-stat-value" id="dashStreak">0</div>
+          <div class="dash-stat-label">연속 학습일</div>
+        </div>
+        <div class="dash-stat-card" id="dashStatBadges">
+          <div class="dash-stat-icon">🏅</div>
+          <div class="dash-stat-value" id="dashBadgeCount">0</div>
+          <div class="dash-stat-label">획득 배지</div>
+        </div>
+      </div>
+
+      <!-- 전체 완료율 바 -->
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <h3 class="dash-section-title">📊 전체 학습 완료율</h3>
+          <span class="dash-section-pct" id="dashCompletionPct">0%</span>
+        </div>
+        <div class="dash-completion-bar">
+          <div class="dash-completion-fill" id="dashCompletionFill" style="width:0%"></div>
+        </div>
+        <div class="dash-completion-labels">
+          <span id="dashCompletionDetail">0 / 164 유닛</span>
+          <span id="dashHighScore">최고 점수 유닛: -</span>
+        </div>
+      </div>
+
+      <!-- 배지 섹션 -->
+      <div class="dash-section">
+        <h3 class="dash-section-title">🏆 획득 배지</h3>
+        <div class="dash-badges-grid" id="dashBadgesGrid"></div>
+      </div>
+
+      <!-- 스테이지별 완료율 -->
+      <div class="dash-section">
+        <h3 class="dash-section-title">📈 스테이지별 완료율</h3>
+        <div class="dash-stages-chart" id="dashStagesChart"></div>
+      </div>
+
+      <!-- 최근 학습 유닛 -->
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <h3 class="dash-section-title">🕐 최근 학습</h3>
+          <button class="dash-section-link" id="dashGoStudy">학습 탭으로 →</button>
+        </div>
+        <div class="dash-recent-list" id="dashRecentList"></div>
+      </div>
+
+      <!-- 전체 유닛 히트맵 -->
+      <div class="dash-section">
+        <h3 class="dash-section-title">🗺️ 유닛 완료 현황</h3>
+        <div class="dash-heatmap" id="dashHeatmap"></div>
+        <div class="dash-heatmap-legend">
+          <span class="dash-legend-item"><span class="dash-legend-dot dash-legend-none"></span>미학습</span>
+          <span class="dash-legend-item"><span class="dash-legend-dot dash-legend-low"></span>~49%</span>
+          <span class="dash-legend-item"><span class="dash-legend-dot dash-legend-mid"></span>50~79%</span>
+          <span class="dash-legend-item"><span class="dash-legend-dot dash-legend-high"></span>80%+</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <div id="tab-classrooms" class="tab-content">
     <div id="classroom-container">
       <!-- Left: Classroom List -->
