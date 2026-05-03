@@ -1,0 +1,1298 @@
+[
+  {
+    "unit": "100",
+    "qNum": 14,
+    "lineIndex": 122,
+    "truncatedAnswer": "I'm not sure. + Who does she trust? → I'm not sure",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I'm not sure. + Who does she like? → I'm not sure who she does like.",
+    "lineContent": "> 정답: I'm not sure. + Who does she trust? → I'm not sure"
+  },
+  {
+    "unit": "100",
+    "qNum": 15,
+    "lineIndex": 131,
+    "truncatedAnswer": "Do you think? + What topic is he interested in? →",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Do you think? + What subject is she interested in? → What subject do you think is she interested in?",
+    "lineContent": "> 정답: Do you think? + What topic is he interested in? →"
+  },
+  {
+    "unit": "100",
+    "qNum": 16,
+    "lineIndex": 140,
+    "truncatedAnswer": "Do you know? + What made him upset? → Do you",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Do you know? + What made her angry? → Do you know what her made angry?",
+    "lineContent": "> 정답: Do you know? + What made him upset? → Do you"
+  },
+  {
+    "unit": "100",
+    "qNum": 18,
+    "lineIndex": 159,
+    "truncatedAnswer": "Could you tell me where the nearest bus stop",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Could you tell me where the nearest subway station is?",
+    "lineContent": "> 정답: Could you tell me where the nearest bus stop"
+  },
+  {
+    "unit": "101",
+    "qNum": 3,
+    "lineIndex": 19,
+    "truncatedAnswer": "What a cool bike, How cool",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "What a nice car, How nice",
+    "lineContent": "> 정답: What a cool bike, How cool"
+  },
+  {
+    "unit": "101",
+    "qNum": 14,
+    "lineIndex": 120,
+    "truncatedAnswer": "These are very heavy boxes., What heavy boxes these",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "These are very spicy dishes., What spicy dishes these are!",
+    "lineContent": "> 정답: These are very heavy boxes., What heavy boxes these"
+  },
+  {
+    "unit": "103",
+    "qNum": 12,
+    "lineIndex": 92,
+    "truncatedAnswer": "He runs very fast. (보어)",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "He swims very well. (보어)",
+    "lineContent": "> 정답: He runs very fast. (보어)"
+  },
+  {
+    "unit": "103",
+    "qNum": 13,
+    "lineIndex": 99,
+    "truncatedAnswer": "All the children were noisy. (부사)",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "All the students were quiet. (부사)",
+    "lineContent": "> 정답: All the children were noisy. (부사)"
+  },
+  {
+    "unit": "104",
+    "qNum": 11,
+    "lineIndex": 93,
+    "truncatedAnswer": "I felt very thirsty, so I drank the juice. But the juice",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I felt very hungry, so I ate the cake. But the cake tasted too sweet.",
+    "lineContent": "> 정답: I felt very thirsty, so I drank the juice. But the juice"
+  },
+  {
+    "unit": "105",
+    "qNum": 6,
+    "lineIndex": 52,
+    "truncatedAnswer": "The café looks nicely., He cooked some",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The restaurant looks nicely., He cooked some noodles his friends.",
+    "lineContent": "> 정답: The café looks nicely., He cooked some"
+  },
+  {
+    "unit": "105",
+    "qNum": 11,
+    "lineIndex": 82,
+    "truncatedAnswer": "Amy lent her sister an interesting novel., His joke",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Amy lent his brother an interesting book., His story is very funny.",
+    "lineContent": "> 정답: Amy lent her sister an interesting novel., His joke"
+  },
+  {
+    "unit": "106",
+    "qNum": 9,
+    "lineIndex": 69,
+    "truncatedAnswer": "I wrote him a long email. → I wrote a long",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I wrote him a long text message. → I wrote a long text message for him., She asked her a question. → She asked a question to her.",
+    "lineContent": "> 정답: I wrote him a long email. → I wrote a long"
+  },
+  {
+    "unit": "106",
+    "qNum": 11,
+    "lineIndex": 87,
+    "truncatedAnswer": "Mom cooked the children vegetable soup. → Mom cooked",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Mom cook the children potato salad. → Mom cook potato salad for the children.",
+    "lineContent": "> 정답: Mom cooked the children vegetable soup. → Mom cooked"
+  },
+  {
+    "unit": "106",
+    "qNum": 16,
+    "lineIndex": 125,
+    "truncatedAnswer": "Mom bought a nice watch for dad., Mom bought",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Dad bought a diamond ring for mom., Dad bought mom a diamond ring.",
+    "lineContent": "> 정답: Mom bought a nice watch for dad., Mom bought"
+  },
+  {
+    "unit": "109",
+    "qNum": 7,
+    "lineIndex": 60,
+    "truncatedAnswer": "Will you explain it as accurately as you can?, Will you",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Will you explain it as clearly as you can?, Will you explain it as clearly as possible?",
+    "lineContent": "> 정답: Will you explain it as accurately as you can?, Will you"
+  },
+  {
+    "unit": "109",
+    "qNum": 15,
+    "lineIndex": 127,
+    "truncatedAnswer": "My room is as big as his room., Can I stay",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "My apartment is as big as his apartment., Can I stay here as long as possible?",
+    "lineContent": "> 정답: My room is as big as his room., Can I stay"
+  },
+  {
+    "unit": "111",
+    "qNum": 20,
+    "lineIndex": 170,
+    "truncatedAnswer": "the most difficult, the hardest, the easiest, the most",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "the most difficult, the hardest, the easiest, the most famous",
+    "lineContent": "> 정답: the most difficult, the hardest, the easiest, the most"
+  },
+  {
+    "unit": "112",
+    "qNum": 4,
+    "lineIndex": 31,
+    "truncatedAnswer": "She can ski three times as better as her brother and",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "She can ski three times as better as her sister and brothers.",
+    "lineContent": "> 정답: She can ski three times as better as her brother and"
+  },
+  {
+    "unit": "112",
+    "qNum": 11,
+    "lineIndex": 96,
+    "truncatedAnswer": "twice as difficult as",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "twice as difficult as",
+    "lineContent": "> 정답: twice as difficult as"
+  },
+  {
+    "unit": "112",
+    "qNum": 12,
+    "lineIndex": 104,
+    "truncatedAnswer": "three times warmer than, three times as warm as",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "three times warmer than, three times as warm as",
+    "lineContent": "> 정답: three times warmer than, three times as warm as"
+  },
+  {
+    "unit": "112",
+    "qNum": 13,
+    "lineIndex": 111,
+    "truncatedAnswer": "three, times, faster, than",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "three, times, faster, than",
+    "lineContent": "> 정답: three, times, faster, than"
+  },
+  {
+    "unit": "112",
+    "qNum": 14,
+    "lineIndex": 118,
+    "truncatedAnswer": "three, times, as, wide, as",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "three, times, as, wide, as",
+    "lineContent": "> 정답: three, times, as, wide, as"
+  },
+  {
+    "unit": "112",
+    "qNum": 15,
+    "lineIndex": 127,
+    "truncatedAnswer": "I can swim twice as faster as Tom can., Amy's",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I can swim twice as faster as Tom can., Amy's handwriting is twice as neat than Tom's handwriting.",
+    "lineContent": "> 정답: I can swim twice as faster as Tom can., Amy's"
+  },
+  {
+    "unit": "112",
+    "qNum": 18,
+    "lineIndex": 150,
+    "truncatedAnswer": "earlier than → as early as",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "earlier than → as early as",
+    "lineContent": "> 정답: earlier than → as early as"
+  },
+  {
+    "unit": "112",
+    "qNum": 20,
+    "lineIndex": 168,
+    "truncatedAnswer": "twice, than, noisier, than",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "twice, than, noisier, than",
+    "lineContent": "> 정답: twice, than, noisier, than"
+  },
+  {
+    "unit": "113",
+    "qNum": 1,
+    "lineIndex": 5,
+    "truncatedAnswer": "The faster - the earlier",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The faster - the earlier",
+    "lineContent": "> 정답: The faster - the earlier"
+  },
+  {
+    "unit": "113",
+    "qNum": 2,
+    "lineIndex": 12,
+    "truncatedAnswer": "The more - the more beautiful",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The more - the more beautiful",
+    "lineContent": "> 정답: The more - the more beautiful"
+  },
+  {
+    "unit": "113",
+    "qNum": 4,
+    "lineIndex": 28,
+    "truncatedAnswer": "The colder it becomes, the thick jackets you will",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "The colder it becomes, the thick clothes you will wear.",
+    "lineContent": "> 정답: The colder it becomes, the thick jackets you will"
+  },
+  {
+    "unit": "113",
+    "qNum": 7,
+    "lineIndex": 57,
+    "truncatedAnswer": "The more expensive food is, the more people",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The more expensive a product is, the more people want to buy it.",
+    "lineContent": "> 정답: The more expensive food is, the more people"
+  },
+  {
+    "unit": "113",
+    "qNum": 8,
+    "lineIndex": 67,
+    "truncatedAnswer": "If you study math hard, your math will become",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "If you study English hard, your English will become better and better.",
+    "lineContent": "> 정답: If you study math hard, your math will become"
+  },
+  {
+    "unit": "113",
+    "qNum": 20,
+    "lineIndex": 158,
+    "truncatedAnswer": "More and more, The longer, the less, weaker and fatter, the healthier",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "More and more, The longer, the less, fatter and fatter, the healthier",
+    "lineContent": "> 정답: More and more, The longer, the less, weaker and fatter, the healthier"
+  },
+  {
+    "unit": "114",
+    "qNum": 6,
+    "lineIndex": 50,
+    "truncatedAnswer": "Her work was more excellent than any other student",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "His idea was more excellent than any other student in our class.",
+    "lineContent": "> 정답: Her work was more excellent than any other student"
+  },
+  {
+    "unit": "114",
+    "qNum": 13,
+    "lineIndex": 117,
+    "truncatedAnswer": "This room is biggest than all the other rooms in this",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "This room is biggest than all the other rooms in this house., No book is boring than any other book in this library.",
+    "lineContent": "> 정답: This room is biggest than all the other rooms in this"
+  },
+  {
+    "unit": "114",
+    "qNum": 15,
+    "lineIndex": 135,
+    "truncatedAnswer": "Today, the coffee is hotter than any other day., No",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Today, the soup is hotter than any other day., No one drinks coffee more often than my father in my family.",
+    "lineContent": "> 정답: Today, the coffee is hotter than any other day., No"
+  },
+  {
+    "unit": "115",
+    "qNum": 11,
+    "lineIndex": 87,
+    "truncatedAnswer": "Paris is the most beautiful city I have ever",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "New York is the most beautiful city I have ever visited.",
+    "lineContent": "> 정답: Paris is the most beautiful city I have ever"
+  },
+  {
+    "unit": "115",
+    "qNum": 12,
+    "lineIndex": 97,
+    "truncatedAnswer": "That was one of the most surprising news I have ever",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "That was one of the most shocking news I have ever heard.",
+    "lineContent": "> 정답: That was one of the most surprising news I have ever"
+  },
+  {
+    "unit": "115",
+    "qNum": 15,
+    "lineIndex": 122,
+    "truncatedAnswer": "I am staying in one of the brightest room I have ever",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I am staying in one of the brightest room I have ever been.",
+    "lineContent": "> 정답: I am staying in one of the brightest room I have ever"
+  },
+  {
+    "unit": "115",
+    "qNum": 16,
+    "lineIndex": 131,
+    "truncatedAnswer": "Tokyo is one of the largest city Tom has ever gone",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "New York is one of the largest city Tom has ever gone to.",
+    "lineContent": "> 정답: Tokyo is one of the largest city Tom has ever gone"
+  },
+  {
+    "unit": "115",
+    "qNum": 17,
+    "lineIndex": 140,
+    "truncatedAnswer": "Your coach is one of the most important person",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Your teacher is one of the most important person you have ever met.",
+    "lineContent": "> 정답: Your coach is one of the most important person"
+  },
+  {
+    "unit": "116",
+    "qNum": 8,
+    "lineIndex": 68,
+    "truncatedAnswer": "This photo taken last summer by me., She is resembled",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "This picture taken last year by me., She is resembled her grandma.",
+    "lineContent": "> 정답: This photo taken last summer by me., She is resembled"
+  },
+  {
+    "unit": "116",
+    "qNum": 11,
+    "lineIndex": 96,
+    "truncatedAnswer": "The lamp turned on by him., The soup is smelled",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The light turned on by her., The bread is smelled good.",
+    "lineContent": "> 정답: The lamp turned on by him., The soup is smelled"
+  },
+  {
+    "unit": "117",
+    "qNum": 11,
+    "lineIndex": 91,
+    "truncatedAnswer": "These clothes will be washed by the washing",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "This laundry will be washed by the washing machine.",
+    "lineContent": "> 정답: These clothes will be washed by the washing"
+  },
+  {
+    "unit": "117",
+    "qNum": 13,
+    "lineIndex": 110,
+    "truncatedAnswer": "The tower is built ten years ago by a French",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The church is built ten years ago by an Italian architect., All my friends are invited to the party tomorrow.",
+    "lineContent": "> 정답: The tower is built ten years ago by a French"
+  },
+  {
+    "unit": "117",
+    "qNum": 14,
+    "lineIndex": 119,
+    "truncatedAnswer": "The decorations for the party were prepared yesterday",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The ingredients for the party were bought yesterday by her., Weeds will be pulled out tomorrow by us.",
+    "lineContent": "> 정답: The decorations for the party were prepared yesterday"
+  },
+  {
+    "unit": "118",
+    "qNum": 7,
+    "lineIndex": 56,
+    "truncatedAnswer": "I was given a thank-you card by her, A thank-you",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I was given a birthday present by him, A birthday present was given to me by him.",
+    "lineContent": "> 정답: I was given a thank-you card by her, A thank-you"
+  },
+  {
+    "unit": "119",
+    "qNum": 7,
+    "lineIndex": 56,
+    "truncatedAnswer": "I was given a graduation gift by her, A graduation",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I was given a birthday present by him, A birthday present was given to me by him.",
+    "lineContent": "> 정답: I was given a graduation gift by her, A graduation"
+  },
+  {
+    "unit": "119",
+    "qNum": 20,
+    "lineIndex": 163,
+    "truncatedAnswer": "was given, was praised, were handed to her",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "was given, was celebrated, were handed to",
+    "lineContent": "> 정답: was given, was praised, were handed to her"
+  },
+  {
+    "unit": "120",
+    "qNum": 16,
+    "lineIndex": 146,
+    "truncatedAnswer": "The local people believe this fountain to bring good",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The local people believe this tree to bring good fortune.",
+    "lineContent": "> 정답: The local people believe this fountain to bring good"
+  },
+  {
+    "unit": "121",
+    "qNum": 7,
+    "lineIndex": 62,
+    "truncatedAnswer": "The announcer was heard making a statement by",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "The captain was heard making an announcement by us.",
+    "lineContent": "> 정답: The announcer was heard making a statement by"
+  },
+  {
+    "unit": "121",
+    "qNum": 15,
+    "lineIndex": 131,
+    "truncatedAnswer": "The players are made to arrive at the stadium on time by",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "The students are made to arrive at school on time by the teacher.",
+    "lineContent": "> 정답: The players are made to arrive at the stadium on time by"
+  },
+  {
+    "unit": "122",
+    "qNum": 6,
+    "lineIndex": 49,
+    "truncatedAnswer": "It is said that the concert is canceled., The concert is said",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "It is said that the festival is held., The festival is said to be held.",
+    "lineContent": "> 정답: It is said that the concert is canceled., The concert is said"
+  },
+  {
+    "unit": "122",
+    "qNum": 8,
+    "lineIndex": 69,
+    "truncatedAnswer": "It is believed that exercise keeps us healthy., This",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "It is believed that a dog barks at a stranger., This summer is thought to be very hot.",
+    "lineContent": "> 정답: It is believed that exercise keeps us healthy., This"
+  },
+  {
+    "unit": "122",
+    "qNum": 11,
+    "lineIndex": 94,
+    "truncatedAnswer": "is considered that - is considered to",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "is considered that - are considered to",
+    "lineContent": "> 정답: is considered that - is considered to"
+  },
+  {
+    "unit": "122",
+    "qNum": 12,
+    "lineIndex": 103,
+    "truncatedAnswer": "is believed that - is believed to",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "is believed that - is believed to",
+    "lineContent": "> 정답: is believed that - is believed to"
+  },
+  {
+    "unit": "122",
+    "qNum": 15,
+    "lineIndex": 136,
+    "truncatedAnswer": "It was reported that our team won the basketball",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "It was reported that our team won the football game., Our team was reported to win the football game.",
+    "lineContent": "> 정답: It was reported that our team won the basketball"
+  },
+  {
+    "unit": "122",
+    "qNum": 16,
+    "lineIndex": 145,
+    "truncatedAnswer": "is believed that - are believed to",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "is believed that - are believed to",
+    "lineContent": "> 정답: is believed that - are believed to"
+  },
+  {
+    "unit": "122",
+    "qNum": 18,
+    "lineIndex": 159,
+    "truncatedAnswer": "It is estimated that",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "estimates, is, estimated",
+    "lineContent": "> 정답: It is estimated that"
+  },
+  {
+    "unit": "123",
+    "qNum": 6,
+    "lineIndex": 46,
+    "truncatedAnswer": "A sound is coming from the boys who is laughing",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "A noise is coming from the children who is running and shouting.",
+    "lineContent": "> 정답: A sound is coming from the boys who is laughing"
+  },
+  {
+    "unit": "123",
+    "qNum": 11,
+    "lineIndex": 94,
+    "truncatedAnswer": "Students who comes from France are usually very",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "People who comes from Japan are usually very quiet.",
+    "lineContent": "> 정답: Students who comes from France are usually very"
+  },
+  {
+    "unit": "123",
+    "qNum": 19,
+    "lineIndex": 168,
+    "truncatedAnswer": "who is, who has, who has",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "who is, who has, who has",
+    "lineContent": "> 정답: who is, who has, who has"
+  },
+  {
+    "unit": "124",
+    "qNum": 9,
+    "lineIndex": 74,
+    "truncatedAnswer": "Do you remember the bag which Amy was carrying",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Do you remember the dress which Amy was wearing that day?",
+    "lineContent": "> 정답: Do you remember the bag which Amy was carrying"
+  },
+  {
+    "unit": "124",
+    "qNum": 10,
+    "lineIndex": 85,
+    "truncatedAnswer": "Is this the bread which Tom and Amy baked",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Is this the cake which Tom and Amy made together?",
+    "lineContent": "> 정답: Is this the bread which Tom and Amy baked"
+  },
+  {
+    "unit": "124",
+    "qNum": 11,
+    "lineIndex": 96,
+    "truncatedAnswer": "I met my science teacher whom I have always",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I met my English teacher whom I have always respected., I met my English teacher who I have always respected.",
+    "lineContent": "> 정답: I met my science teacher whom I have always"
+  },
+  {
+    "unit": "124",
+    "qNum": 20,
+    "lineIndex": 173,
+    "truncatedAnswer": "which, whom, which, who",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "which, whom, which, who",
+    "lineContent": "> 정답: which, whom, which, who"
+  },
+  {
+    "unit": "125",
+    "qNum": 4,
+    "lineIndex": 30,
+    "truncatedAnswer": "She discussed the project with Amy whose she",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "He discussed business matters with Amy whose he can trust., The food whose we eat at the cafe was delicious.",
+    "lineContent": "> 정답: She discussed the project with Amy whose she"
+  },
+  {
+    "unit": "125",
+    "qNum": 6,
+    "lineIndex": 49,
+    "truncatedAnswer": "The head judge of the contest was a woman whose voice",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The host of the event was a gentleman whose voice was nice.",
+    "lineContent": "> 정답: The head judge of the contest was a woman whose voice"
+  },
+  {
+    "unit": "125",
+    "qNum": 9,
+    "lineIndex": 78,
+    "truncatedAnswer": "A woman whose took the child to a bookstore",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "A man whose took the kid to an ice cream shop bought strawberry ice cream.",
+    "lineContent": "> 정답: A woman whose took the child to a bookstore"
+  },
+  {
+    "unit": "125",
+    "qNum": 12,
+    "lineIndex": 109,
+    "truncatedAnswer": "The art teacher guided Amy whose drawing skill",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The English teacher taught Tom whose writing skill was excellent.",
+    "lineContent": "> 정답: The art teacher guided Amy whose drawing skill"
+  },
+  {
+    "unit": "125",
+    "qNum": 19,
+    "lineIndex": 168,
+    "truncatedAnswer": "whose, who, whose, which",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "whose, who, whose, which",
+    "lineContent": "> 정답: whose, who, whose, which"
+  },
+  {
+    "unit": "125",
+    "qNum": 20,
+    "lineIndex": 178,
+    "truncatedAnswer": "whom, whose, whose, who",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "whom, whose, whose, who",
+    "lineContent": "> 정답: whom, whose, whose, who"
+  },
+  {
+    "unit": "126",
+    "qNum": 15,
+    "lineIndex": 124,
+    "truncatedAnswer": "who the boy → the boy who",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "who the woman → the woman who",
+    "lineContent": "> 정답: who the boy → the boy who"
+  },
+  {
+    "unit": "127",
+    "qNum": 6,
+    "lineIndex": 46,
+    "truncatedAnswer": "He was the tallest boy who I have ever seen., Amy",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "She was the cutest girl who I have ever seen., Tom and his cat who often sleep late are still sleeping.",
+    "lineContent": "> 정답: He was the tallest boy who I have ever seen., Amy"
+  },
+  {
+    "unit": "127",
+    "qNum": 7,
+    "lineIndex": 55,
+    "truncatedAnswer": "A girl and her rabbit which were sitting on the grass",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "A boy and his dog which were walking the street looked peaceful., She is the only person who I can trust.",
+    "lineContent": "> 정답: A girl and her rabbit which were sitting on the grass"
+  },
+  {
+    "unit": "127",
+    "qNum": 9,
+    "lineIndex": 75,
+    "truncatedAnswer": "Tom and his puppy that sleep on the sofa are best",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Tom and his cat that sleep on the bed are best friends.",
+    "lineContent": "> 정답: Tom and his puppy that sleep on the sofa are best"
+  },
+  {
+    "unit": "127",
+    "qNum": 13,
+    "lineIndex": 110,
+    "truncatedAnswer": "I visited my uncle that lives in Paris., The only",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I visited my grandma that lives in London., The only person that could enter the building was Tom.",
+    "lineContent": "> 정답: I visited my uncle that lives in Paris., The only"
+  },
+  {
+    "unit": "128",
+    "qNum": 5,
+    "lineIndex": 42,
+    "truncatedAnswer": "Tom's sister that entered a famous university sent him",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Tom's son that entered a noted university sent her a letter.",
+    "lineContent": "> 정답: Tom's sister that entered a famous university sent him"
+  },
+  {
+    "unit": "128",
+    "qNum": 8,
+    "lineIndex": 72,
+    "truncatedAnswer": "The girl told mom that she would be back by 9",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The boy told mom that he would be back by 10 o'clock.",
+    "lineContent": "> 정답: The girl told mom that she would be back by 9"
+  },
+  {
+    "unit": "129",
+    "qNum": 14,
+    "lineIndex": 120,
+    "truncatedAnswer": "Parents give their children everything ________ they",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Parents give their children everything ________ they have., I know some boys ________ can dance very well.",
+    "lineContent": "> 정답: Parents give their children everything ________ they"
+  },
+  {
+    "unit": "131",
+    "qNum": 1,
+    "lineIndex": 7,
+    "truncatedAnswer": "The boy who is running on the track is Tom., Every",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The girl who is dancing on the stage is Amy., Every money that you save today will save you in the future.",
+    "lineContent": "> 정답: The boy who is running on the track is Tom., Every"
+  },
+  {
+    "unit": "131",
+    "qNum": 3,
+    "lineIndex": 25,
+    "truncatedAnswer": "I cannot forget the story which contains a happy",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I cannot forget the movie which contains a sad story., She wrote many stories which taught kids good lessons.",
+    "lineContent": "> 정답: I cannot forget the story which contains a happy"
+  },
+  {
+    "unit": "131",
+    "qNum": 7,
+    "lineIndex": 57,
+    "truncatedAnswer": "This is the book I read yesterday., The man you",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "This is the pen I bought yesterday., The woman you met on the street is my mother.",
+    "lineContent": "> 정답: This is the book I read yesterday., The man you"
+  },
+  {
+    "unit": "131",
+    "qNum": 11,
+    "lineIndex": 91,
+    "truncatedAnswer": "I saw the boy whose hair is curly at the bus",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I saw the girl whose eyes are blue at the subway station.",
+    "lineContent": "> 정답: I saw the boy whose hair is curly at the bus"
+  },
+  {
+    "unit": "131",
+    "qNum": 12,
+    "lineIndex": 100,
+    "truncatedAnswer": "The students who study for the exam are very",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "The people who work for the company are very diligent.",
+    "lineContent": "> 정답: The students who study for the exam are very"
+  },
+  {
+    "unit": "132",
+    "qNum": 6,
+    "lineIndex": 45,
+    "truncatedAnswer": "He grew up to be a scientist, ______ discovered new",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "He grew up to be an inventor, ______ invented the telephone.",
+    "lineContent": "> 정답: He grew up to be a scientist, ______ discovered new"
+  },
+  {
+    "unit": "132",
+    "qNum": 11,
+    "lineIndex": 93,
+    "truncatedAnswer": "Tom, that is a famous baseball player, is my old",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Tom, that is a famous baseball player, is my old friend., His roommate lent him the book, who I have not read yet.",
+    "lineContent": "> 정답: Tom, that is a famous baseball player, is my old"
+  },
+  {
+    "unit": "132",
+    "qNum": 14,
+    "lineIndex": 120,
+    "truncatedAnswer": "Japan is a country, that has many temples., Amy",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Indonesia is a country, that has many islands., Tom is a person which likes swimming.",
+    "lineContent": "> 정답: Japan is a country, that has many temples., Amy"
+  },
+  {
+    "unit": "132",
+    "qNum": 15,
+    "lineIndex": 129,
+    "truncatedAnswer": "I will meet the boy, who you mentioned two days",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I will meet the girl, who you mentioned two days ago., The boy, who drew the cartoon, is my brother.",
+    "lineContent": "> 정답: I will meet the boy, who you mentioned two days"
+  },
+  {
+    "unit": "133",
+    "qNum": 1,
+    "lineIndex": 5,
+    "truncatedAnswer": "who - that, who - which",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "who - that, who - which",
+    "lineContent": "> 정답: who - that, who - which"
+  },
+  {
+    "unit": "133",
+    "qNum": 7,
+    "lineIndex": 55,
+    "truncatedAnswer": "My uncle used to talk about the village which he",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "My grandma used to talk about the city which she was born., The person for that Amy was waiting never came.",
+    "lineContent": "> 정답: My uncle used to talk about the village which he"
+  },
+  {
+    "unit": "133",
+    "qNum": 10,
+    "lineIndex": 82,
+    "truncatedAnswer": "Korean is the second language for which many people",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Chinese is the second most universal language for which many people are interested., Tom is my special roommate with who I share my room.",
+    "lineContent": "> 정답: Korean is the second language for which many people"
+  },
+  {
+    "unit": "133",
+    "qNum": 20,
+    "lineIndex": 167,
+    "truncatedAnswer": "I enjoyed the song to which we listened during",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I enjoyed the music to which we listened after dinner.",
+    "lineContent": "> 정답: I enjoyed the song to which we listened during"
+  },
+  {
+    "unit": "134",
+    "qNum": 12,
+    "lineIndex": 91,
+    "truncatedAnswer": "I will give a sticker to whichever finishes my puzzle., No",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I will give a reward to whichever finds my dog., No matter which the audience is, the band will have to sing the song.",
+    "lineContent": "> 정답: I will give a sticker to whichever finishes my puzzle., No"
+  },
+  {
+    "unit": "134",
+    "qNum": 16,
+    "lineIndex": 118,
+    "truncatedAnswer": "Whatever, No matter what",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Whatever, No matter what",
+    "lineContent": "> 정답: Whatever, No matter what"
+  },
+  {
+    "unit": "134",
+    "qNum": 18,
+    "lineIndex": 132,
+    "truncatedAnswer": "No matter what - whoever",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "No matter what - whoever",
+    "lineContent": "> 정답: No matter what - whoever"
+  },
+  {
+    "unit": "134",
+    "qNum": 20,
+    "lineIndex": 147,
+    "truncatedAnswer": "No matter what- Whoever",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "No matter what - Whoever",
+    "lineContent": "> 정답: No matter what- Whoever"
+  },
+  {
+    "unit": "135",
+    "qNum": 15,
+    "lineIndex": 127,
+    "truncatedAnswer": "That's the hour when I send her a text., That's",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "That's the time when I send her a message., That's the time at which I send her a message.",
+    "lineContent": "> 정답: That's the hour when I send her a text., That's"
+  },
+  {
+    "unit": "136",
+    "qNum": 6,
+    "lineIndex": 38,
+    "truncatedAnswer": "They don't understand the way how she solved",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "They don't understand the way how he presented the new idea.",
+    "lineContent": "> 정답: They don't understand the way how she solved"
+  },
+  {
+    "unit": "136",
+    "qNum": 8,
+    "lineIndex": 56,
+    "truncatedAnswer": "I don't know how they solved the puzzle., She wonders",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I don't know how they won the game., He wonders the reason why the pants are popular.",
+    "lineContent": "> 정답: I don't know how they solved the puzzle., She wonders"
+  },
+  {
+    "unit": "136",
+    "qNum": 10,
+    "lineIndex": 78,
+    "truncatedAnswer": "They think the reason why the ice melts faster",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "They think the reason why the Earth gets warmer and warmer., They think the reason for which the Earth gets warmer and warmer.",
+    "lineContent": "> 정답: They think the reason why the ice melts faster"
+  },
+  {
+    "unit": "136",
+    "qNum": 12,
+    "lineIndex": 100,
+    "truncatedAnswer": "He asked us the way how we won the match., He asked",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "She asked us the way how we succeeded., She asked us the way which we succeeded.",
+    "lineContent": "> 정답: He asked us the way how we won the match., He asked"
+  },
+  {
+    "unit": "137",
+    "qNum": 5,
+    "lineIndex": 43,
+    "truncatedAnswer": "The students wanted to know the way how the scientist",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The children wanted to know the way how the man became a hero.",
+    "lineContent": "> 정답: The students wanted to know the way how the scientist"
+  },
+  {
+    "unit": "137",
+    "qNum": 9,
+    "lineIndex": 85,
+    "truncatedAnswer": "Do you find the reason this milk went bad?, Do you",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Do you find the reason this food went bad?, Do you find why this food went bad?",
+    "lineContent": "> 정답: Do you find the reason this milk went bad?, Do you"
+  },
+  {
+    "unit": "137",
+    "qNum": 13,
+    "lineIndex": 113,
+    "truncatedAnswer": "The time I like listening to music, When I like",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The time I like watching movies, When I like watching movies",
+    "lineContent": "> 정답: The time I like listening to music, When I like"
+  },
+  {
+    "unit": "138",
+    "qNum": 5,
+    "lineIndex": 37,
+    "truncatedAnswer": "There are many fans at any place wherever she",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "There are many students at any place wherever he lectures.",
+    "lineContent": "> 정답: There are many fans at any place wherever she"
+  },
+  {
+    "unit": "138",
+    "qNum": 6,
+    "lineIndex": 46,
+    "truncatedAnswer": "Whenever he sees her, he gets nervous., No matter",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Whenever she sees him, she gets angry., No matter how strange the food smells, it tastes good.",
+    "lineContent": "> 정답: Whenever he sees her, he gets nervous., No matter"
+  },
+  {
+    "unit": "138",
+    "qNum": 14,
+    "lineIndex": 111,
+    "truncatedAnswer": "He took photos wherever he traveled., He took",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "She made friends wherever she traveled., She made friends at any place where she traveled.",
+    "lineContent": "> 정답: He took photos wherever he traveled., He took"
+  },
+  {
+    "unit": "138",
+    "qNum": 15,
+    "lineIndex": 121,
+    "truncatedAnswer": "No matter how tall the building was, people",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "No matter how high the mountain was, people climbed to the top of the mountain., However high the mountain was, people climbed to the top of the mountain.",
+    "lineContent": "> 정답: No matter how tall the building was, people"
+  },
+  {
+    "unit": "138",
+    "qNum": 16,
+    "lineIndex": 131,
+    "truncatedAnswer": "I take gloves wherever I go in winter., I take",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I take an umbrella wherever I go in summer., I take an umbrella, no matter where I go in summer.",
+    "lineContent": "> 정답: I take gloves wherever I go in winter., I take"
+  },
+  {
+    "unit": "139",
+    "qNum": 10,
+    "lineIndex": 72,
+    "truncatedAnswer": "We accept that disappointed result., We can't forget",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "We accept that disappointed result., We can't forget the amazed view.",
+    "lineContent": "> 정답: We accept that disappointed result., We can't forget"
+  },
+  {
+    "unit": "141",
+    "qNum": 9,
+    "lineIndex": 64,
+    "truncatedAnswer": "My classmates and teachers were _______________ with",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "My family and friends were _______________ with my failure",
+    "lineContent": "> 정답: My classmates and teachers were _______________ with"
+  },
+  {
+    "unit": "141",
+    "qNum": 17,
+    "lineIndex": 136,
+    "truncatedAnswer": "I got shocking to find she was very talented., I felt",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I got shocking to find he was very rich., I felt embarrassing when he asked me out.",
+    "lineContent": "> 정답: I got shocking to find she was very talented., I felt"
+  },
+  {
+    "unit": "141",
+    "qNum": 18,
+    "lineIndex": 145,
+    "truncatedAnswer": "I tried to find something amazed in science., He got",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "I tried to find something amazed in history., She got some embarrassed questions from students.",
+    "lineContent": "> 정답: I tried to find something amazed in science., He got"
+  },
+  {
+    "unit": "142",
+    "qNum": 2,
+    "lineIndex": 15,
+    "truncatedAnswer": "Because I was sick, I didn't go to the field trip last",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Because I was tired, I didn't go on a picnic last weekend.",
+    "lineContent": "> 정답: Because I was sick, I didn't go to the field trip last"
+  },
+  {
+    "unit": "142",
+    "qNum": 3,
+    "lineIndex": 22,
+    "truncatedAnswer": "Having a busy schedule",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Having a hard time",
+    "lineContent": "> 정답: Having a busy schedule"
+  },
+  {
+    "unit": "142",
+    "qNum": 5,
+    "lineIndex": 40,
+    "truncatedAnswer": "Because she had a headache",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Because he caught a cold",
+    "lineContent": "> 정답: Because she had a headache"
+  },
+  {
+    "unit": "142",
+    "qNum": 9,
+    "lineIndex": 76,
+    "truncatedAnswer": "Although she doesn't get enough sleep, she's",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Although he doesn't make enough money, he's happy., Not making enough money, he's happy.",
+    "lineContent": "> 정답: Although she doesn't get enough sleep, she's"
+  },
+  {
+    "unit": "142",
+    "qNum": 10,
+    "lineIndex": 86,
+    "truncatedAnswer": "Because she is too young, Amy cannot cook alone.,",
+    "reason": "콤마로 끝남",
+    "bAnswer": "Because he is too young, Jack cannot travel alone., Being too young, Jack cannot travel alone.",
+    "lineContent": "> 정답: Because she is too young, Amy cannot cook alone.,"
+  },
+  {
+    "unit": "142",
+    "qNum": 12,
+    "lineIndex": 102,
+    "truncatedAnswer": "Not doing - Playing",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Not taking - Playing",
+    "lineContent": "> 정답: Not doing - Playing"
+  },
+  {
+    "unit": "142",
+    "qNum": 18,
+    "lineIndex": 148,
+    "truncatedAnswer": "Enjoying not → Not enjoying",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Liking not → Not liking",
+    "lineContent": "> 정답: Enjoying not → Not enjoying"
+  },
+  {
+    "unit": "143",
+    "qNum": 1,
+    "lineIndex": 5,
+    "truncatedAnswer": "Because I admire her, Since I admire her",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "Because I like her, Since I like her",
+    "lineContent": "> 정답: Because I admire her, Since I admire her"
+  },
+  {
+    "unit": "143",
+    "qNum": 2,
+    "lineIndex": 12,
+    "truncatedAnswer": "When she entered the classroom,",
+    "reason": "콤마로 끝남",
+    "bAnswer": "When he came into the office,",
+    "lineContent": "> 정답: When she entered the classroom,"
+  },
+  {
+    "unit": "143",
+    "qNum": 5,
+    "lineIndex": 33,
+    "truncatedAnswer": "Because she was thirsty",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Because he was hungry",
+    "lineContent": "> 정답: Because she was thirsty"
+  },
+  {
+    "unit": "143",
+    "qNum": 18,
+    "lineIndex": 142,
+    "truncatedAnswer": "As I walked, Walking",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "As I walked, Walking",
+    "lineContent": "> 정답: As I walked, Walking"
+  },
+  {
+    "unit": "143",
+    "qNum": 19,
+    "lineIndex": 149,
+    "truncatedAnswer": "Because I was thirsty, Being thirsty",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Because I was hungry, Being hungry",
+    "lineContent": "> 정답: Because I was thirsty, Being thirsty"
+  },
+  {
+    "unit": "143",
+    "qNum": 20,
+    "lineIndex": 157,
+    "truncatedAnswer": "Living, went, Going, raised, collected",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Living, went, Going, raised, milked",
+    "lineContent": "> 정답: Living, went, Going, raised, collected"
+  },
+  {
+    "unit": "144",
+    "qNum": 1,
+    "lineIndex": 5,
+    "truncatedAnswer": "If you turn, Turning",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "If you turn, Turning",
+    "lineContent": "> 정답: If you turn, Turning"
+  },
+  {
+    "unit": "144",
+    "qNum": 2,
+    "lineIndex": 12,
+    "truncatedAnswer": "Although she is, Being",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Although he is, Being",
+    "lineContent": "> 정답: Although she is, Being"
+  },
+  {
+    "unit": "144",
+    "qNum": 5,
+    "lineIndex": 39,
+    "truncatedAnswer": "Though they looked for the keys",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Though they searched for the clues",
+    "lineContent": "> 정답: Though they looked for the keys"
+  },
+  {
+    "unit": "144",
+    "qNum": 6,
+    "lineIndex": 46,
+    "truncatedAnswer": "If you study together",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "If you work together",
+    "lineContent": "> 정답: If you study together"
+  },
+  {
+    "unit": "144",
+    "qNum": 7,
+    "lineIndex": 53,
+    "truncatedAnswer": "Although she tripped over the rock",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Although he fell down",
+    "lineContent": "> 정답: Although she tripped over the rock"
+  },
+  {
+    "unit": "144",
+    "qNum": 10,
+    "lineIndex": 74,
+    "truncatedAnswer": "Not knowing how to cook",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Not knowing how to swim",
+    "lineContent": "> 정답: Not knowing how to cook"
+  },
+  {
+    "unit": "144",
+    "qNum": 16,
+    "lineIndex": 120,
+    "truncatedAnswer": "If he leaves early, Leaving early",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "If she gets up early, Getting up early",
+    "lineContent": "> 정답: If he leaves early, Leaving early"
+  },
+  {
+    "unit": "144",
+    "qNum": 19,
+    "lineIndex": 143,
+    "truncatedAnswer": "to be, Although, Practicing, will be",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "to be, Although, Practicing, will be",
+    "lineContent": "> 정답: to be, Although, Practicing, will be"
+  },
+  {
+    "unit": "144",
+    "qNum": 20,
+    "lineIndex": 149,
+    "truncatedAnswer": "Although, didn't (did not), eat, wasn't",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Although, didn't (did not), eat, wasn't",
+    "lineContent": "> 정답: Although, didn't (did not), eat, wasn't"
+  },
+  {
+    "unit": "145",
+    "qNum": 2,
+    "lineIndex": 12,
+    "truncatedAnswer": "While she was taking",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "While he was taking",
+    "lineContent": "> 정답: While she was taking"
+  },
+  {
+    "unit": "145",
+    "qNum": 6,
+    "lineIndex": 40,
+    "truncatedAnswer": "Studying math, Being studying math",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Watching TV, Being watching TV",
+    "lineContent": "> 정답: Studying math, Being studying math"
+  },
+  {
+    "unit": "145",
+    "qNum": 9,
+    "lineIndex": 60,
+    "truncatedAnswer": "While she was reading the email",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "While he was checking the message",
+    "lineContent": "> 정답: While she was reading the email"
+  },
+  {
+    "unit": "145",
+    "qNum": 11,
+    "lineIndex": 74,
+    "truncatedAnswer": "While he was baking in the kitchen,",
+    "reason": "콤마로 끝남",
+    "bAnswer": "While she was cooking in the kitchen,",
+    "lineContent": "> 정답: While he was baking in the kitchen,"
+  },
+  {
+    "unit": "145",
+    "qNum": 12,
+    "lineIndex": 81,
+    "truncatedAnswer": "While I was organizing, Organizing",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "While I was cleaning, Cleaning",
+    "lineContent": "> 정답: While I was organizing, Organizing"
+  },
+  {
+    "unit": "145",
+    "qNum": 15,
+    "lineIndex": 102,
+    "truncatedAnswer": "Listening, While he was listening",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Reading, While she was reading",
+    "lineContent": "> 정답: Listening, While he was listening"
+  },
+  {
+    "unit": "146",
+    "qNum": 5,
+    "lineIndex": 33,
+    "truncatedAnswer": "The task being very challenging",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "The work being very difficult",
+    "lineContent": "> 정답: The task being very challenging"
+  },
+  {
+    "unit": "146",
+    "qNum": 7,
+    "lineIndex": 49,
+    "truncatedAnswer": "with the AC turned on",
+    "reason": "전치사/접속사/관사로 끝남",
+    "bAnswer": "with the light turned on",
+    "lineContent": "> 정답: with the AC turned on"
+  },
+  {
+    "unit": "146",
+    "qNum": 10,
+    "lineIndex": 78,
+    "truncatedAnswer": "She walked down the hallway with the cat followed",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "He walked down the street with the dog followed him.",
+    "lineContent": "> 정답: She walked down the hallway with the cat followed"
+  },
+  {
+    "unit": "146",
+    "qNum": 11,
+    "lineIndex": 87,
+    "truncatedAnswer": "Researchers continuing to investigate, there are many",
+    "reason": "구두점 없이 끝남 (문장 불완전)",
+    "bAnswer": "Scientists continuing to study it, there are many unknowns left in the universe.",
+    "lineContent": "> 정답: Researchers continuing to investigate, there are many"
+  }
+]
